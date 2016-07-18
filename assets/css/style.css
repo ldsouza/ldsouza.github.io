@@ -212,7 +212,7 @@ main, .notepad-share-icons, .notepad-disqus {
       padding-bottom: 12.5rem; } }
 @media only screen and (max-width: 40em) {
 .notepad-site-head .notepad-site-head-content img {
-      padding-bottom: 700px; } 
+      padding-bottom: 12.5rem;} 
 }
 
 .notepad-content .notepad-index-post {
