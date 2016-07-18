@@ -178,7 +178,7 @@ main, .notepad-share-icons, .notepad-disqus {
     padding-top: 4.375rem;
     font-size: 0.875rem;
     margin-bottom: 0.9375rem; }
-  .notepad-site-head .notepad-site-head-content h2 {
+  .notepad-site-head .notepad-site-head-content img {
     font-size: 2.5rem;
     padding-bottom: 5rem;
     font-weight: 700;
@@ -187,7 +187,7 @@ main, .notepad-share-icons, .notepad-disqus {
     .notepad-site-head .notepad-site-head-content h1 {
       padding-top: 7.5rem;
       font-size: 1rem; }
-    .notepad-site-head .notepad-site-head-content h2 {
+    .notepad-site-head .notepad-site-head-content img {
       font-size: 3.75rem;
       padding-bottom: 7.5rem;
       font-weight: 700; } }
@@ -195,7 +195,7 @@ main, .notepad-share-icons, .notepad-disqus {
     .notepad-site-head .notepad-site-head-content h1 {
       padding-top: 9.375rem;
       font-size: 1rem; }
-    .notepad-site-head .notepad-site-head-content h2 {
+    .notepad-site-head .notepad-site-head-content img {
       font-size: 4.375rem;
       padding-bottom: 9.375rem;
       font-weight: 700; } }
