@@ -4,8 +4,8 @@ title: "SharePoint Tip - Change the column order in a form"
 description: How to modify the column order in a libary or list form
 headline: 
 modified: 2014-07-19
-category: personal
-tags: SharePoint Online
+category: SharePoint
+tags: [SharePoint, Office 365]
 comments: true
 mathjax: 
 ---
