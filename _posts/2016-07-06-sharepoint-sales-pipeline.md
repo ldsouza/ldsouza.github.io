@@ -55,4 +55,4 @@ To display a sum of the Projected Revenue in my SharePoint View, select 'Modify 
 
 This is a quick overview on implementing a Business Development/Sales Pipeline tro track and manage your opportunities. In the next part of this blog post series, I will cover some advanced functionality that you could add to this solution.
 
-<a href="{{ site.github.url }}/blog/sharepoint-sales-pipeline-2/">Implementing a Business Development/Sales Pipeline in SharePoint (Part 2)</a>
+<a href="{{ site.url }}/blog/sharepoint-sales-pipeline-2/">Implementing a Business Development/Sales Pipeline in SharePoint (Part 2)</a>
