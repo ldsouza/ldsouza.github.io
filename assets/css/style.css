@@ -210,6 +210,13 @@ main, .notepad-share-icons, .notepad-disqus {
     .notepad-site-head .notepad-site-head-content h2 {
       font-size: 6.25rem;
       padding-bottom: 12.5rem; } }
+	  @media only screen 
+  and (min-device-width: 320px) 
+  and (max-device-width: 480px)
+  and (-webkit-min-device-pixel-ratio: 2) {
+.notepad-site-head .notepad-site-head-content img {
+      padding-bottom: 12.5rem; } 
+}
 
 .notepad-content .notepad-index-post {
   visibility: hidden;
