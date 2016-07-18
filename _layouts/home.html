@@ -18,9 +18,13 @@ Description: Awesome dude, awesome life
 <head>
 {% include head.html %}
 </head>
-<body class="home-template" itemscope itemtype="http://schema.org/WebPage">
-<header class="notepad-site-head">
-    <div class="notepad-page-menu-header">
+<body class="post-template page" itemscope itemtype="http://schema.org/WebPage">
+
+<main id="notepad-page-container" class="notepad-page-container" role="main">
+    
+    
+        <header class="notepad-page-header">
+            <div class="notepad-page-menu-header">
                 
                     <a class="notepad-blog-logo" href="{{ site.url }}">
                         <img src="{{ site.url }}/images/{{ site.logo }}" alt="Blog Logo">
@@ -47,17 +51,19 @@ Description: Awesome dude, awesome life
     </ul>
 </div>
             </div>
-    <div class="notepad-site-head-content" >
-	<img src="{{ site.url }}/images/cover2.png" alt="Hossain Mohammad Faysal">
-    </div>
-</header>
+            <div class="notepad-page-title row">
+                <div class="small-12 columns">
+                    <h1>{{ page.title }}</h1>
+                </div>
+            </div>
+        </header>
 
-
-<main class="notepad-content" role="main">
-
-            {{ content }}
-</main>
+<article class="notepad-page-content">
+                    <div>{{ content }}</div>
+</article>
+        <div class="cf"></div>
     {% include footer.html %}
+</main>
 
 {% include scripts.html %}  
 </body>
