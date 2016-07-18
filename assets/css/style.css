@@ -212,7 +212,14 @@ main, .notepad-share-icons, .notepad-disqus {
       padding-bottom: 12.5rem; } }
 @media only screen and (max-width: 40em) {
 .notepad-site-head .notepad-site-head-content img {
-      padding-bottom: 12.5rem;} 
+      padding-bottom: 5.5rem;} 
+	  .notepad-blog-menu ul li {
+      display: block;
+      margin: 0;
+      width: 100%;
+      font-size: 1.25rem;
+      text-align: center;
+      padding: 0.3125rem; }
 }
 
 .notepad-content .notepad-index-post {
