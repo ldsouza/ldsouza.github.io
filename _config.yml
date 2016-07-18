@@ -1,7 +1,7 @@
 title:            IT DELVE
 description:      "TIPS & TRICKS"
 logo:             logo.png
-disqus_shortname: laurel_dsouza
+disqus_shortname: itdelve
 share:            true
 dropcap:			true
 # Change url to your domain. Leave localhost server or blank when working locally.
