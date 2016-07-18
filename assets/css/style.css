@@ -68,7 +68,7 @@ main, .notepad-share-icons, .notepad-disqus {
     list-style-type: none;
     margin: 0;
     width: 100%;
-    overflow: hidden;
+    overflow: auto;
     -webkit-transition: -webkit-transform .3s;
     transition: transform .3s;
     padding-top: 0;
@@ -95,8 +95,7 @@ main, .notepad-share-icons, .notepad-disqus {
       -ms-transform: translate3d(0, 0, 0);
       -moz-transform: translate3d(0, 0, 0);
       -o-transform: translate3d(0, 0, 0);
-      transform: translate3d(0, 0, 0); 
-	  height: 600px;}
+      transform: translate3d(0, 0, 0);}
   @media only screen and (min-width: 40.063em) {
     .notepad-blog-menu {
       padding-top: 1.75rem;
