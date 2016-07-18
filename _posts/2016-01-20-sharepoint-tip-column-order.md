@@ -13,10 +13,7 @@ mathjax:
 Here is a helpful tip that I often use, whenever I have to add custom columns to a list or library. SharePoint, by default, arranges the column order in the order that you add custom columns to a list or library. There are often times when you may have to modify this order.
 
 In this example, I would like 'Client' to come before 'Stage'. This applies to the New, Edit and Display Forms.
-<figure>
-<img src="https://raw.githubusercontent.com/ldsouza/ldsouza.github.io/master/images/blog/sharepoint-tip-column-order-before.JPG" alt="image">
-</figure>
-
+![Column]({{ site.url }}/images/blog/sharepoint-tip-column-order-before.JPG)
 
 Navigate to your SharePoint List or Library. Click on the Tab named 'List' or 'Library' and select 'List Settings' or 'Library Settings'.
 <figure>
