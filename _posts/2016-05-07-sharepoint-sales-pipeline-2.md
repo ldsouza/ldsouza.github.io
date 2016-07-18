@@ -19,7 +19,7 @@ In this blog post, we will add custom views to easily group and view information
 
 ## Create Custom Views
 
-#### Opportunities Due in 90 Days
+## Opportunities Due in 90 Days
 We will create a custom view to track the Opportunities whose 'Projected Close Date' is within the next 90 days. Select Create View from the List Tab and select start from an existing view 'All Items'.
 ![Image]({{ site.url }}/images/blog/pipeline2-create-view1.JPG)
 
@@ -30,7 +30,7 @@ In the Filter Section, apply the following filter. Since we would like to see al
 
 ---
 
-#### Opportunities Due in 30 Days
+## Opportunities Due in 30 Days
 To create a view to track Opportunities whose 'Projected Close Date' is within the next 30 days, select create view and start from the existing view we just created 'Due 90 Days'.
 ![Image]({{ site.url }}/images/blog/pipeline2-create-view-copy.JPG) 
 
@@ -39,7 +39,7 @@ Modify the existing Filter from '[Today]+90' to '[Today]+30'.
 
 ---
 
-#### Track Number of Opportunities by Stage
+## Track Number of Opportunities by Stage
 
 To create a view to track Opportunities by stage, select create view and in the Group by Section, set First group by the Column to 'Stage'.
 ![Image]({{ site.url }}/images/blog/pipeline2-create-view-groupby.JPG) 
@@ -49,7 +49,7 @@ Now we have view to track Opportunities by Stage.
 
 ---
 
-#### Track my Opportunities
+## Track my Opportunities
 
 If you would like your Sales Staff to see the Opportunities they are responsible for, Create a new view and in the Filter Section, set 'Opportunity Owner' = [Me].
 ![Image]({{ site.url }}/images/blog/pipeline2-create-view-me.JPG)
