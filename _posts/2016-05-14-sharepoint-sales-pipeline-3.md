@@ -22,6 +22,7 @@ In this part, we will look at a scenario where it is possible for an Opportunity
 ## Change the 'Stage' Column to Allow Multiple Selections
 
 In List Settings, click the column Stage and change the setting to Checkboxes.
+
 ![Image]({{ site.url }}/images/blog/pipeline3-column-multiple.JPG)
 
 ---
@@ -29,12 +30,15 @@ In List Settings, click the column Stage and change the setting to Checkboxes.
 ## Create Additional Columns to Track each Stage
 
 In this example, I created 'Single line of Text' columns for each of the Stages like (Prospecting, Won, Lost).
+
 ![Image]({{ site.url }}/images/blog/pipeline3-column-stages.JPG)
 
 Modify the View to Count each of the new Columns.
+
 ![Image]({{ site.url }}/images/blog/pipeline3-view-count.JPG)
 
 After modifying the view, you should see a view with Count=0 for all the stages.
+
 ![Image]({{ site.url }}/images/blog/pipeline3-view-count1.JPG)
 
 ---
@@ -43,20 +47,25 @@ After modifying the view, you should see a view with Count=0 for all the stages.
 
 We will not create a workflow to check the status selected or deselected by the user and update the corresponding new stage columns we just created. We want this workflow to run any time an opportunity is added or modified.
 Connect to your Site using SharePoint Designer, Open the Pipeline List in Lists and Libraries and Create a New SharePoint 2013 Workflow.
+
 ![Image]({{ site.url }}/images/blog/pipeline3-new-workflow.JPG)
 
 Select Actions from the Ribbon and select 'Set Workflow Variable'. Create a new variable named 'Stage' and set it to the Current Item 'Stage'.
+
 ![Image]({{ site.url }}/images/blog/pipeline3-workflow1.JPG)
 
 Select 'If any value equals value' condition and set the condition to the check if the variable 'Stage' contains 'Won'. If it matches this condition, Update 'Won' to 1 else if it does not contain Won then leave it blank.
 
 Create If Conditions for each one of the Stages and Save and Publish the Workflow.
+
 ![Image]({{ site.url }}/images/blog/pipeline3-workflow2.JPG)
 
 Also, change the worfklow Start Options to run when an item is created and when it is changed. This will count the opportunities from the time they are added into the Pipeline.
+
 ![Image]({{ site.url }}/images/blog/pipeline3-workflow-options.JPG)
 
 
 We can now see a Count of Opportunities in each of the Stages in our view.
+
 ![Image]({{ site.url }}/images/blog/pipeline3-final-view.JPG)
 

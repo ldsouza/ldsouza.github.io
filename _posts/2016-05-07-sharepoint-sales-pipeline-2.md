@@ -17,13 +17,15 @@ In <a href="{{ site.github.url }}/sharepoint/sharepoint-sales-pipeline">Part 1</
 
 In this blog post, we will add custom views to easily group and view information in the Pipeline.
 
-## Create Custom Views
+# Create Custom Views
 
 ## Opportunities Due in 90 Days
 We will create a custom view to track the Opportunities whose 'Projected Close Date' is within the next 90 days. Select Create View from the List Tab and select start from an existing view 'All Items'.
+
 ![Image]({{ site.url }}/images/blog/pipeline2-create-view1.JPG)
 
 In the Filter Section, apply the following filter. Since we would like to see all Opportunities that are going to be due in the next 90 days, set the 'Projected Close Date' <= [Today]+90.
+
 ![Image]({{ site.url }}/images/blog/pipeline2-create-view-due90.JPG)
 
 ![Image]({{ site.url }}/images/blog/pipeline2-create-view-due90-1.JPG)
@@ -32,9 +34,11 @@ In the Filter Section, apply the following filter. Since we would like to see al
 
 ## Opportunities Due in 30 Days
 To create a view to track Opportunities whose 'Projected Close Date' is within the next 30 days, select create view and start from the existing view we just created 'Due 90 Days'.
+
 ![Image]({{ site.url }}/images/blog/pipeline2-create-view-copy.JPG) 
 
 Modify the existing Filter from '[Today]+90' to '[Today]+30'.
+
 ![Image]({{ site.url }}/images/blog/pipeline2-create-view-due30.JPG)
 
 ---
@@ -42,14 +46,18 @@ Modify the existing Filter from '[Today]+90' to '[Today]+30'.
 ## Track Number of Opportunities by Stage
 
 To create a view to track Opportunities by stage, select create view and in the Group by Section, set First group by the Column to 'Stage'.
+
 ![Image]({{ site.url }}/images/blog/pipeline2-create-view-groupby.JPG) 
 
 Now we have view to track Opportunities by Stage.
+
 ![Image]({{ site.url }}/images/blog/pipeline2-create-view-stage.JPG)
 
 ---
 
 ## Track my Opportunities
+
+![Image]({{ site.url }}/images/blog/pipeline2-create-view-me.JPG)
 
 If you would like your Sales Staff to see the Opportunities they are responsible for, Create a new view and in the Filter Section, set 'Opportunity Owner' = [Me].
 
@@ -62,8 +70,6 @@ Portland in shoreditch Vice, labore typewriter pariatur hoodie fap sartorial Aus
 Vero laborum commodo occupy. Semiotics voluptate mumblecore pug. Cosby sweater ullamco quinoa ennui assumenda, sapiente occupy delectus lo-fi. Ea fashion axe Marfa cillum aliquip. Retro Bushwick keytar cliche. Before they sold out sustainable gastropub Marfa readymade, ethical Williamsburg skateboard brunch qui consectetur gentrify semiotics. Mustache cillum irony, fingerstache magna pour-over keffiyeh tousled selfies.
 
 ## Cupidatat 90's lo-fi authentic try-hard
-
-![Image]({{ site.url }}/images/blog/pipeline2-create-view-me.JPG)
 
 In pug Portland incididunt mlkshk put a bird on it vinyl quinoa. Terry Richardson shabby chic +1, scenester Tonx excepteur tempor fugiat voluptate fingerstache aliquip nisi next level. Farm-to-table hashtag Truffaut, Odd Future ex meggings gentrify single-origin coffee try-hard 90's. 
 

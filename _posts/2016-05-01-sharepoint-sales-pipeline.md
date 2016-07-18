@@ -22,18 +22,23 @@ The Basic Requirements
 ## Create a Custom List in SharePoint
 
 The first thing to do is to create a custom list and add the necessary metadata you would like to associate with an Opportunity.
+
 ![Image]({{ site.url }}/images/blog/pipeline-custom-list.JPG)
 
 Add the opportunity metadata colmns like Stage(Choice), Projected Revenue(Currency), Opportunity Owner(Person or Group). You can add more metadata like Lead Source, Rating depending on your business requirements.
+
 ![Image]({{ site.url }}/images/blog/pipeline-metadata.JPG)
 
 Before we begin adding new opportunities, rename the default sharepoint list column 'Title' to 'Opportunity Name'.
+
 ![Image]({{ site.url }}/images/blog/pipeline-rename-title.JPG)
 
 ## Add New Opportunities
 
 Select New Item to begin adding Opportunities to your Pipeline.
+
 ![Image]({{ site.url }}/images/blog/pipeline-new-edit.JPG)
+
 ![Image]({{ site.url }}/images/blog/pipeline-new-item.JPG) 
 
 
@@ -41,14 +46,17 @@ Select New Item to begin adding Opportunities to your Pipeline.
 
 
 If you have existing opportunities in Excel, you can easily bulk update them in SharePoint.
+
 ![Image]({{ site.url }}/images/blog/pipeline-excel-upload.JPG)
 
 Select 'Edit', select the first cell to paste into and Press 'Control + V' on your keyboard. Select 'Stop' to save your changes.
+
 ![Image]({{ site.url }}/images/blog/pipeline-excel-upload1.JPG)
 
 ## Modify the Default View
 
 To display a sum of the Projected Revenue in my SharePoint View, select 'Modify View' from the List tab, scroll down to the Totals Section and select 'Sum' as the Total.
+
 ![Image]({{ site.url }}/images/blog/pipeline-modify-view.JPG)
 
 ![Image]({{ site.url }}/images/blog/pipeline-default-view.JPG)
