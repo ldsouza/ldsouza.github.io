@@ -42,9 +42,7 @@ Select New Item to begin adding Opportunities to your Pipeline.
 ![Image]({{ site.url }}/images/blog/pipeline-new-item.JPG) 
 
 
-> SharePoint Tip - <a target="_blank" href ="/blog/sharepoint-tip-column-order/">Learn how to change the column order in a form</a>
-
-**SharePoint Tip:** <a target="_blank" href ="/blog/sharepoint-tip-column-order/">Learn how to change the column order in a form</a>
+**SharePoint Tip:** <a target="_blank" href ="/sharepoint/sharepoint-tip-column-order">Learn how to change the column order in a form</a>
 {: .notice}
 
 
