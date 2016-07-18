@@ -95,7 +95,8 @@ main, .notepad-share-icons, .notepad-disqus {
       -ms-transform: translate3d(0, 0, 0);
       -moz-transform: translate3d(0, 0, 0);
       -o-transform: translate3d(0, 0, 0);
-      transform: translate3d(0, 0, 0); }
+      transform: translate3d(0, 0, 0); 
+	  height: 600px;}
   @media only screen and (min-width: 40.063em) {
     .notepad-blog-menu {
       padding-top: 1.75rem;
