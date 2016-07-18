@@ -12,9 +12,9 @@ mathjax:
 
 This is a blog post in the series “Implementing a Business Development/Sales Pipeline in SharePoint.”  In this series, I’ll show you how to implement a Pipline to manage and track opportunities.
 
-In <a href="{{ site.github.url }}/blog/sharepoint-sales-pipeline">Part 1</a> of this series, we have already setup a Custom list named Pipeline to track Opportunities and their status. We added the metadata columns associated to an opportunity and modified the default view. 
+In <a href="{{ site.github.url }}/sharepoint/sharepoint-sales-pipeline">Part 1</a> of this series, we have already setup a Custom list named Pipeline to track Opportunities and their status. We added the metadata columns associated to an opportunity and modified the default view. 
 
-In <a href="{{ site.github.url }}/blog/sharepoint-sales-pipeline-2">Part 2</a> of this series, we added custom views to easily group and view information in the Pipeline.
+In <a href="{{ site.github.url }}/sharepoint/sharepoint-sales-pipeline-2">Part 2</a> of this series, we added custom views to easily group and view information in the Pipeline.
 
 
 In this part, we will look at a scenario where it is possible for an Opportunity to be in multiple stages simultaneously. Because of this, we are unable to group by 'Stage' to have a count of the Opportunities by Stage.
