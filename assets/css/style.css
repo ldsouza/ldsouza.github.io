@@ -215,7 +215,7 @@ main, .notepad-share-icons, .notepad-disqus {
   and (max-device-width: 480px)
   and (-webkit-min-device-pixel-ratio: 2) {
 .notepad-site-head .notepad-site-head-content img {
-      padding-bottom: 12.5rem; } 
+      padding-bottom: 700px; } 
 }
 
 .notepad-content .notepad-index-post {
