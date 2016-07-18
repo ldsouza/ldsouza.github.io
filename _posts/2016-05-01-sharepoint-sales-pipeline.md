@@ -44,6 +44,9 @@ Select New Item to begin adding Opportunities to your Pipeline.
 
 > SharePoint Tip - <a target="_blank" href ="/blog/sharepoint-tip-column-order/">Learn how to change the column order in a form</a>
 
+**SharePoint Tip:** <a target="_blank" href ="/blog/sharepoint-tip-column-order/">Learn how to change the column order in a form</a>
+{: .notice}
+
 
 If you have existing opportunities in Excel, you can easily bulk update them in SharePoint.
 
