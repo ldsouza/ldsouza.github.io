@@ -52,7 +52,6 @@ Now we have view to track Opportunities by Stage.
 ## Track my Opportunities
 
 If you would like your Sales Staff to see the Opportunities they are responsible for, Create a new view and in the Filter Section, set 'Opportunity Owner' = [Me].
-![Image]({{ site.url }}/images/blog/pipeline2-create-view-me.JPG)
 
 In the next part of this series, I will cover a scenario where your 'Stage' may be a multiple choice and you would like to track the number of Opportunities in each Stage.
 
@@ -63,6 +62,8 @@ Portland in shoreditch Vice, labore typewriter pariatur hoodie fap sartorial Aus
 Vero laborum commodo occupy. Semiotics voluptate mumblecore pug. Cosby sweater ullamco quinoa ennui assumenda, sapiente occupy delectus lo-fi. Ea fashion axe Marfa cillum aliquip. Retro Bushwick keytar cliche. Before they sold out sustainable gastropub Marfa readymade, ethical Williamsburg skateboard brunch qui consectetur gentrify semiotics. Mustache cillum irony, fingerstache magna pour-over keffiyeh tousled selfies.
 
 ## Cupidatat 90's lo-fi authentic try-hard
+
+![Image]({{ site.url }}/images/blog/pipeline2-create-view-me.JPG)
 
 In pug Portland incididunt mlkshk put a bird on it vinyl quinoa. Terry Richardson shabby chic +1, scenester Tonx excepteur tempor fugiat voluptate fingerstache aliquip nisi next level. Farm-to-table hashtag Truffaut, Odd Future ex meggings gentrify single-origin coffee try-hard 90's. 
 
