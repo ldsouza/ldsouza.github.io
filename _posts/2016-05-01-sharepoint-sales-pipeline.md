@@ -1,27 +1,30 @@
 ---
 layout: post
-title: "Implementing a Business Development/Sales Pipeline in SharePoint (Part 1)"
-description: Part 1 of a Quick and Easy Solution to track your Sales Opportunities in SharePoint.
-headline: 
-modified: 2016-07-06
+title: Implementing a Business Development/Sales Pipeline in SharePoint (Part 1)
+description: >-
+  Part 1 of a Quick and Easy Solution to track your Sales Opportunities in
+  SharePoint.
+modified: 'Tue Jul 05 2016 20:00:00 GMT-0400 (Eastern Daylight Time)'
 category: SharePoint
-tags: [SharePoint, Office 365]
+tags: 'SharePoint,Office 365'
 comments: true
-mathjax: 
+mathjax: false
+published: true
+featured: false
 ---
 
-This is a blog post in the series “Implementing a Business Development/Sales Pipeline in SharePoint.”  In this series, I’ll show you how to implement a Pipline to manage and track opportunities.
-If you don't have a CRM or an Opportunity tracking system, here is a quick and easy way to build a robust and efficient solution.
+This is a blog post in the series “Implementing a Business Development/Sales Pipeline in SharePoint.”  In this series, I will show you how to implement a Pipeline to manage and track your Sales or Development Opportunities.
+If you don't have a CRM to track your leads or opportunities, here is a quick and easy way to build a robust and efficient solution.
 
-The Basic Requirements
+The Business Requirements
 
 - Track Opportunities and their status
-- Ability to look at historical and current Opportunities
+- Ability to view historical and current Opportunities
 - Track the sales person/owner of the opportunity
 
 ## Create a Custom List in SharePoint
 
-The first thing to do is to create a custom list and add the necessary metadata you would like to associate with an Opportunity.
+The first thing to do, is to create a custom list and add the necessary metadata you would like to associate with an Opportunity.
 
 ![Image]({{ site.url }}/images/blog/pipeline-custom-list.JPG)
 
@@ -46,7 +49,7 @@ Select New Item to begin adding Opportunities to your Pipeline.
 {: .notice}
 
 
-If you have existing opportunities in Excel, you can easily bulk update them in SharePoint.
+If you have existing opportunities in Excel, you can easily do a bulk update by importing them into SharePoint.
 
 ![Image]({{ site.url }}/images/blog/pipeline-excel-upload.JPG)
 
@@ -62,6 +65,6 @@ To display a sum of the Projected Revenue in my SharePoint View, select 'Modify 
 
 ![Image]({{ site.url }}/images/blog/pipeline-default-view.JPG)
 
-This is a quick overview on implementing a Business Development/Sales Pipeline tro track and manage your opportunities. In the next part of this blog post series, I will cover some advanced functionality that you could add to this solution.
+This is a quick overview on implementing a Business Development/Sales Pipeline to track and manage your opportunities. In the next part of this blog post series, I will cover some advanced functionality that you may want to add to this solution.
 
 <a href="{{ site.url }}/blog/sharepoint-sales-pipeline-2/">Implementing a Business Development/Sales Pipeline in SharePoint (Part 2)</a>
