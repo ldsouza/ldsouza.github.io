@@ -1,23 +1,26 @@
 ---
 layout: post
-title: "Implementing a Business Development/Sales Pipeline in SharePoint (Part 3)"
-description: Part 3 of a Quick and Easy Solution to track your Sales Opportunities in SharePoint.
-headline: 
-modified: 2016-07-06
+title: Implementing a Business Development/Sales Pipeline in SharePoint (Part 3)
+description: >-
+  Part 3 of a Quick and Easy Solution to track your Sales Opportunities in
+  SharePoint.
+modified: 'Tue Jul 05 2016 20:00:00 GMT-0400 (Eastern Daylight Time)'
 category: SharePoint
-tags: [SharePoint, Office 365]
+tags: 'SharePoint,Office 365'
 comments: true
-mathjax: 
+mathjax: false
+published: true
+featured: false
 ---
 
-This is a blog post in the series “Implementing a Business Development/Sales Pipeline in SharePoint.”  In this series, I’ll show you how to implement a Pipline to manage and track opportunities.
+This is a blog post in the series “Implementing a Business Development/Sales Pipeline in SharePoint”.  In this series, I will show you how to implement a Pipeline to manage and track your Sales or Development Opportunities.
 
 In <a href="{{ site.github.url }}/sharepoint/sharepoint-sales-pipeline">Part 1</a> of this series, we have already setup a Custom list named Pipeline to track Opportunities and their status. We added the metadata columns associated to an opportunity and modified the default view. 
 
 In <a href="{{ site.github.url }}/sharepoint/sharepoint-sales-pipeline-2">Part 2</a> of this series, we added custom views to easily group and view information in the Pipeline.
 
 
-In this part, we will look at a scenario where it is possible for an Opportunity to be in multiple stages simultaneously. Because of this, we are unable to group by 'Stage' to have a count of the Opportunities by Stage.
+In this blog post, we will look at a scenario where it is possible for an Opportunity to be in multiple stages simultaneously. Because of this, we are unable to group by 'Stage' to have a count of the Opportunities by Stage.
 
 ## Change the 'Stage' Column to Allow Multiple Selections
 
@@ -45,7 +48,7 @@ After modifying the view, you should see a view with Count=0 for all the stages.
 
 ## Create a Workflow to count the number of Opportunities in each stage
 
-We will not create a workflow to check the status selected or deselected by the user and update the corresponding new stage columns we just created. We want this workflow to run any time an opportunity is added or modified.
+We will create a workflow to check the status set by the user and update the corresponding new stage columns we just created. We want this workflow to run any time an opportunity is added or modified.
 Connect to your Site using SharePoint Designer, Open the Pipeline List in Lists and Libraries and Create a New SharePoint 2013 Workflow.
 
 ![Image]({{ site.url }}/images/blog/pipeline3-new-workflow.JPG)
@@ -68,4 +71,3 @@ Also, change the worfklow Start Options to run when an item is created and when 
 We can now see a Count of Opportunities in each of the Stages in our view.
 
 ![Image]({{ site.url }}/images/blog/pipeline3-final-view.JPG)
-
