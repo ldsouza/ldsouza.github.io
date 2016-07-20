@@ -1,16 +1,19 @@
 ---
 layout: post
-title: "Implementing a Business Development/Sales Pipeline in SharePoint (Part 2)"
-description: Part 2 of a Quick and Easy Solution to track your Sales Opportunities in SharePoint.
-headline: 
-modified: 2016-07-06
+title: Implementing a Business Development/Sales Pipeline in SharePoint (Part 2)
+description: >-
+  Part 2 of a Quick and Easy Solution to track your Sales Opportunities in
+  SharePoint.
+modified: 'Tue Jul 05 2016 20:00:00 GMT-0400 (Eastern Daylight Time)'
 category: SharePoint
-tags: [SharePoint, Office 365]
+tags: 'SharePoint,Office 365'
 comments: true
-mathjax: 
+mathjax: false
+published: true
+featured: false
 ---
 
-This is a blog post in the series “Implementing a Business Development/Sales Pipeline in SharePoint.”  In this series, I’ll show you how to implement a Pipline to manage and track opportunities.
+This is a blog post in the series “Implementing a Business Development/Sales Pipeline in SharePoint.”  In this series, I will show you how to implement a Pipeline to manage and track your Sales or Development Opportunities.
 
 In <a href="{{ site.github.url }}/sharepoint/sharepoint-sales-pipeline">Part 1</a> of this series, we have already setup a Custom list named Pipeline to track Opportunities and their status. We added the metadata columns associated to an opportunity and modified the default view. 
 
