@@ -17,22 +17,16 @@ Some of the concepts and techniques covered here are:-
 - Using SharePoint Workflow to Set the renewal date and send an email on the renewal date.
 - Applying a Retention Policy to permanently remove agreements after 10 years.
 
-Create the Rental Agreements Content Type and Site Columns {% include youtubePlayer.html id="BQ2rrpTCyjc" %}
+Create the Rental Agreements Content Type and Site Columns
+{% include youtubePlayer.html id="BQ2rrpTCyjc" %}
 
-
-
-
-Add the Rental Agreements Content Type to the Warehouse list {% include youtubePlayer.html id="6XiYZf4dQNg" %}
-
-
-
+Add the Rental Agreements Content Type to the Warehouse list
+{% include youtubePlayer.html id="6XiYZf4dQNg" %}
 
 Create a SharePoint List Template from the Warehouse List
-
 {% include youtubePlayer.html id="wfFI0Lcj-LA" %}
 
 Create a SharePoint Workflow that sets the Renewal Date
-
 {% include youtubePlayer.html id="K2Si0h7scYI" %}
 
 Create a SharePoint Workflow that sends an Email on the Renewal Date
