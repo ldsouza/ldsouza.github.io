@@ -17,6 +17,6 @@ Some of the concepts and techniques covered are:-
 *Creating Site Columns
 *Creating Workflows
     --Send Formatted Emails
-<div style="max-width:420px">
+<div style="max-width:420px, text-align:center">
 {% include youtubePlayer.html id="pdSp4Y4GOQs" %}
 </div>
