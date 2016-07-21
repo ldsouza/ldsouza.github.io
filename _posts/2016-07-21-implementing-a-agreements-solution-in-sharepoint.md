@@ -18,5 +18,5 @@ Some of the concepts and techniques covered are:-
 *Creating Workflows
    -Send Formatted Emails
 
-{% include youtubePlayer.html id="pdSp4Y4GOQs" %}
+{% include youtubePlayer.html id="BQ2rrpTCyjc" %}
 
