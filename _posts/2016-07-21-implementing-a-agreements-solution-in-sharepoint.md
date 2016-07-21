@@ -5,7 +5,10 @@ mathjax: false
 featured: false
 comments: true
 title: Implementing a Rental Agreements Solution in SharePoint
-tags: 'SharePoint Online,Office 365,SharePoint'
+tags:
+  - SharePoint Online
+  - Office 365
+  - SharePoint
 category: SharePoint
 description: Quick and Easy Solution to manage Rental Agreements in SharePoint.
 ---
