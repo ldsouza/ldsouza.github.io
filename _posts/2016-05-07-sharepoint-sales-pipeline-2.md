@@ -6,7 +6,10 @@ description: >-
   SharePoint.
 modified: 'Tue Jul 05 2016 20:00:00 GMT-0400 (Eastern Daylight Time)'
 category: SharePoint
-tags: 'SharePoint,Office 365'
+tags:
+  - SharePoint Online
+  - Office 365
+  - SharePoint
 comments: true
 mathjax: false
 published: true

@@ -4,7 +4,7 @@ title: SharePoint Reusable Workflows
 excerpt: >-
   How to modify the column order in a libary or list form
 modified: {}
-categories: blog
+categories: SharePoint
 tags:
   - SharePoint Online
   - Office 365
