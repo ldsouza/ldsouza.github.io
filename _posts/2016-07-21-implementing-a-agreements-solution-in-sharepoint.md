@@ -16,6 +16,6 @@ Some of the concepts and techniques covered are:-
 *Creating a Content Type
 *Creating Site Columns
 *Creating Workflows
-    Send Formatted Emails
+    -Send Formatted Emails
 
 <iframe width="560" height="315" src="//www.youtube.com/embed/pdSp4Y4GOQs" frameborder="0"> </iframe>
