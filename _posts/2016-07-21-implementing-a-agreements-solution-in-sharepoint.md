@@ -4,7 +4,7 @@ published: true
 mathjax: true
 featured: false
 comments: true
-title: Implementing a Agreements Solution in SharePoint
+title: Implementing a Rental Agreements Solution in SharePoint
 tags: SharePoint
 ---
 In this post, I will share an excellent video series on implementing a Rental Agreements Solution in SharePoint.
@@ -17,13 +17,14 @@ Some of the concepts and techniques covered here are:-
 - Using SharePoint Workflow to Set the renewal date and send an email on the renewal date.
 - Applying a Retention Policy to permanently remove agreements after 10 years.
 
-Create the Rental Agreements Content Type and Site Columns
+Create the Rental Agreements Content Type and Site Columns {% include youtubePlayer.html id="BQ2rrpTCyjc" %}
 
-{% include youtubePlayer.html id="BQ2rrpTCyjc" %}
 
-Add the Rental Agreements Content Type to the Warehouse list
 
-{% include youtubePlayer.html id="6XiYZf4dQNg" %}
+
+Add the Rental Agreements Content Type to the Warehouse list {% include youtubePlayer.html id="6XiYZf4dQNg" %}
+
+
 
 
 Create a SharePoint List Template from the Warehouse List
