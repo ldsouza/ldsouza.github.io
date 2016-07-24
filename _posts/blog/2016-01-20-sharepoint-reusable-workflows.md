@@ -1,16 +1,14 @@
 ---
 layout: post
 title: SharePoint Reusable Workflows
-excerpt: >-
-  How to modify the column order in a libary or list form
-modified: {}
+modified:
 categories: blog
-tags:
-  - SharePoint Online
-  - Office 365
-comments: true
-share: true
-published: true
+excerpt:
+tags: []
+image:
+  feature:
+date: 2014-08-08T15:39:55-04:00
+modified: 2016-06-01T14:19:19-04:00
 ---
 
 Here is a helpful tip that I often use, whenever I have to add custom columns to a list or library. SharePoint, by default, arranges the column order in the order that you add custom columns to a list or library. There are often times when you may have to modify this order.
