@@ -1,16 +1,16 @@
 ---
 layout: post
-title: Change the order in a SharePoint Form
-excerpt: "Just about everything you'll need to style in the theme: headings, paragraphs, blockquotes, tables, code blocks, and more."
-modified: 2016-06-01T14:17:25-04:00
-categories: articles
-tags: [sample-post]
-image:
-  feature: so-simple-sample-image-1.jpg
-  credit: WeGraphics
-  creditlink: http://wegraphics.net/downloads/free-ultimate-blurred-background-pack/
+title: "Change the order in a SharePoint Form"
+description: How to modify the column order in a libary or list form
+headline: 
+modified: 2014-07-19
+category: SharePoint
+tags:
+  - SharePoint Online
+  - Office 365
+  - SharePoint
 comments: true
-share: true
+mathjax: 
 ---
 
 Here is a helpful tip that I often use, whenever I have to add custom columns to a list or library. SharePoint, by default, arranges the column order in the order that you add custom columns to a list or library. There are often times when you may have to modify this order.
