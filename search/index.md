@@ -18,7 +18,7 @@ sitemap: false
 <form method="get" action="{{ site.url }}/search/" data-search-form class="simple-search">
       <div class="row collapse">
         <div class="small-11 columns">
-  <input style="height: 48px;" type="search" name="q" id="q" placeholder="What are you looking for?" data-search-input autofocus />
+  <input type="search" name="q" id="q" placeholder="What are you looking for?" data-search-input autofocus />
 		 </div>
         <div class="small-1 columns">
 <button style="height: 52px; background-color: #FEC110;" type="submit"><i class="fa fa-search"></i></button>
