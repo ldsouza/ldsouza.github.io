@@ -11,6 +11,26 @@ sitemap: false
 ---
   
 <!-- Search form -->
+
+<link type="text/css" rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/foundicons/3.0.0/foundation-icons.css" />
+
+
+<div class="row">
+  <div class="large-4 columns">
+    <form>
+      <div class="row collapse">
+        <div class="large-9 columns">
+          <input type="search" placeholder="search">
+        </div>
+        <div class="large-3 columns">
+          <span class="postfix"><i class="fi-magnifying-glass"></i></span>
+        </div>
+      </div>
+    </form>
+  </div>
+</div>
+
+
 <div align="center">
 <form method="get" action="{{ site.url }}/search/" data-search-form class="simple-search">
   <input type="search" name="q" id="q" placeholder="What are you looking for?" data-search-input id="goog-wm-qt" autofocus />
