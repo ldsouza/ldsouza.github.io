@@ -24,6 +24,10 @@ owner:
   linkedin:       https://www.linkedin.com/in/laurel-d-souza-a3938918
   # For Google Authorship https://plus.google.com/authorship
   google_plus:    https://plus.google.com/u/0/114754240150011871346
+  
+  sass:
+  sass_dir: _sass
+  style: compressed
 
 # Analytics and webmaster tools stuff goes here
 google_analytics:   UA-39365944-7
