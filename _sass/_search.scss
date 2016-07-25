@@ -2,6 +2,10 @@
    Search
    ========================================================================== */
 
+.search-wrapper {
+  margin-top: 0;
+  height: 1px;
+}
 
 /* 
    Google search form
@@ -23,4 +27,9 @@
   margin-right: 10px;
   padding: 8px 10px;
   border-width: 2px;
+}
+
+/* button */
+#goog-wm-sb {
+  @extend .btn;
 }
