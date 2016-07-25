@@ -6,7 +6,7 @@
 }
 
 #goog-wm-qt {
-  width: auto;
+  width: 800px;
   margin-right: 10px;
   padding: 8px 10px;
   @include font-size(14);
