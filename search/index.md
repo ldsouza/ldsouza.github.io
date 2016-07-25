@@ -31,11 +31,19 @@ sitemap: false
 </div>
 
 
-<div align="center">
+<div class="row">
+  <div class="large-4 columns">
 <form method="get" action="{{ site.url }}/search/" data-search-form class="simple-search">
+      <div class="row collapse">
+        <div class="large-9 columns">
   <input type="search" name="q" id="q" placeholder="What are you looking for?" data-search-input id="goog-wm-qt" autofocus />
+		 </div>
+        <div class="large-3 columns">
   <input type="submit" value="Search" id="goog-wm-sb" />
+  </div>
+  </div>
 </form>
+</div>
 </div>
 <!-- Search results placeholder -->
 <h6 data-search-found>
