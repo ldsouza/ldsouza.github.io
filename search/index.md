@@ -13,7 +13,6 @@ sitemap: false
 <!-- Search form -->
 
 <div class="row">
-  <div class="large-1 columns">
 <form method="get" action="{{ site.url }}/search/" data-search-form class="simple-search">
       <div class="row collapse">
         <div class="large-9 columns">
@@ -25,7 +24,7 @@ sitemap: false
   </div>
 </form>
 </div>
-</div>
+
 <!-- Search results placeholder -->
 <h6 data-search-found>
   <span data-search-found-count></span> result(s) found for &ldquo;<span data-search-found-term></span>&rdquo;.
