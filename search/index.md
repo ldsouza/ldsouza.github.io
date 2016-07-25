@@ -10,14 +10,7 @@ search_omit: true
 sitemap: false
 ---
   
-<div class="row collapse">     
-  <div class="large-3 columns">
-    <input type="text" placeholder="placeholder text" />
-  </div>
-  <div class="large-1 end columns">
-	<input type="submit"><i class="fa fa-search"></i></input>
-  </div>
-</div>
+
 <!-- Search form -->
 
 <div class="row">
@@ -25,7 +18,7 @@ sitemap: false
 <form method="get" action="{{ site.url }}/search/" data-search-form class="simple-search">
       <div class="row collapse">
         <div class="small-10 large-10 columns">
-  <input type="search" name="q" id="q" placeholder="What are you looking for?" data-search-input autofocus />
+  <input style="height: 50px;" type="search" name="q" id="q" placeholder="What are you looking for?" data-search-input autofocus />
 		 </div>
         <div class="small-2 large-2 columns">
 <button type="submit"><i class="fa fa-thumbs-up"></i></button>
