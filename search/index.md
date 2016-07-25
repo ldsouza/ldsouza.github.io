@@ -39,7 +39,7 @@ sitemap: false
   <input type="search" name="q" id="q" placeholder="What are you looking for?" data-search-input autofocus />
 		 </div>
         <div class="large-3 columns">
-  <span class="postfix"><input type="submit" class="btn btn-success" value="&#xf011; Login"/></span>
+  <span class="postfix"><input type="submit" value="Search" /></span>
   </div>
   </div>
 </form>
