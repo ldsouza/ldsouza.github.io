@@ -10,11 +10,6 @@ search_omit: true
 sitemap: false
 ---
   
-
-  
-  <link type="text/css" rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/foundicons/3.0.0/foundation-icons.css" />
-
-
 <div class="row collapse">     
   <div class="large-3 columns">
     <input type="text" placeholder="placeholder text" />
