@@ -15,7 +15,7 @@ sitemap: false
     <input type="text" placeholder="placeholder text" />
   </div>
   <div class="large-1 end columns">
-	<button type="submit"><i class="fa fa-thumbs-up"></i></button>
+	<input type="submit"><i class="fa fa-search"></i></input>
   </div>
 </div>
 <!-- Search form -->
