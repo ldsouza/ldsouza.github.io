@@ -28,7 +28,7 @@ sitemap: false
   <input type="search" name="q" id="q" placeholder="What are you looking for?" data-search-input autofocus />
 		 </div>
         <div class="small-2 large-2 columns">
-  <span class="postfix"><input type="submit" value="Search" /></span>
+<button type="submit"><i class="fa fa-thumbs-up"></i></button>
   </div>
   </div>
 </form>
