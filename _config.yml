@@ -1,6 +1,7 @@
 title:            IT DELVE
 description:      "TIPS & TRICKS"
 logo:             logo.png
+search: true
 disqus_shortname: itdelve
 share:            true
 dropcap:			true
