@@ -36,6 +36,7 @@ sitemap: false
 <!-- Search result template -->
 <script type="text/x-template" id="search-result">
   <li><article>
-    <a style="color:#008cBA;"href="##Url##">##Title## <span class="excerpt">##Excerpt##</span></a>
+    <a style="color:#008cBA;"href="##Url##">##Title##</a>
+	<a style="color:#000;"href="##Url##">##Excerpt##</a>
   </article></li>
 </script>
