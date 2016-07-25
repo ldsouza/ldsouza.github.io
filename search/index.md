@@ -14,7 +14,7 @@ sitemap: false
 <!-- Search form -->
 
 <div class="row">
-  <div class="ssmall-12 columns">
+  <div class="small-12 columns">
 <form method="get" action="{{ site.url }}/search/" data-search-form class="simple-search">
       <div class="row collapse">
         <div class="small-11 columns">
