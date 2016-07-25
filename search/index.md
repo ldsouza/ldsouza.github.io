@@ -17,10 +17,10 @@ sitemap: false
   <div class="ssmall-12 large-12 columns">
 <form method="get" action="{{ site.url }}/search/" data-search-form class="simple-search">
       <div class="row collapse">
-        <div class="small-10 large-10 columns">
+        <div class="small-11 large-11 columns">
   <input style="height: 50px;" type="search" name="q" id="q" placeholder="What are you looking for?" data-search-input autofocus />
 		 </div>
-        <div class="small-2 large-2 columns">
+        <div class="small-1 large-1 columns">
 <button type="submit"><i class="fa fa-search"></i></button>
   </div>
   </div>
