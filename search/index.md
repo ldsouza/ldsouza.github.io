@@ -36,10 +36,10 @@ sitemap: false
 <form method="get" action="{{ site.url }}/search/" data-search-form class="simple-search">
       <div class="row collapse">
         <div class="large-9 columns">
-  <input type="search" name="q" id="q" placeholder="What are you looking for?" data-search-input id="goog-wm-qt" autofocus />
+  <input type="search" name="q" id="q" placeholder="What are you looking for?" data-search-input autofocus />
 		 </div>
         <div class="large-3 columns">
-  <input type="submit" value="Search" id="goog-wm-sb" />
+  <span class="postfix"><input type="submit" value="Search" /></span>
   </div>
   </div>
 </form>
