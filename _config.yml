@@ -9,6 +9,27 @@ dropcap:			true
 # whether working locally or remotely. Start Jekyll with: jekyll serve --baseurl ''
 url:        	  https://ldsouza.github.io/
 
+# Jekyll configuration
+
+permalink:   /:categories/:title/
+markdown:    kramdown
+highlighter: rouge
+sass:
+  sass_dir: _sass
+  style: compressed
+gems:
+  - jekyll-sitemap
+  - jekyll-gist
+  - jekyll-feed
+
+kramdown:
+  input: GFM
+  auto_ids: true
+  footnote_nr: 1
+  entity_output: as_char
+  toc_levels: 1..2
+  enable_coderay: false
+
 # Owner/author information
 owner:
   name:           Laurel Dsouza
