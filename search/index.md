@@ -10,35 +10,6 @@ search_omit: true
 sitemap: false
 ---
   
-  $("document").ready(function () {
-  $("a[href$=.pdf]").after("<img src='http://placehold.it/16x16' align='absbottom' />")
-  
-  
-});
-
-
-$(document).foundation();
-
-     // $("p[class]").css("border","3px solid red");
-     // $("p[id^=para]").css("border","3px solid red");
-     // $("p:contains(3)").css("border","3px solid red");
-  // $("ul li:nth-child(2n)").css("border","3px solid red");
-  // alert("there are " + $("p").length + " <p> elements");
-  
-  // var elems = $('li').get();
-  // alert("there are " + elems.length + " <li> tags");
-  // alert($('li').get(0));
-  // $("ul").find("li.b").css("border","3px solid red");
- 
-  // var leftmargin=0;
- // var border = 0;
-//  $("p").each(function() {
-//    $(this).css("border", border + "px solid red");
- //   $(this).css("margin-left", leftmargin);
- //   border +=2;
-  //  leftmargin += 10;
- // });
-
 
   
   <link type="text/css" rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/foundicons/3.0.0/foundation-icons.css" />
@@ -49,7 +20,7 @@ $(document).foundation();
     <input type="text" placeholder="placeholder text" />
   </div>
   <div class="large-1 end columns">
-    <span class="postfix"><i class="fi-magnifying-glass"></i></span></input>
+	<button type="submit"><i class="fa fa-thumbs-up"></i></button>
   </div>
 </div>
 <!-- Search form -->
