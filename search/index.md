@@ -11,6 +11,9 @@ sitemap: false
 ---
   
 <!-- Search form -->
+<h6 data-search-found>
+Test
+</h6>
 <form method="get" action="{{ site.url }}/search/" data-search-form class="simple-search">
   <label for="q">Search {{ site.title }} for:</label>
   <input type="search" name="q" id="q" placeholder="What are you looking for?" data-search-input id="goog-wm-qt" autofocus />
