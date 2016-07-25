@@ -21,7 +21,7 @@ sitemap: false
   <input style="height: 50px;" type="search" name="q" id="q" placeholder="What are you looking for?" data-search-input autofocus />
 		 </div>
         <div class="small-1 columns">
-<button style="height: 50px;" type="submit"><i class="fa fa-search"></i></button>
+<button style="height: 50px; color: #FEC110;" type="submit"><i class="fa fa-search"></i></button>
   </div>
   </div>
 </form>
@@ -36,7 +36,7 @@ sitemap: false
 <!-- Search result template -->
 <script type="text/x-template" id="search-result">
   <li><article>
-    <a style="color:#008cBA;"href="##Url##">##Title##</a>
+    <a style="color:#FEC110;"href="##Url##">##Title##</a><br>
 	<a style="color:#000;"href="##Url##">##Excerpt##</a>
   </article></li>
 </script>
