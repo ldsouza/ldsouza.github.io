@@ -14,13 +14,13 @@ sitemap: false
 <!-- Search form -->
 
 <div class="row">
-  <div class="ssmall-12 large-12 columns">
+  <div class="ssmall-12 columns">
 <form method="get" action="{{ site.url }}/search/" data-search-form class="simple-search">
       <div class="row collapse">
-        <div class="small-11 large-11 columns">
+        <div class="small-11 columns">
   <input style="height: 50px;" type="search" name="q" id="q" placeholder="What are you looking for?" data-search-input autofocus />
 		 </div>
-        <div class="small-1 large-1 columns">
+        <div class="small-1 columns">
 <button style="height: 50px;" type="submit"><i class="fa fa-search"></i></button>
   </div>
   </div>
@@ -31,7 +31,7 @@ sitemap: false
 <h6 data-search-found>
   <span data-search-found-count></span> result(s) found for &ldquo;<span data-search-found-term></span>&rdquo;.
 </h6>
-<ul class="post-list" data-search-results></ul>
+<ul data-search-results></ul>
 
 <!-- Search result template -->
 <script type="text/x-template" id="search-result">
