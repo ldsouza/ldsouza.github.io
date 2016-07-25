@@ -10,8 +10,8 @@
   display: inline-block;
   margin-bottom: 20px;
   padding: 8px 20px;
-  background-color: $black;
-  color: $white;
+  background-color: black;
+  color: white;
   border: 2px solid $black !important;
   &:visited {
     color: $white;
@@ -33,4 +33,5 @@
   z-index: 1;
   background-color: transparent;
   border: 0 solid transparent;
+  color: white;
 }
