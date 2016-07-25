@@ -18,10 +18,10 @@ sitemap: false
 <form method="get" action="{{ site.url }}/search/" data-search-form class="simple-search">
       <div class="row collapse">
         <div class="small-11 columns">
-  <input style="padding:0px;" type="search" name="q" id="q" placeholder="What are you looking for?" data-search-input autofocus />
+  <input style="border-width:0px;" type="search" name="q" id="q" placeholder="What are you looking for?" data-search-input autofocus />
 		 </div>
         <div class="small-1 columns">
-<button style="padding: 0px; background-color: #FEC110;" type="submit"><i class="fa fa-search"></i></button>
+<button style="background-color: #FEC110;" type="submit"><i class="fa fa-search"></i></button>
   </div>
   </div>
 </form>
