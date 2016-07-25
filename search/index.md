@@ -13,14 +13,14 @@ sitemap: false
 <!-- Search form -->
 
 <div class="row">
-  <div class="large-4 columns">
+  <div class="large-1 columns">
 <form method="get" action="{{ site.url }}/search/" data-search-form class="simple-search">
       <div class="row collapse">
         <div class="large-9 columns">
   <input type="search" name="q" id="q" placeholder="What are you looking for?" data-search-input autofocus />
 		 </div>
-        <div class="large-3 columns">
-  <input type="submit" value="Search" />
+        <div class="large-1 columns">
+  <span class="postfix"><input type="submit" value="Search" /></span>
   </div>
   </div>
 </form>
