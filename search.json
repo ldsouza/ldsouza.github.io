@@ -6,7 +6,6 @@
   {% if post.title != null and post.title != empty and post.search_omit != true %}
     {% if forloop.index > 1 %},{% endif %}{
       "title"			: {{ post.title | jsonify }},
-       "tags"			: {{ post.tags | jsonify }},
       "link"			: "{{ site.url }}{{ post.url }}",
       "excerpt"		: "{{ post.excerpt | markdownify | strip_html | strip_newlines | escape_once | remove: '\[' | remove: '\]' | remove: '\(' | remove: '\)' }}"
     }
