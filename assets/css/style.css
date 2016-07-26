@@ -1,5 +1,5 @@
 /* Search */
-#goog-fixurl ul{
+##data-search-results{
     list-style: none;
     margin-left: 0;
     padding-left: 0;
@@ -11,6 +11,8 @@
   padding: 8px 10px;
   border-width: 2px;
 }
+
+
 
 /* tools */
 .cf:before,
