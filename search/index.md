@@ -31,7 +31,7 @@ sitemap: false
 <h6 data-search-found>
   <span data-search-found-count></span> result(s) found for &ldquo;<span data-search-found-term></span>&rdquo;.
 </h6>
-<ul data-search-results></ul>
+<ul style="list-style: none;" data-search-results></ul>
 
 <!-- Search result template -->
 <script type="text/x-template" id="search-result">
