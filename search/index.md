@@ -38,6 +38,6 @@ sitemap: false
   <li><article>
     <a style="color:#FEC110;"href="##Url##">##Title##</a><br>
 	<a style="color:#000;"href="##Url##">##Excerpt##</a>
-	<a style="color:#000;"href="##Url##">##Tags##</a>
+	<a style="color:#000;"href="##Url##">{{ tag }}</a>
   </article></li>
 </script>
