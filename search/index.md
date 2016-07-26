@@ -35,7 +35,7 @@ sitemap: false
 
 <!-- Search result template -->
 <script type="text/x-template" id="search-result">
-  <li style="border-bottom: 1px solid rgba(0,0,0,0.1); font-size: 1.125rem; line-height:1.33333;"><article>
+  <li style="padding: 5px 0 0 0; border-bottom: 1px solid rgba(0,0,0,0.1); font-size: 1.125rem; line-height:1.33333;"><article>
     <a style="color:#FEC110;"href="##Url##">##Title##</a><br>
 	<a style="color:#000;"href="##Url##">##Excerpt##</a>
 	---
