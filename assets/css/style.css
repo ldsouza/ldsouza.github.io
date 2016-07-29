@@ -486,9 +486,9 @@ nav.pagination {
   .notepad-site-footer .social-icons {
     text-align: center;
     float: none;
-    padding-bottom: 3.75rem; }
+    padding-bottom: 3.75rem; color: #FEC110;}
     .notepad-site-footer .social-icons a {
-      color: #FEC110;}
+      color: white;}
   @media only screen and (min-width: 70em) {
     .notepad-site-footer .social-icons,
     .notepad-site-footer .copyright {
