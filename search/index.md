@@ -35,32 +35,4 @@ sitemap: false
 
 
 
-<!-- Search form -->
 
-<div class="row">
-  <div class="small-12 columns">
-<form method="get" action="{{ site.url }}/search/" data-search-form class="simple-search">
-      <div class="row collapse">
-        <div class="small-11 columns">
-  <input style="border-width:0px;" type="search" name="q" id="q" placeholder="What are you looking for?" data-search-input autofocus />
-		 </div>
-        <div class="small-1 columns">
-<button style="background-color: #FEC110;" type="submit"><i class="fa fa-search"></i></button>
-  </div>
-  </div>
-</form>
-</div>
-</div>
-<!-- Search results placeholder -->
-<h6 data-search-found>
-  <span data-search-found-count></span> result(s) found for &ldquo;<span data-search-found-term></span>&rdquo;.
-</h6>
-<ul style="list-style: none;" data-search-results></ul>
-
-<!-- Search result template -->
-<script type="text/x-template" id="search-result">
-  <li style="padding: 5px 0 2px 0; border-bottom: 1px solid rgba(0,0,0,0.1); font-size: 1.125rem; line-height:1.33333;"><article>
-    <a style="color:#FEC110;"href="##Url##">##Title##</a><br>
-	<a style="color:#000; font-size: .875rem"href="##Url##">##Excerpt##</a>
-  </article></li>
-</script>
