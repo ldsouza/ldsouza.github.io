@@ -16,8 +16,7 @@ sitemap: false
   <div class="small-10 large-centered columns">
 <form method="get" action="{{ site.url }}/search/" data-search-form class="simple-search">
    <div class="small-11 columns">
-  <input style="height: 50px; border-width:0px; vertical-align: bottom; position: absolute;
-top: -5px;" type="search" name="q" id="q" placeholder="What are you looking for?" data-search-input autofocus />
+  <input style="height: 50px; border-width:0px; vertical-align: bottom; position: absolute;" type="search" name="q" id="q" placeholder="What are you looking for?" data-search-input autofocus />
   </div>
  <div class="small-1 columns"> 
 <button style="height: 50px; background-color: #FEC110; vertical-align: bottom;" type="submit"><i class="fa fa-search"></i></button>
