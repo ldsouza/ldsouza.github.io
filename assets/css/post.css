@@ -461,7 +461,7 @@ html, body, .notepad-post-container, .notepad-post-header {
     padding-left: 1.875rem;
     padding-right: 1.875rem; }
     .notepad-page-content > div:not(.notepad-page-title) a, .notepad-page-content > div:not(.notepad-page-title) code {
-      color: #FFBF00; }
+      color: #505050; }
     .notepad-page-content > div:not(.notepad-page-title) ul, .notepad-page-content > div:not(.notepad-page-title) ol {
       padding-left: 1.25rem;
       font-size: 1.125rem; }
