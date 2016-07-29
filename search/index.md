@@ -20,6 +20,17 @@ sitemap: false
   <input style="height: 50px; border-width:0px;" type="search" name="q" id="q" placeholder="What are you looking for?" data-search-input autofocus />
 		 </div>
  <div class="small-1 columns"> 
+  <div class=" keyword">
+          <a href="#" data-dropdown="drop3">
+            Keyword 
+            <div class="arrow-down"></div>
+          </a>
+          <ul id="drop3" class="f-dropdown content" data-dropdown-content style="position: absolute;  left: -99999px;">
+            <li><a href="#"> Keyword</a></li>
+            <li><a href="#"> Keyword</a></li>
+            <li><a href="#">Keyword</a></li>
+          </ul>
+        </div>
 <button style="height: 50px; background-color: #FEC110;" type="submit"><i class="fa fa-search"></i></button>
   </div>
 </form>
