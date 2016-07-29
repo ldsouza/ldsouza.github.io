@@ -14,9 +14,9 @@ sitemap: false
 <!-- Search form -->
 
 <div class="row">
-  <div class="small-12 columns">
+  <div class="small-6 large-centered columns">
 <form method="get" action="{{ site.url }}/search/" data-search-form class="simple-search">
-   <div class="small-11 columns">
+   <div class="small-5 columns">
   <input style="height: 50px; border-width:0px;" type="search" name="q" id="q" placeholder="What are you looking for?" data-search-input autofocus />
 		 </div>
  <div class="small-1 columns"> 
