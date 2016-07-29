@@ -16,15 +16,11 @@ sitemap: false
 <div class="row">
   <div class="small-12 columns">
 <form method="get" action="{{ site.url }}/search/" data-search-form class="simple-search">
-      <div class="row collapse">
         <div class="small-11 columns">
   <input style="height: 50px; border-width:0px;" type="search" name="q" id="q" placeholder="What are you looking for?" data-search-input autofocus />
 		 </div>
         <div class="small-1 columns">
-<button style="height: 50px; background-color: #FEC110; -moz-box-shadow: 3px 3px 5px 6px #ccc;
-  -webkit-box-shadow: 3px 3px 5px 6px #ccc;
-  box-shadow: 3px 3px 5px 6px #ccc;" type="submit"><i class="fa fa-search"></i></button>
-  </div>
+<button style="height: 50px; background-color: #FEC110;" type="submit"><i class="fa fa-search"></i></button>
   </div>
 </form>
 </div>
