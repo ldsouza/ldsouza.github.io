@@ -21,7 +21,7 @@ sitemap: false
   <input style="height: 50px; border-width:0px;" type="search" name="q" id="q" placeholder="What are you looking for?" data-search-input autofocus />
 		 </div>
         <div class="small-1 columns">
-<button style="height: 50px; background-color: #FEC110; -moz-box-shadow:    3px 3px 5px 6px #ccc;
+<button style="height: 50px; background-color: #FEC110; -moz-box-shadow: 3px 3px 5px 6px #ccc;
   -webkit-box-shadow: 3px 3px 5px 6px #ccc;
   box-shadow: 3px 3px 5px 6px #ccc;" type="submit"><i class="fa fa-search"></i></button>
   </div>
