@@ -46,7 +46,7 @@ html, body, .notepad-post-container, .notepad-post-header {
     .post-template .notepad-blog-menu ul li a {
       color: white; }
       .post-template .notepad-blog-menu ul li a:hover {
-        border-bottom: 0.1875rem solid white; } }
+        border-bottom: 0.1875rem solid #FEC110; } }
   .post-template .notepad-post-header {
     position: relative;
     margin: 0 auto;
