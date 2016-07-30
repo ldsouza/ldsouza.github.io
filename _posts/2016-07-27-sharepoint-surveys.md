@@ -8,7 +8,7 @@ title: SharePoint Surveys
 description: ''
 headline: ''
 modified: ''
-categories: ''
+categories: 'Personal'
 tags: ''
 imagefeature: ''
 ---
