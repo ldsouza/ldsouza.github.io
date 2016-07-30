@@ -392,10 +392,10 @@ html, body, .notepad-post-container, .notepad-post-header {
   width: 100%; }
   .notepad-page-title a,
   .notepad-post-title-simple a {
-    color: black; }
+    color: black#FEC110; }
     .notepad-page-title a:hover,
     .notepad-post-title-simple a:hover {
-      color: #FEC110; }
+      color: black; }
   .notepad-page-title h1,
   .notepad-post-title-simple h1 {
     color: black;
