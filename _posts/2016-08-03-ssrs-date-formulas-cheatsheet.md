@@ -11,7 +11,7 @@ categories:
 description: 'Date Calculations to dynamically generate content '
 headline: SSRS Date Formulas Cheatsheet
 ---
-I often have to create dynamic reports/dashboards using SSRS(SQL Server Reporting Services) and use some of these date calculations to dynamically generate content. You can pass these as default values to a data parameter to query a dataset.
+While creating reports and dashboards, you may across the need to dynamically generate content based on a given date. Here are some date calculations that I use in SSRS(SQL Server Reporting Services), to dynamically generate content.  You can pass these calculated dates as default values to a data parameter that is used query a dataset.
 
 ### To retreive the first or last day of a given month
 
