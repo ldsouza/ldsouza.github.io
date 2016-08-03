@@ -16,17 +16,23 @@ I often have to create dynamic reports/dashboards using SSRS(SQL Server Reportin
 
 ##To retreive the first or last day of a given month
 
-First day of current month: =dateadd("m",0,dateserial(year(Today),month(Today),1))
+First day of current month:
+=dateadd("m",0,dateserial(year(Today),month(Today),1))
 
-First day of previous month: =dateadd("m",-1,dateserial(year(Today),month(Today),1))
+First day of previous month:
+=dateadd("m",-1,dateserial(year(Today),month(Today),1))
 
-First day of next month: =dateadd("m",1,dateserial(year(Today),month(Today),1))
+First day of next month:
+=dateadd("m",1,dateserial(year(Today),month(Today),1))
 
-Last day of current month: =dateadd("m",1,dateserial(year(Today),month(Today),0))
+Last day of current month:
+=dateadd("m",1,dateserial(year(Today),month(Today),0))
 
-Last day of previous month: =dateadd("m",0,dateserial(year(Today),month(Today),0))
+Last day of previous month:
+=dateadd("m",0,dateserial(year(Today),month(Today),0))
 
-Last day of next month: =dateadd("m",2,dateserial(year(Today),month(Today),0))
+Last day of next month:
+=dateadd("m",2,dateserial(year(Today),month(Today),0))
 
 
 ##To retreive a specific date on a given month: 
