@@ -17,6 +17,7 @@ You may across the need to dynamically generate content, while creating reports 
 
 ### To retreive the first or last day of a given month
 
+
 First day of current month:
 =dateadd("m",0,dateserial(year(Today),month(Today),1))
 
@@ -37,6 +38,7 @@ Last day of next month:
 
 
 ### To retreive a specific date on a given month: 
+
 
 For Example, to get the 10th of the previous month
 =dateadd(dateinterval.month, -1, today().AddDays(-(today().Day-10)))
