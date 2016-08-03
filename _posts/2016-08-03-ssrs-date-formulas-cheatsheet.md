@@ -44,3 +44,6 @@ For Example, to get the 5th of the current month
 
 For Example, to get the 20th of the next month
 =dateadd(dateinterval.month, 1, today().AddDays(-(today().Day-20)))
+
+**SharePoint Tip:** =dateadd(dateinterval.month, 1, today().AddDays(-(today().Day-20)))
+{: .notice}
