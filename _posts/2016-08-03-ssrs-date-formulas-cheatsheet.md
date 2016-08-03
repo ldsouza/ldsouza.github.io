@@ -13,7 +13,7 @@ headline: SSRS Date Formulas Cheatsheet
 ---
 I often have to create dynamic reports/dashboards using SSRS(SQL Server Reporting Services) and use some of these date calculations to dynamically generate content. You can pass these as default values to a data parameter to query a dataset.
 
-##To retreive the first or last day of a given month
+## To retreive the first or last day of a given month
 
 First day of current month:
 =dateadd("m",0,dateserial(year(Today),month(Today),1))
@@ -34,7 +34,7 @@ Last day of next month:
 =dateadd("m",2,dateserial(year(Today),month(Today),0))
 
 
-##To retreive a specific date on a given month: 
+## To retreive a specific date on a given month: 
 
 For Example, to get the 10th of the previous month
 =dateadd(dateinterval.month, -1, today().AddDays(-(today().Day-10)))
