@@ -5,7 +5,7 @@ mathjax: false
 featured: false
 comments: true
 title: SSRS Date Formulas Cheatsheet
-tags: 'SSRS, SQL, Reporting, Dashboards'
+tags: 'SSRS SQL Reporting Dashboards'
 categories:
   - SSRS
 description: 'Date Calculations to dynamically generate content '
