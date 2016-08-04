@@ -19,5 +19,7 @@ Shift to mobile computing - more and more work is being done on mobile devices c
 Micrsoft acqired Datazen, interactive BI on mobile devices
 
 
+Future Vision
+
 
 
