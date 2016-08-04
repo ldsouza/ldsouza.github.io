@@ -14,6 +14,10 @@ Connect to Data - Explore Data - not sure what you wnat to create yet - Drag and
 
 Power BI is complementary to Excel.
 
-Shift to mobile computing - more and more work is being done on mobile devices compared to what it once was. 
+Shift to mobile computing - more and more work is being done on mobile devices compared to what it once was. consume on phones and tablets, executives , mobile workers, deliver a great experience on phones and tablets.
+
+Micrsoft acqired Datazen, interactive BI on mobile devices
+
+
 
 
