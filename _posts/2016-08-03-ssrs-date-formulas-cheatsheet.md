@@ -19,7 +19,6 @@ You may across the need to dynamically generate content, while creating reports 
 
 
 First day of current month:  
-
 =dateadd("m",0,dateserial(year(Today),month(Today),1))
 
 First day of previous month:
