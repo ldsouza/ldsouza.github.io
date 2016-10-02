@@ -40,9 +40,12 @@ Some of the concepts and techniques covered here are:-
 {% include youtubePlayer.html id="K2Si0h7scYI" %}
 
 #### Create a SharePoint Workflow that sends an Email on the Renewal Date.
-{% include youtubePlayer.html id="pt_Xo1hVstg" %}
+{% include youtubePlayer.html id="pt_Xo1hVstg" %}  
 
-#### Apply a Retention Policy to the Rental Agreements.
+
+#### Apply a Retention Policy to the Rental Agreements.  
+
+
 {% include youtubePlayer.html id="mo6LwoWZtBg" %}
 
 If you have any comments or questions, please leave a comment below.
