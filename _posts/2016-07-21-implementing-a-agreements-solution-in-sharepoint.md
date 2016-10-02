@@ -39,7 +39,8 @@ Some of the concepts and techniques covered here are:-
 #### Create a SharePoint Workflow that sets the Renewal Date.
 {% include youtubePlayer.html id="K2Si0h7scYI" %}
 
-<br> #### Create a SharePoint Workflow that sends an Email on the Renewal Date.
+<br> 
+#### Create a SharePoint Workflow that sends an Email on the Renewal Date.
 {% include youtubePlayer.html id="pt_Xo1hVstg" %}  
 
 
