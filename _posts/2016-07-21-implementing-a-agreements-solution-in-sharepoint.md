@@ -43,9 +43,6 @@ Some of the concepts and techniques covered here are:-
 {% include youtubePlayer.html id="pt_Xo1hVstg" %}  
 
 
-#### Apply a Retention Policy to the Rental Agreements.  
-
-
+#### Apply a Retention Policy to the Rental Agreements.<br>  
 {% include youtubePlayer.html id="mo6LwoWZtBg" %}
-
-<br><br><br>If you have any comments or questions, please leave a comment below.
+<br>If you have any comments or questions, please leave a comment below.
