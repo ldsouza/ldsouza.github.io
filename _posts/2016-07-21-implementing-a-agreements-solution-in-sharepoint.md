@@ -48,4 +48,4 @@ Some of the concepts and techniques covered here are:-
 
 {% include youtubePlayer.html id="mo6LwoWZtBg" %}
 
-</br></br></br>If you have any comments or questions, please leave a comment below.
+<br><br><br>If you have any comments or questions, please leave a comment below.
