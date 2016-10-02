@@ -24,8 +24,9 @@ Some of the concepts and techniques covered here are:-
 
 #### Create the Rental Agreements Content Type and Site Columns.
 
-{% include youtubePlayer.html id="BQ2rrpTCyjc" %}
-<br>
+{% include youtubePlayer.html id="BQ2rrpTCyjc" %}  
+
+
 
 #### Add the Rental Agreements Content Type to the Warehouse list.
 {% include youtubePlayer.html id="6XiYZf4dQNg" %}
