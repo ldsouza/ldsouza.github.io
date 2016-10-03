@@ -12,7 +12,7 @@ categories: 'Personal'
 tags: ''
 imagefeature: ''
 ---
-Surveys in SharePoint are a good way to annonymously survey employees in an organization.
+Surveys in SharePoint are a good way to collect feedback from employees in your organization. You can use several different types of questions, such as multiple choice, fill-in fields, and even ratings.
 
 Open a SharePoint Site……Open the Survey List.
  Find the ListID from the URL like
