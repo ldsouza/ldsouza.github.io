@@ -4,7 +4,7 @@ published: true
 mathjax: false
 featured: false
 comments: false
-title: SharePoint Surveys
+title: Custom View - SharePoint Surveys
 description: ''
 headline: ''
 modified: ''
