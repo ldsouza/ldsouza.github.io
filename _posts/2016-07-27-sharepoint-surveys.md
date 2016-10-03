@@ -26,6 +26,9 @@ In the same page open the style tab, choose a style for this view e.g Basic Tabl
 Then press OK to create the view.
 Edit the Custom View
 
+
+![Image]({{ site.url }}/images/blog/sharepoint-survey-custom-view.JPG)
+
 1.Open the Survey List
 2.Go to Site Action….Click on Edit page….Click on Modify Shared Web Part
 3.Now click on Edit the current view
