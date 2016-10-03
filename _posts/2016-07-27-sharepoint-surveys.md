@@ -4,7 +4,7 @@ published: true
 mathjax: false
 featured: false
 comments: false
-title: Custom View - SharePoint Surveys
+title: Create a Custom View in a SharePoint Survey
 description: ''
 headline: ''
 modified: ''
