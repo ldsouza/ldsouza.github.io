@@ -12,7 +12,7 @@ categories: 'Personal'
 tags: ''
 imagefeature: ''
 ---
-Enter text in [Markdown](http://daringfireball.net/projects/markdown/). Use the toolbar above, or click the **?** button for formatting help.
+Surveys in SharePoint are a good way to annonymously survey employees in an organization.
 
 Open a SharePoint Site……Open the Survey List.
  Find the ListID from the URL like
