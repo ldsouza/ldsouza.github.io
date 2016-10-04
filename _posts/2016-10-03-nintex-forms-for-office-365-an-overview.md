@@ -10,32 +10,36 @@ Nintex Forms is an excellent alternative to InfoPath for building forms in Share
 
 ### Features that I liked in Nintex Forms -
 
--Form Controls:
+Form Controls:
 There are several form controls like Panel, Repeating Section, Label, SharePoint List Lookup that are extremely useful in building your form solution .
 
--SharePoint Columns:
-Create a column from within the form builder and use them in your form. This saves you the effort of going to back to SharePoint to create columns. 
+SharePoint Columns:
+Create a column from within the nintex form builder and use them in your form without refreshing. This saves you from going back to SharePoint to create columns. 
 
--Rules:
-This is a powerful feature that allows you to set rules on controls that you add to a form. Some rules that you can set are setting the visibility or enabling controls based on other named controls. To set a rule on mutiple controls, add the controls to a panel control and apply the rule to the panel.
+Rules:
+The rules feature allows you to set rules on controls that you add to a form. Some rules that you can set are controlling the visibility or enabling controls based on other named controls. To set a rule on mutiple controls, add the controls to a panel control and apply the rule to the panel.
 
--Print to Pdf
-Print to Pdf is a feature available in the Enterprise version. This setting allows you to print the form contents.
+Print to Pdf
+Print to Pdf is a feature available in the Enterprise version of Nintex Forms. This setting allows you to print the form contents to a pdf.
 
-Custom Css (Form Settings)
+Custom Css:
+You can also customize the appearance of a form using the custom css setting in Form Settings.
 
+Import and Export Form:
+So you created a form and would like to export it to a different site, the import and export options allow you to design a form once and export it.
 
-Import and Export Form
+Design Mobile Forms:
+You can customize forms for mobile devices with different layouts and these are available using the Nintex Mobile Forms app.
 
-Design Mobile Forms
+Restrict controls to certain group of users:
+A very handy feature is restricting access to controls in the form based on the group a user belongs to.
 
+### Few Dislikes but some of these are on the Nintex's roadmap -
 
-Restrict controls to certain group of users
+You cannot copy and paste controls into a panel or repeating section. This could be useful when you create a form with several similar controls and could reduce the time taken to create a form.
 
-Cons
+A feature that is available in Infopath is to save the contents of the form, but still keep the form open. This 'Submit and Stay Open' feature is on Nintex's roadmap in the near future.
 
-Cannot copy and paste controls into a panel or repeating section
+If you create columns in SharePoint, there is no way to refresh the form to pick up the columns. You would have to close out the form builder and re-open. This is where you want to use the 'Create columns' feature in the Nintex form builder to add new controls to your form without closing and re-opening Nintex Forms.
 
-No option to save and leave form open.
-
-If you do create columns in SharePoint, there is no way to refresh the form to pick up the columns. You would have to close out the form builder and re-open.
+I hope you found this overview helpful in your journey in evaluating Nintex Forms as a Solution. I will be covering more advanced features in a later post.
