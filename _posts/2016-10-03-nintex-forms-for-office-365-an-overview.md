@@ -6,12 +6,11 @@ featured: false
 comments: false
 title: Nintex Forms for Office 365 - An Overview
 ---
-Nintex Forms is an excellent alternative to InfoPath for building forms in SharePoint. Niintex Forms has an intuitive drag and drop form builder interface which should allow power users and developers to build forms with ease.
+Nintex Forms is an excellent alternative to InfoPath for building forms in SharePoint. Nintex Forms has an intuitive drag and drop form builder interface which allows power users and developers to build forms with ease.
 
 ### Features that I liked in Nintex Forms -
 
 -Form Controls
-
 There are several form controls like Panel, Repeating Section, Label, SharePoint List Lookup that are extremely useful in building your form solution .
 
 -SharePoint Columns
