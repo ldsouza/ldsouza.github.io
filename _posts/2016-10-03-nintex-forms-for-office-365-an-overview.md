@@ -22,16 +22,16 @@ The rules feature allows you to set rules on controls that you add to a form. So
 ##### Print to Pdf
 Print to Pdf is a feature available in the Enterprise version of Nintex Forms. This setting allows you to print the form contents to a pdf.
 
-##### Custom Css:
+##### Custom Css
 You can also customize the appearance of a form using the custom css setting in Form Settings.
 
-##### Import and Export Form:
+##### Import and Export Form
 So you created a form and would like to export it to a different site, the import and export options allow you to design a form once and export it.
 
-##### Design Mobile Forms:
+##### Design Mobile Forms
 You can customize forms for mobile devices with different layouts and these are available using the Nintex Mobile Forms app.
 
-##### Restrict controls to certain group of users:
+##### Restrict controls to certain group of users
 A very handy feature is restricting access to controls in the form based on the group a user belongs to.
 
 ### Additional Features currently present  
