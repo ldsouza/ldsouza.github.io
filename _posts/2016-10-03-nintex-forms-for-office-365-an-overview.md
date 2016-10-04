@@ -16,7 +16,11 @@ There are several form controls like Panel, Repeating Section, Label, SharePoint
 -SharePoint Columns:
 Create a column from within the form builder and use them in your form. This saves you the effort of going to back to SharePoint to create columns. 
 
--Rules
+-Rules:
+This is a powerful feature that allows you to set rules on controls that you add to a form. Some rules that you can set are setting the visibility or enabling controls based on other named controls. To set a rule on mutiple controls, add the controls to a panel control and apply the rule to the panel.
+
+-Print to Pdf
+Print to Pdf is a feature available in the Enterprise version. This setting allows you to print the form contents.
 
 Custom Css (Form Settings)
 
@@ -25,9 +29,6 @@ Import and Export Form
 
 Design Mobile Forms
 
-Set Rule on each control/panel
-
-Enable or Set visibility of each control
 
 Restrict controls to certain group of users
 
