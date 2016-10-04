@@ -12,7 +12,7 @@ Open SharePoint documents directly from the One Drive site.
 
 A new Folder in Explorer that shows all One Drive folders shared with you.
 
-New PDF, photoshop preview in Files.
+New File Previews new file types -New PDF, photoshop preview in Files.
 
 Activity Center in Sync Client - insight into what's going on.
 
