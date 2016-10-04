@@ -34,7 +34,7 @@ You can customize forms for mobile devices with different layouts and these are 
 Restrict controls to certain group of users:
 A very handy feature is restricting access to controls in the form based on the group a user belongs to.
 
-### Few Dislikes but some of these are on the Nintex's roadmap -
+### Additional Features that would be nice to have but are on Nintex's roadmap -
 
 You cannot copy and paste controls into a panel or repeating section. This could be useful when you create a form with several similar controls and could reduce the time taken to create a form.
 
