@@ -47,4 +47,4 @@ A feature that is available in Infopath is to save the contents of the form, but
 ##### Refresh New SharePoint List Lookup Controls
 If you create columns in SharePoint, there is no way to refresh the form to pick up the columns. You would have to close out the form builder and re-open. This is where you want to use the 'Create columns' feature in the Nintex form builder to add new controls to your form without closing and re-opening Nintex Forms.
 
-I hope you found this overview helpful in your journey in evaluating Nintex Forms as a Solution. I will be covering more advanced features in a later post.
+I hope you found this overview helpful in evaluating Nintex Forms as a Solution. I will be covering more advanced features in a later post.
