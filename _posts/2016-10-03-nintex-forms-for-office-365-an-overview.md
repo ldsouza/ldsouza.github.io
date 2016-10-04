@@ -10,10 +10,10 @@ Nintex Forms is an excellent alternative to InfoPath for building forms in Share
 
 ### Features that I liked in Nintex Forms -
 
--Form Controls
+-Form Controls:
 There are several form controls like Panel, Repeating Section, Label, SharePoint List Lookup that are extremely useful in building your form solution .
 
--SharePoint Columns
+-SharePoint Columns:
 Create a column from within the form builder and use them in your form. This saves you the effort of going to back to SharePoint to create columns. 
 
 -Rules
