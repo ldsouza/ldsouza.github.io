@@ -10,6 +10,7 @@ Nintex Forms is an excellent alternative to InfoPath for building forms in Offic
 
 ### Features that I liked in Nintex Forms  
 
+
 ##### Form Controls
 There are several form controls like Panel, Repeating Section, Label, SharePoint List Lookup that are extremely useful in building your form solution.
 
@@ -34,7 +35,8 @@ You can customize forms for mobile devices with different layouts and these are 
 ##### Restrict controls to certain group of users:
 A very handy feature is restricting access to controls in the form based on the group a user belongs to.
 
-### Additional Features that would be nice to have but are on Nintex's roadmap  
+### Additional Features currently present
+
 
 ##### Ability to copy and paste controls into some controls
 You cannot copy and paste controls into a panel or repeating section. This could be useful when you create a form with several similar controls and could reduce the time taken to create a form.
