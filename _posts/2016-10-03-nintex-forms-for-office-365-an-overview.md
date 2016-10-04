@@ -36,10 +36,10 @@ A very handy feature is restricting access to controls in the form based on the 
 
 ### Additional Features that would be nice to have but are on Nintex's roadmap -
 
-You cannot copy and paste controls into a panel or repeating section. This could be useful when you create a form with several similar controls and could reduce the time taken to create a form.
+Ability to copy and paste controls into some controls: You cannot copy and paste controls into a panel or repeating section. This could be useful when you create a form with several similar controls and could reduce the time taken to create a form.
 
-A feature that is available in Infopath is to save the contents of the form, but still keep the form open. This 'Submit and Stay Open' feature is on Nintex's roadmap in the near future.
+Submit and Stay Open: A feature that is available in Infopath is to save the contents of the form, but still keep the form open. This 'Submit and Stay Open' feature is on Nintex's roadmap in the near future.
 
-If you create columns in SharePoint, there is no way to refresh the form to pick up the columns. You would have to close out the form builder and re-open. This is where you want to use the 'Create columns' feature in the Nintex form builder to add new controls to your form without closing and re-opening Nintex Forms.
+Refresh New SharePoint List Lookup Controls: If you create columns in SharePoint, there is no way to refresh the form to pick up the columns. You would have to close out the form builder and re-open. This is where you want to use the 'Create columns' feature in the Nintex form builder to add new controls to your form without closing and re-opening Nintex Forms.
 
 I hope you found this overview helpful in your journey in evaluating Nintex Forms as a Solution. I will be covering more advanced features in a later post.
