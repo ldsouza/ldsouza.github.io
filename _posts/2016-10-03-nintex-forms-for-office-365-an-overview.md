@@ -37,7 +37,7 @@ A very handy feature is restricting access to controls in the form based on the 
 
 ### Additional Features currently present
 
-
+<br>
 ##### Ability to copy and paste controls into some controls
 You cannot copy and paste controls into a panel or repeating section. This could be useful when you create a form with several similar controls and could reduce the time taken to create a form.
 
