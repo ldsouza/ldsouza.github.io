@@ -10,6 +10,7 @@ Nintex Forms is an excellent alternative to InfoPath for building forms in Offic
 
 ### Features that I liked in Nintex Forms  
 
+<br>
 
 ##### Form Controls:
 There are several form controls like Panel, Repeating Section, Label, SharePoint List Lookup that are extremely useful in building your form solution.
