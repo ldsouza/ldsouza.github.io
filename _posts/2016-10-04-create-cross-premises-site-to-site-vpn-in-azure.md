@@ -10,4 +10,5 @@ title: Create Cross Premises Site to Site VPN in Azure
 2) Add a Gateway subnet to the Virtual Network
 3) Create a virtual network gateway
 4)Create a public IP for the gateway
+5) Create a connection and select the virtual network gateway
 
