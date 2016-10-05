@@ -10,6 +10,8 @@ Nintex Forms is an excellent alternative to InfoPath for building forms in Offic
 
 ### Features that I liked in Nintex Forms
   
+<br>
+
 Form Controls
 There are several form controls like Panel, Repeating Section, Label, SharePoint List Lookup that are extremely useful in building your form solution.
 
@@ -22,7 +24,7 @@ The rules feature allows you to set rules on controls that you add to a form. So
 ##### Print to Pdf
 Print to Pdf is a feature available in the Enterprise version of Nintex Forms. This setting allows you to print the form contents to a pdf.
 
-##### Custom Css
+##### Custom CSS
 You can also customize the appearance of a form using the custom css setting in Form Settings.
 
 ##### Import and Export Form
