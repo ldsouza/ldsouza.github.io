@@ -15,10 +15,10 @@ Nintex Forms is an excellent alternative to InfoPath for building forms in Offic
 There are several form controls like Panel, Repeating Section, Label, SharePoint List Lookup that are extremely useful in building your form solution.
 
 ##### SharePoint Columns
-Create a column from within the nintex form builder and use them in your form without refreshing. This saves you from going back to SharePoint to create columns. 
+Create a column from within the Nintex form builder and use them in your form without refreshing. This saves you from going back to SharePoint to create columns. 
 
 ##### Rules
-The rules feature allows you to set rules on controls that you add to a form. Some rules that you can set are controlling the visibility or enabling controls based on other named controls. To set a rule on mutiple controls, add the controls to a panel control and apply the rule to the panel.
+The rules feature allows you to set rules on controls that you add to a form. Some rules that you can set are controlling the visibility or enabling controls based on other named controls. To set a rule on multiple controls, add the controls to a panel control and apply the rule to the panel.
 
 ##### Print to Pdf
 Print to Pdf is a feature available in the Enterprise version of Nintex Forms. This setting allows you to print the form contents to a pdf.
