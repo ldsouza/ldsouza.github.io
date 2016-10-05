@@ -4,7 +4,7 @@ published: true
 mathjax: false
 featured: false
 comments: false
-title: Make the question default to yes in a SharePoint Discussion
+title: Change the Question default checkbox in a SharePoint Discussion
 ---
 
 In a SharePoint Discussion Board there is a default checkbox column named 'Question'. Unfortunately this is a sealed column and unlike other SharePoint columns, we are not able to change its properties and make it 'Yes' by default.
