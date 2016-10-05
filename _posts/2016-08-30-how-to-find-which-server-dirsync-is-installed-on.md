@@ -1,9 +1,11 @@
 ---
 layout: post
-published: true
-mathjax: false
-featured: false
-comments: false
+modified: 2014-07-19
+category: Office 365
+comments: true
+mathjax: 
+tags:
+  - Office 365
 title: How to find which server DirSync is installed on?
 ---
 
