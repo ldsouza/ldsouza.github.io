@@ -6,7 +6,7 @@ featured: false
 comments: false
 title: SSIS - Remove Duplicate Rows
 ---
-There are several ways to remove duplicate records during an ETL process. An easy way to do this is using the SSIS Sort Transformation.
+There are several ways to remove duplicate records during an ETL process. An easy way to accomplish this is using the SSIS Sort Transformation.
 
 Create a Data Flow Task in SSIS. Drag an OLEDB Source task, Sort Transformation and OLEDB Destination task to the Design screen.
 
