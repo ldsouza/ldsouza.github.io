@@ -11,7 +11,7 @@ You may come across environments where you have to troubleshoot issues with DirS
 
 Search Active Directory for 'MSOL' and check the description of the user account. The name of the DirSync Server should be specified in the Description.
 
-![Image]({{ site.url }}/images/blog/pipeline-rename-title.JPG)
+![Image]({{ site.url }}/images/blog/Dirsync-msol.JPG)
 
 Here is an example of the description- 
 
