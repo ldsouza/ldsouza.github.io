@@ -8,6 +8,11 @@ title: What's New in SharePoint and One Drive - Oct 2016
 ---
 ## Simple and Powerful File Sharing
 
+Better Sync Client (fixes a lot of issues)
+Surface all files and sites in One Drive.
+Sync SharePoint libraries in One Drive
+25TB of storage per site/group
+
 Sync SharePoint Libraries using the One Drive Sync Client. Sync SharePoint individual folders.
 
 Open SharePoint documents directly from the One Drive site.
@@ -29,4 +34,3 @@ https://www.youtube.com/watch?v=lNoL9dmarVE
 Modern Team Sites, Office 365 Groups integration, simple fast site creation, powerful and fluid pages, powerapps and Flow, yammer and power BI integration. 
 
 Mobile Apps
-
