@@ -13,6 +13,8 @@ Surface all files and sites in One Drive.
 Sync SharePoint libraries in One Drive
 25TB of storage per site/group
 New Guest Access in Office 365 (no need for Mirosoft Account - could use Gmail Account)
+Every Team site gets a group. Team News.
+
 
 Sync SharePoint Libraries using the One Drive Sync Client. Sync SharePoint individual folders.
 
