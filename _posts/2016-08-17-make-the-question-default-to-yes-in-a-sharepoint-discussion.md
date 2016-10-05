@@ -32,4 +32,4 @@ A way to solve this is using simple javascript. One the Add a Discussions page, 
 </script>
 {% endhighlight %}
 
-This solution was provided by Borislav Grgić and you can find it answered here<a href="https://social.technet.microsoft.com/Forums/office/en-US/8746b540-50b7-4280-965f-e32c44ccd476/community-site-changing-the-asking-a-question-checkbox-default-to-checked?forum=sharepointgeneral">here</a>.
+This solution was provided by Borislav Grgić and you can find it answered <a href="https://social.technet.microsoft.com/Forums/office/en-US/8746b540-50b7-4280-965f-e32c44ccd476/community-site-changing-the-asking-a-question-checkbox-default-to-checked?forum=sharepointgeneral">here</a>.
