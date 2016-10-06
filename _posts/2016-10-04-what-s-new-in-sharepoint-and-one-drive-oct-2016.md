@@ -53,5 +53,5 @@ Ability to group by metadata in a modern libaries without changing the view. Dra
 
 **PowerApps**
 
-
+A List of Ideas. Submit an idea from your mobile device. Receieve an email when an idea is submitted and vote for it directly from your email or phone.
 
