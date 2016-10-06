@@ -38,6 +38,20 @@ Modern Team Sites, Office 365 Groups integration, simple fast site creation, pow
 
 Mobile Apps
 
-New Team Sites - News communicate and keep your team informed about announcemnets and other things that are important.
+**New Team Sites** - News communicate and keep your team informed about announcemnets and other things that are important.
 
-New Modern SharePoint Pages are beautiful, render beautifully on mobile devices, include text and images, includes webpart, support multipeida. Rich experience.  
+New Modern SharePoint Pages are beautiful, render beautifully on mobile devices, include text and images, easy to add from a gallery of webparts, support multipeida. Rich experience. 
+
+Ability to view all news articles from all your teams in one place.
+
+**Document Libraries**
+
+Ability to see an activity feed for the entire library. Ability to add links to libraries. Allows you to collect information from all differetn places and expose it to your teams.
+
+Ability to group by metadata in a modern libaries without changing the view. Drag and drop documents into different groups of metadata and assign the new metadata automatically.
+
+
+**PowerApps**
+
+
+
