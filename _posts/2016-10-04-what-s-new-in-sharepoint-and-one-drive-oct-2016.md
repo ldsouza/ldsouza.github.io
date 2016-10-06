@@ -40,4 +40,4 @@ Mobile Apps
 
 New Team Sites - News communicate and keep your team informed about announcemnets and other things that are important.
 
-
+New Modern SharePoint Pages are beautiful, render beautifully on mobile devices, include text and images, includes webpart, support multipeida. Rich experience.  
