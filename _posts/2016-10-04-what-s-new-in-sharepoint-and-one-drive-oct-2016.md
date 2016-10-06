@@ -60,6 +60,11 @@ Every SharePoint team site gets a group and vice versa.
 
 ***Security Settings for SharePoint and One Drive***
 
-Control access from personal devices
+Control access from personal devices (prevent users from downloading, printing or syncing from non-domain computers).
 
-Control access based on location (network locations)
+Control access based on location (network locations) - Supply Ip ranges to restrict to.
+
+*****Create Team Sites - have to tag each site (General Purpose, Internal, Confidential) - Team site classification - guide users how they should use the site and who they should share it with. Can add guidelines for users.
+
+You can apply policies based on the tags.
+
