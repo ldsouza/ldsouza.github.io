@@ -37,3 +37,7 @@ https://www.youtube.com/watch?v=lNoL9dmarVE
 Modern Team Sites, Office 365 Groups integration, simple fast site creation, powerful and fluid pages, powerapps and Flow, yammer and power BI integration. 
 
 Mobile Apps
+
+New Team Sites - News communicate and keep your team informed about announcemnets and other things that are important.
+
+
