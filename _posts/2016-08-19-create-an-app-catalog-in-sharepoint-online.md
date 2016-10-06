@@ -20,9 +20,14 @@ Open the SharePoint Admin Center by selecting SharePoint under Admin Center.
 
 ![Image]({{ site.url }}/images/blog/sharepoint-app-catalog1.JPG)
 
-Select Apps from the left navigation in the SharePoint Admin Center and then select App Catalog. Create a new app catalog site and you can begin adding apps to SharePoint.
+Select Apps from the left navigation in the SharePoint Admin Center and then select App Catalog. 
 
 ![Image]({{ site.url }}/images/blog/sharepoint-app-catalog2.JPG)
+
+Create a new app catalog site and then you can begin adding apps to SharePoint.
+
+![Image]({{ site.url }}/images/blog/sharepoint-app-catalog3.JPG)
+
 
 
 
