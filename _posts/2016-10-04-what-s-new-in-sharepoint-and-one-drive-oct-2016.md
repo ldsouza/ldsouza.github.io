@@ -60,6 +60,7 @@ Every SharePoint team site gets a group and vice versa.
 
 ***Security Settings for SharePoint and One Drive***
 
+SharePoint Admin Center -
 Control access from personal devices (prevent users from downloading, printing or syncing from non-domain computers).
 
 Control access based on location (network locations) - Supply Ip ranges to restrict to.
@@ -67,4 +68,14 @@ Control access based on location (network locations) - Supply Ip ranges to restr
 *****Create Team Sites - have to tag each site (General Purpose, Internal, Confidential) - Team site classification - guide users how they should use the site and who they should share it with. Can add guidelines for users.
 
 You can apply policies based on the tags.
+
+
+Auditing and Reporting
+
+- Admin Center - Reports - Usage -
+
+Insights into how sharepoint and one drive are being used - How many active users, how much storage, insights per user, who is doing sharing or external sharing, any suspicious activity. Get additional value of Office 365 subscription
+
+Logging - Unified Logs for Hybrid Customers - One Premises and SHarEPoint online under Search and Investigation (Audit Log Search)
+
 
