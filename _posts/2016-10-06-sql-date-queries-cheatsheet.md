@@ -12,3 +12,6 @@ Enter text in [Markdown](http://daringfireball.net/projects/markdown/). Use the 
 
 Current Date without Time
 DATEADD(day, DATEDIFF(day, 0, GETDATE()), 0)
+
+First Date of Current Month
+DATEADD(mm, DATEDIFF(mm, 0, GETDATE()), 0)
