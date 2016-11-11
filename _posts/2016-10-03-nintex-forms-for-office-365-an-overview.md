@@ -27,23 +27,37 @@ There are several form controls like Panel, Repeating Section, Label, SharePoint
 ##### SharePoint Columns
 Create a column from within the Nintex form builder and use them in your form without refreshing. This saves you from going back to SharePoint to create columns. 
 
+![Image]({{ site.url }}/images/blog/nintex-forms-for-office-365-an-overview/Nintex-Forms-Columns.JPG)
+
 ##### Rules
 The rules feature allows you to set rules on controls that you add to a form. Some rules that you can set are controlling the visibility or enabling controls based on other named controls. To set a rule on multiple controls, add the controls to a panel control and apply the rule to the panel.
+
+![Image]({{ site.url }}/images/blog/nintex-forms-for-office-365-an-overview/Nintex-Forms-Rules.JPG)
 
 ##### Print to Pdf
 Print to Pdf is a feature available in the Enterprise version of Nintex Forms. This setting allows you to print the form contents to a pdf.
 
+![Image]({{ site.url }}/images/blog/nintex-forms-for-office-365-an-overview/Nintex-Forms-Print.JPG)
+
 ##### Custom CSS
 You can also customize the appearance of a form using the custom css setting in Form Settings.
+
+![Image]({{ site.url }}/images/blog/nintex-forms-for-office-365-an-overview/Nintex-Forms-CSS.JPG)
 
 ##### Import and Export Form
 So you created a form and would like to export it to a different site, the import and export options allow you to design a form once and export it.
 
+![Image]({{ site.url }}/images/blog/nintex-forms-for-office-365-an-overview/Nintex Forms-Import-Export.JPG)
+
 ##### Design Mobile Forms
 You can customize forms for mobile devices with different layouts and these are available using the Nintex Mobile Forms app.
 
+![Image]({{ site.url }}/images/blog/nintex-forms-for-office-365-an-overview/Nintex-Forms-Mobile.JPG)
+
 ##### Restrict controls to certain group of users
 A very handy feature is restricting access to controls in the form based on the group a user belongs to.
+
+![Image]({{ site.url }}/images/blog/nintex-forms-for-office-365-an-overview/Nintex-Forms-Restrict.JPG)
 
 ### Additional Features currently present
 <p></p>
