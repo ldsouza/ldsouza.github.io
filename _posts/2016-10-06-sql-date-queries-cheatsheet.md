@@ -14,9 +14,9 @@ headline: Date Calculations in MS SQL
 
 Here are some SQL query date formulas -
 
-![Image]({{ site.url }}/images/blog/sql-date-queries-cheatsheet/1.JPG)
+![Image]({{ site.url }}/images/blog/sql-date-queries-cheatsheet/1.jpg)
 
-### Date Forumulas 
+### Date Formulas 
 
 Current Date without Time
 DATEADD(day, DATEDIFF(day, 0, GETDATE()), 0)
