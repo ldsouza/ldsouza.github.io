@@ -56,3 +56,4 @@ You can integrate OneNote with Outlook by clicking the Meeting Notes Icon in you
 Use a template to help you get started. Once you get more familiar with OneNote, you can add your own templates.
 
  
+Here is a starter template to help you get started - [Starter Template](https://docs.com/onenote/3314/digital-notetaking-for-work-made-easy?fromAR=1 "Starter Template")
