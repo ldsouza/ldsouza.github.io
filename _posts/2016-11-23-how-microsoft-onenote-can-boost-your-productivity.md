@@ -47,11 +47,11 @@ Sections are tabs within a notebook. You can have as many sections in a notebook
 When you create notebooks, try to stay consistent. You could create a separate notebook for user projects and  a separate notebook for work meeting notes.
 
 It is recommended to save your notebooks to a cloud location, so you don’t lose your
-work if your computer crashes. I prefer saving my notebooks on my One Drive.
+work if your computer crashes. I prefer saving my notebooks to my One Drive.
 
 You can integrate OneNote with Outlook by clicking the Meeting Notes Icon in your outlook calendar to take notes for a particular meeting.
 
-Use a template to help you get started. Once you get more familiar with OneNote, you can add your own templates.
+Use a template to help you get started with OneNote. Once you get more familiar with OneNote, you can add your own templates.
 
  
 Here is a starter template to help you get started - [Starter Template](https://docs.com/onenote/3314/digital-notetaking-for-work-made-easy?fromAR=1 "Starter Template")
