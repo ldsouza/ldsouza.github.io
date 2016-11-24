@@ -302,7 +302,7 @@ main, .notepad-share-icons, .notepad-disqus {
     text-align: center;
     padding-top: 1.25rem;
     padding-bottom: 0.625rem;
-text-transform: uppercase;}
+text-transform: capitalize;	}
     .notepad-content .notepad-index-post .notepad-index-post-tags a {
       display: inline-block;
       padding: 0.3125rem 0.9375rem;
