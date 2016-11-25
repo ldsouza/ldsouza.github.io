@@ -19,22 +19,22 @@ Here are some date formulas that you may find useful when query SQL Server-
 ### Date Formulas 
 
 Current Date without Time:  
-DATEADD(day, DATEDIFF(day, 0, GETDATE()), 0)
+SELECT DATEADD(day, DATEDIFF(day, 0, GETDATE()), 0)
 
 First Date of Current Month:  
-DATEADD(mm, DATEDIFF(mm, 0, GETDATE()), 0)
+SELECT DATEADD(mm, DATEDIFF(mm, 0, GETDATE()), 0)
 
 First Date of Previous Month:  
-DATEADD(mm, DATEDIFF(mm, 0, GETDATE()) - 1, 0)
+SELECT DATEADD(mm, DATEDIFF(mm, 0, GETDATE()) - 1, 0)
 
 First Date of Next Month:  
 SELECT DATEADD(mm, DATEDIFF(mm, 0, GETDATE()) + 1, 0)
 
 Last Date of Current Month:  
-DATEADD(s,-1,DATEADD(mm, DATEDIFF(m,0,GETDATE())+1,0))
+SELECT DATEADD(s,-1,DATEADD(mm, DATEDIFF(m,0,GETDATE())+1,0))
 
 Last Date of Previous Month:  
-DATEADD(s,-1,DATEADD(mm, DATEDIFF(m,0,GETDATE()),0))
+SELECT DATEADD(s,-1,DATEADD(mm, DATEDIFF(m,0,GETDATE()),0))
 
 Last Date of Next Month:  
-DATEADD(s,-1,DATEADD(mm, DATEDIFF(m,0,GETDATE())+2,0))
+SELECT DATEADD(s,-1,DATEADD(mm, DATEDIFF(m,0,GETDATE())+2,0))
