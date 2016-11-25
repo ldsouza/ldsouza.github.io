@@ -18,23 +18,23 @@ Here are some SQL query date formulas -
 
 ### Date Formulas 
 
-Current Date without Time:
+Current Date without Time:  
 DATEADD(day, DATEDIFF(day, 0, GETDATE()), 0)
 
-First Date of Current Month:
+First Date of Current Month:  
 DATEADD(mm, DATEDIFF(mm, 0, GETDATE()), 0)
 
-First Date of Previous Month:
+First Date of Previous Month:  
 DATEADD(mm, DATEDIFF(mm, 0, GETDATE()) - 1, 0)
 
-First Date of Next Month:
+First Date of Next Month:  
 SELECT DATEADD(mm, DATEDIFF(mm, 0, GETDATE()) + 1, 0)
 
-Last Date of Current Month:
+Last Date of Current Month:  
 DATEADD(s,-1,DATEADD(mm, DATEDIFF(m,0,GETDATE())+1,0))
 
-Last Date of Previous Month:
+Last Date of Previous Month:  
 DATEADD(s,-1,DATEADD(mm, DATEDIFF(m,0,GETDATE()),0))
 
-Last Date of Next Month:
+Last Date of Next Month:  
 DATEADD(s,-1,DATEADD(mm, DATEDIFF(m,0,GETDATE())+2,0))
