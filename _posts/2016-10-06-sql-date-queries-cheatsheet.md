@@ -12,7 +12,7 @@ description: 'Date Calculations in MS SQL'
 headline: Date Calculations in MS SQL
 ---
 
-Here are some SQL query date formulas -
+Here are some date formulas that you may find useful when query SQL Server-
 
 ![Image]({{ site.url }}/images/blog/sql-date-queries-cheatsheet/1.jpg)
 
