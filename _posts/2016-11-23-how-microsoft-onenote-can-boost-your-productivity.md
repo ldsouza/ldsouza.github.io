@@ -3,9 +3,12 @@ layout: post
 published: true
 mathjax: false
 featured: false
-comments: false
+comments: true
 title: How Microsoft OneNote can boost your productivity
-tags: 'OneNote,Office365,SharePoint'
+tags:
+- OneNote
+- Office 365
+- SharePoint
 category: Office365
 ---
 In this blog post, I will highlight some of the features of OneNote and how it can help you boost your productivity in the office or at home.
