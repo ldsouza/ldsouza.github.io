@@ -3,7 +3,7 @@ layout: post
 published: true
 mathjax: false
 featured: false
-comments: false
+comments: true
 title: Nintex Forms for Office 365 - An Overview
 category: SharePoint
 tags:
