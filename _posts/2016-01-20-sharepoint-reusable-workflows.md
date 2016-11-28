@@ -33,9 +33,11 @@ The next step is to create a site content type 'Whiteboard' and add the site col
 
 #### Create a Reusable Workflow 
 
-Open the site in SharePoint Designer and select "Reusable Workflow". Enter the name of the workflow and the content type to associate with the workflow. We will select the content type we just created.
+Open the site in SharePoint Designer and select "Reusable Workflow".  
 
 ![Image]({{ site.url }}/images/blog/sharepoint-reusable-workflows/4.JPG)
+
+Enter the name of the workflow and the content type to associate with the workflow. We will select the content type we just created. 
 
 ![Image]({{ site.url }}/images/blog/sharepoint-reusable-workflows/5.JPG)
 
