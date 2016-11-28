@@ -25,13 +25,13 @@ The first step is to create three custom lists Whiteboard ACT1, Whiteboard ACT2,
 
 ![Image]({{ site.url }}/images/blog/sharepoint-reusable-workflows/2.JPG)
 
-#### Create Custom Content Type 
+#### Create a Custom Content Type 
 
 The next step is to create a site content type 'Whiteboard' and add the site columns to the site content type. Then add the site content type to each of the custom lists.
 
 ![Image]({{ site.url }}/images/blog/sharepoint-reusable-workflows/3.JPG)
 
-#### Create Reusable Workflow 
+#### Create a Reusable Workflow 
 
 Open the site in SharePoint Designer and select "Reusable Workflow". Enter the name of the workflow and the content type to associate with the workflow. We will select the content type we just created.
 
@@ -43,7 +43,7 @@ Create the workflow logic just like a regular workflow and save and publish the 
 
 ![Image]({{ site.url }}/images/blog/sharepoint-reusable-workflows/6.JPG)
 
-#### Associate Reusable Workflow to a List 
+#### Associate the Reusable Workflow to a List 
 
 From the top ribbon, select "Associate to List". Select the list you want this workflow to be associated with.
 
