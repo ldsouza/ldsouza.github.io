@@ -11,7 +11,7 @@ tags:
 - SharePoint
 category: Office365
 ---
-In this blog post, I will highlight some of the features of OneNote and how it can help you boost your productivity in the office or at home.
+In this blog post, I highlight some of the features of OneNote and how it can help you boost your productivity in the office or at home.
 
 ![Image]({{ site.url }}/images/blog/how-microsoft-onenote-can-boost-your-productivity/OneNote1.jpg)
 
