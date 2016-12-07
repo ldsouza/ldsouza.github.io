@@ -20,6 +20,8 @@ There is a paid version of Power BI called Power BI Pro that has more features l
 ![Image]({{ site.url }}/images/blog/getting-started-power-bi/2.JPG)
 
 ##  Power BI Authors and Consumers
+Power BI Desktop is a powerful data exploration and reporting tool that can be installed on your computer. It allows you to drap and drop visualizations and allows you to publish your reports to the cloud through the Power BI Service.
+
 Authors can reports using either the Power BI Desktop or the browser. The browser can be used to build reports and dashboards, but there is no data modeling functionality in the browser. We also can create relationships and model data using DAX in Power BI Desktop, but not in the browser. 
 
 ![Image]({{ site.url }}/images/blog/getting-started-power-bi/3.JPG)
