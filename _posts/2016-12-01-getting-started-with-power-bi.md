@@ -37,6 +37,8 @@ Here are few concepts that you should be aware of, before you start creating rep
 Visual
 A Power BI Visual or Visualization allows you to interact with data to find business insights. Some examples of data visuals are charts, tables, matrices and KPI's  Custom Visuals created by third Party vendors extend the capacilites of Power BI and are a powerful addition to Power BI's feature set.
 
+![Image]({{ site.url }}/images/blog/getting-started-power-bi/5.JPG)
+
 List of Visualizations available in Power BI - https://powerbi.microsoft.com/en-us/documentation/powerbi-service-visualization-types-for-reports-and-q-and-a/
 
 DataSet
