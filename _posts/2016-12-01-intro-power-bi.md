@@ -17,10 +17,10 @@ Power BI is Microsoft's suite of business analytics tools that is cloud-based. I
 
 ![Image]({{ site.url }}/images/blog/intro-power-bi/1.JPG)
 
-It is easy to get started with Power BI and begin creating reports in a matter of minutes. You can sign up for a free account here at https://app.powerbi.com. You do not need an Office 365 subscription or SharePoint Online to begin using Power BI.
+It is easy to get started with Power BI and begin creating reports in a matter of minutes. You can sign up for a free account here at <a href="https://app.powerbi.com">Power BI Sign Up</a>You do not need an Office 365 subscription or SharePoint Online to begin using Power BI.
 
 ## Power BI vs Power BI Pro
-Power BI has a paid version called Power BI Pro that has more features like higher data capacity limits and more frequent refresh intervals. To find out more on the differences between Power BI Pro and free accounts - https://powerbi.microsoft.com/en-us/pricing/
+Power BI has a paid version called Power BI Pro that has more features like higher data capacity limits and more frequent refresh intervals. To find out more on the differences between Power BI Pro and free accounts - <a href="https://powerbi.microsoft.com/en-us/pricing/">Power BI Pricing</a>
 
 ![Image]({{ site.url }}/images/blog/intro-power-bi/2.JPG)
 
@@ -44,10 +44,12 @@ A Power BI Visual or Visualization allows you to interact with data to find busi
 
 ![Image]({{ site.url }}/images/blog/intro-power-bi/5.JPG)
 
-List of Visualizations available in Power BI - https://powerbi.microsoft.com/en-us/documentation/powerbi-service-visualization-types-for-reports-and-q-and-a/
+List of Visualizations available in Power BI - <a href="https://powerbi.microsoft.com/en-us/documentation/powerbi-service-visualization-types-for-reports-and-q-and-a/">Visualizations</a>
 
 ##### DataSet 
 A DataSet is something you import or connect to. Power BI lets you connect to all kinds of data sources and bring them together. You can do a manual refresh or schedule a refresh of a Dataset.
+
+![Image]({{ site.url }}/images/blog/intro-power-bi/6.JPG)
 
 ##### Report 
 A Power BI report is one or more pages of visualizations (charts, graphs and images). Report Visuals can be pinned to a dashboard. 
@@ -58,6 +60,8 @@ A Dashboard is a consolidated view of reports from different datasets.
 ##### Workspace  
 Any report or Dashboard you create is saved to your personal workspace. To share reports and dashboards with a group of people, you can create a group workspace and add the report or dashboard to the workspace to begin collaborating with other members in the group.
 
-To get a detailed explaination of Power BI Concepts - https://powerbi.microsoft.com/en-us/documentation/powerbi-service-basic-concepts/
+To get a detailed explaination of Power BI Concepts - 
+<a href="https://powerbi.microsoft.com/en-us/documentation/powerbi-service-basic-concepts/">Power BI Detailed Concepts</a>
 
-Power BI has a rich set of functionalities and capacilites that complete with Tableau and other Self Service Analytics Tools. The Power BI team releases new features every month. If you would like to keep up to date with the latest updates to Power BI, sign up for the Power BI Newsletter https://powerbi.microsoft.com/en-us/newsletter/.
+Power BI has a rich set of functionalities and capacilites that complete with Tableau and other Self Service Analytics Tools. The Power BI team releases new features every month. If you would like to keep up to date with the latest updates to Power BI, sign up for the Power BI Newsletter 
+<a href="https://powerbi.microsoft.com/en-us/newsletter/">Power BI Newsletter</a>
