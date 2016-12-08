@@ -3,8 +3,13 @@ layout: post
 published: true
 mathjax: false
 featured: false
-comments: false
+comments: true
 title: Getting Started with Power BI
+tags:
+- Power BI
+- Analytics
+- BI
+category: Power BI
 ---
 ## What is Power BI
 
