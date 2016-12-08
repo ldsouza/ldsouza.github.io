@@ -8,7 +8,7 @@ title: Getting Started with Power BI
 ---
 ## What is Power BI
 
-Power BI is Microsoft's suite of business analytics tools that is cloud-based. It is the evolution of the Microsoft BI Stack beginning from on premises solutions like SSRS and SharePoint to a cloud based data analytics service like Power BI.
+Power BI is Microsoft's suite of business analytics tools that is cloud-based. It is the evolution of the Microsoft BI Stack beginning from on -premises solutions like SSRS and SharePoint to a cloud based data analytics service like Power BI.
 
 ![Image]({{ site.url }}/images/blog/getting-started-power-bi/1.JPG)
 
@@ -35,18 +35,22 @@ Once a report is created in Power BI desktop, it can be published to the Power B
 Here are few concepts that you should be aware of, before you start creating reports.
 
 Visual
-A Visual or Visualization is a Chart, Table, Matrix or KPI that you can add to the report canvas. Custom Visuals created by Third Party vendors extend the capacilites of Power BI and are a powerful addition to Power BI's feature set.
+A Power BI Visual or Visualization allows you to interact with data to find business insights. Some examples of data visuals are charts, tables, matrices and KPI's  Custom Visuals created by third Party vendors extend the capacilites of Power BI and are a powerful addition to Power BI's feature set.
 
-Report
-A Report is a collection of pages that contain visuals. The Report Visuals can be pinned to a Dashboard.
-
-Dashboard
-A Dashboard is a consolidated view of reports. You can drill down into a report from a Dashboard.
-
-Workspaces
-Any report or Dashboard you create is saved to your personal workspace. To share reports and dashboards with a group of people, you can create a group workspace and add the report or dashboard to the workspace to begin collaborating with other members in the group.
+List of Visualizations available in Power BI - https://powerbi.microsoft.com/en-us/documentation/powerbi-service-visualization-types-for-reports-and-q-and-a/
 
 DataSet
-A DataSet is a datamodel that can contain one or more tables. You can do a manual refresh or schedule a refresh of a Dataset.
+A DataSet is something you import or connect to. Power BI lets you connect to all kinds of data sources and bring them together. You can do a manual refresh or schedule a refresh of a Dataset.
+
+Report
+A Power BI report is one or more pages of visualizations (charts, graphs and images). Report Visuals can be pinned to a dashboard. 
+
+Dashboard
+A Dashboard is a consolidated view of reports from different datasets.
+
+Workspace
+Any report or Dashboard you create is saved to your personal workspace. To share reports and dashboards with a group of people, you can create a group workspace and add the report or dashboard to the workspace to begin collaborating with other members in the group.
+
+To get a detailed explaination of Power BI Concepts - https://powerbi.microsoft.com/en-us/documentation/powerbi-service-basic-concepts/
 
 Power BI has a rich set of functionalities and capacilites that complete with Tableau and other Self Service Analytics Tools. The Power BI team releases new features every month. If you would like to keep up to date with the latest updates to Power BI, sign up for the Power BI Newsletter https://powerbi.microsoft.com/en-us/newsletter/.
