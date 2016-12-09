@@ -25,26 +25,24 @@ Power BI has a paid version called Power BI Pro that has more features like high
 ![Image]({{ site.url }}/images/blog/intro-power-bi/2.JPG)
 
 ## Power BI Desktop Vs Browser
-Authors can create reports using Power BI Desktop or the browser. Power BI Desktop is a powerful data exploration and reporting tool that can be installed on your computer. It allows you to drag and drop visualizations onto the report canvas and allows you to publish reports to the cloud through the Power BI Service. Power BI Desktop can be used to create dashboards.
-
-The browser can be used to build reports and dashboards, but there is no data modeling functionality in the browser. We also can create relationships and model data using DAX in Power BI Desktop, but not in the browser. 
+Authors can create reports using Power BI Desktop or the browser. Power BI Desktop is a powerful data exploration and reporting tool that can be installed on your computer. It allows you to drag and drop visualizations onto the report canvas and allows you to publish reports to the cloud through the Power BI Service. Power BI Desktop cannot be used to create dashboards, but can be used for Data Modeling.
 
 ![Image]({{ site.url }}/images/blog/intro-power-bi/3.JPG)
 
-Once a report is created in Power BI desktop, it can be published to the Power BI Service, where consumers can access the report or a dashboard on either a Browser, IPad, IPhone, Android, Windows 10 phone app.
+The browser can be used to build reports and dashboards, but there is no data modeling functionality in the browser. Once a report is created in Power BI desktop, it can be published to the Power BI Service, where consumers can access the report or a dashboard on either a Browser, IPad, IPhone, Android or Windows 10 phone app.
 
 ![Image]({{ site.url }}/images/blog/intro-power-bi/4.JPG)
 
 ## Power BI Concepts
 
-Here are few concepts that you should be aware of, before you start creating reports.
+Here are few Power BI concepts that you should be aware of, before you start creating reports.
 
 #### Visual 
 A Power BI Visual or Visualization allows you to interact with data to find business insights. Some examples of data visuals are charts, tables, matrices and KPI’s. Custom Visuals created by third Party vendors extend the capabilities of Power BI and are a powerful addition to Power BI's feature set.
 
 ![Image]({{ site.url }}/images/blog/intro-power-bi/5.JPG)
 
-List of Visualizations available in Power BI - <a href="https://powerbi.microsoft.com/en-us/documentation/powerbi-service-visualization-types-for-reports-and-q-and-a/">Visualizations</a>
+<a href="https://powerbi.microsoft.com/en-us/documentation/powerbi-service-visualization-types-for-reports-and-q-and-a/">List of Visualizations available in Power BI</a>
 
 #### DataSet 
 A DataSet is something you import or connect to. Power BI lets you connect to all kinds of data sources and bring them together. You can do a manual refresh or schedule a refresh of a Dataset.
@@ -52,16 +50,15 @@ A DataSet is something you import or connect to. Power BI lets you connect to al
 ![Image]({{ site.url }}/images/blog/intro-power-bi/6.JPG)
 
 #### Report 
-A Power BI report is one or more pages of visualizations (charts, graphs and images). Report Visuals can be pinned to a dashboard. 
+A Power BI report is one or more pages of visualizations (charts, graphs and images). Report Visuals can be pinned to a dashboard.
 
 #### Dashboard 
-A Dashboard is a consolidated view of reports from different datasets.
+A Dashboard is a consolidated view of reports from different datasets. Dashboards can be shared and questions can be asked of the data using Natural Query Language.
 
 #### Workspace  
 Any report or Dashboard you create is saved to your personal workspace. To share reports and dashboards with a group of people, you can create a group workspace and add the report or dashboard to the workspace to begin collaborating with other members in the group.
 
-A detailed explanation of 
-<a href="https://powerbi.microsoft.com/en-us/documentation/powerbi-service-basic-concepts/">Power BI Concepts. </a>
+ <a href="https://powerbi.microsoft.com/en-us/documentation/powerbi-service-basic-concepts/">A detailed explanation ofPower BI Concepts. </a>
 
-Power BI has a rich set of functionalities and capabilities that complete with Tableau and other Self Service Analytics Tools. The Power BI team releases new features every month. If you would like to keep up to date with the latest updates to Power BI, sign up for the  
+Power BI has a rich set of functionalities and capabilities that compete with Tableau and other Self Service Analytics Tools. The Power BI team releases new features every month. If you would like to keep up to date with the latest updates to Power BI, sign up for the  
 <a href="https://powerbi.microsoft.com/en-us/newsletter/">Power BI Newsletter</a>
