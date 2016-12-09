@@ -60,5 +60,4 @@ Any report or Dashboard you create is saved to your personal workspace. To share
 
  <a href="https://powerbi.microsoft.com/en-us/documentation/powerbi-service-basic-concepts/">A detailed explanation of Power BI Concepts. </a>
 
-Power BI has a rich set of functionalities and capabilities that compete with Tableau and other Self Service Analytics Tools. The Power BI team releases new features every month. If you would like to keep up to date with the latest updates to Power BI, sign up for the  
-<a href="https://powerbi.microsoft.com/en-us/newsletter/">Power BI Newsletter</a>
+Power BI has a rich set of functionalities and capabilities that compete with Tableau and other Self Service Analytics Tools. The Power BI team releases new features every month. If you would like to keep up to date with the latest updates to Power BI, sign up for the <a href="https://powerbi.microsoft.com/en-us/newsletter/">Power BI Newsletter</a>
