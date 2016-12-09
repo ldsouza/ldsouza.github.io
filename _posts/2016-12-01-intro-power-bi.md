@@ -58,7 +58,7 @@ A Dashboard is a consolidated view of reports from different datasets. Dashboard
 #### Workspace  
 Any report or Dashboard you create is saved to your personal workspace. To share reports and dashboards with a group of people, you can create a group workspace and add the report or dashboard to the workspace to begin collaborating with other members in the group.
 
- <a href="https://powerbi.microsoft.com/en-us/documentation/powerbi-service-basic-concepts/">A detailed explanation ofPower BI Concepts. </a>
+ <a href="https://powerbi.microsoft.com/en-us/documentation/powerbi-service-basic-concepts/">A detailed explanation of Power BI Concepts. </a>
 
 Power BI has a rich set of functionalities and capabilities that compete with Tableau and other Self Service Analytics Tools. The Power BI team releases new features every month. If you would like to keep up to date with the latest updates to Power BI, sign up for the  
 <a href="https://powerbi.microsoft.com/en-us/newsletter/">Power BI Newsletter</a>
