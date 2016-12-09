@@ -39,25 +39,25 @@ Once a report is created in Power BI desktop, it can be published to the Power B
 
 Here are few concepts that you should be aware of, before you start creating reports.
 
-##### Visual 
+#### Visual 
 A Power BI Visual or Visualization allows you to interact with data to find business insights. Some examples of data visuals are charts, tables, matrices and KPI’s. Custom Visuals created by third Party vendors extend the capabilities of Power BI and are a powerful addition to Power BI's feature set.
 
 ![Image]({{ site.url }}/images/blog/intro-power-bi/5.JPG)
 
 List of Visualizations available in Power BI - <a href="https://powerbi.microsoft.com/en-us/documentation/powerbi-service-visualization-types-for-reports-and-q-and-a/">Visualizations</a>
 
-##### DataSet 
+#### DataSet 
 A DataSet is something you import or connect to. Power BI lets you connect to all kinds of data sources and bring them together. You can do a manual refresh or schedule a refresh of a Dataset.
 
 ![Image]({{ site.url }}/images/blog/intro-power-bi/6.JPG)
 
-##### Report 
+#### Report 
 A Power BI report is one or more pages of visualizations (charts, graphs and images). Report Visuals can be pinned to a dashboard. 
 
-##### Dashboard 
+#### Dashboard 
 A Dashboard is a consolidated view of reports from different datasets.
 
-##### Workspace  
+#### Workspace  
 Any report or Dashboard you create is saved to your personal workspace. To share reports and dashboards with a group of people, you can create a group workspace and add the report or dashboard to the workspace to begin collaborating with other members in the group.
 
 A detailed explanation of 
