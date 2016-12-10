@@ -16,8 +16,6 @@ Here are some SQL queries that I find very useful when writing stored procedures
 
 ![Image]({{ site.url }}/images/blog/sql-date-queries-cheatsheet/1.jpg)
 
-### SQL Date Queries 
-
 #### Current Date without Time:  
 SELECT DATEADD(day, DATEDIFF(day, 0, GETDATE()), 0)
 
