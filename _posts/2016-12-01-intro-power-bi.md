@@ -47,17 +47,23 @@ A Power BI Visual or Visualization allows you to interact with data to find busi
 #### DataSet 
 A DataSet is something you import or connect to. Power BI lets you connect to all kinds of data sources and bring them together. You can do a manual refresh or schedule a refresh of a Dataset.
 
-![Image]({{ site.url }}/images/blog/intro-power-bi/6.JPG)
+![Image]({{ site.url }}/images/blog/intro-power-bi/7.JPG)
 
 #### Report 
 A Power BI report is one or more pages of visualizations (charts, graphs and images). Report Visuals can be pinned to a dashboard and can contain content from a single dataset.
 
+![Image]({{ site.url }}/images/blog/intro-power-bi/8.JPG)
+
 #### Dashboard 
 A Dashboard is a consolidated view of reports from different datasets. Dashboards can be shared and questions asked of the data using Natural Query Language.
+
+![Image]({{ site.url }}/images/blog/intro-power-bi/9.JPG)
 
 #### Workspace  
 Any report or Dashboard you create is saved to your personal workspace. To share reports and dashboards with a group of people, you can create a group workspace and add the report or dashboard to the workspace to begin collaborating with other members in the group.
 
  <a href="https://powerbi.microsoft.com/en-us/documentation/powerbi-service-basic-concepts/">A detailed explanation of Power BI Concepts. </a>
+ 
+ ![Image]({{ site.url }}/images/blog/intro-power-bi/6.JPG)
 
 Power BI is a powerful self-service data analysis tool that competes with Tableau and other Self Service Analytics Tools. The Power BI team releases new features every month. If you would like to keep up to date with the latest updates to Power BI, sign up for the <a href="https://powerbi.microsoft.com/en-us/newsletter/">Power BI Newsletter</a>
