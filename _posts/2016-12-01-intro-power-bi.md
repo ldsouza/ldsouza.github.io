@@ -40,9 +40,9 @@ Here are few Power BI concepts that you should be aware of, before you start cre
 #### Visual 
 A Power BI Visual or Visualization allows you to interact with data to find business insights. Some examples of data visuals are charts, tables, matrices and KPI’s. Custom Visuals created by third Party vendors extend the capabilities of Power BI and are a powerful addition to Power BI's feature set.
 
-![Image]({{ site.url }}/images/blog/intro-power-bi/5.JPG)
-
 <a href="https://powerbi.microsoft.com/en-us/documentation/powerbi-service-visualization-types-for-reports-and-q-and-a/">List of Visualizations available in Power BI</a>
+
+![Image]({{ site.url }}/images/blog/intro-power-bi/5.JPG)
 
 #### DataSet 
 A DataSet is something you import or connect to. Power BI lets you connect to all kinds of data sources and bring them together. You can do a manual refresh or schedule a refresh of a Dataset.
@@ -50,14 +50,14 @@ A DataSet is something you import or connect to. Power BI lets you connect to al
 ![Image]({{ site.url }}/images/blog/intro-power-bi/6.JPG)
 
 #### Report 
-A Power BI report is one or more pages of visualizations (charts, graphs and images). Report Visuals can be pinned to a dashboard.
+A Power BI report is one or more pages of visualizations (charts, graphs and images). Report Visuals can be pinned to a dashboard and can contain content from a single dataset.
 
 #### Dashboard 
-A Dashboard is a consolidated view of reports from different datasets. Dashboards can be shared and questions can be asked of the data using Natural Query Language.
+A Dashboard is a consolidated view of reports from different datasets. Dashboards can be shared and questions asked of the data using Natural Query Language.
 
 #### Workspace  
 Any report or Dashboard you create is saved to your personal workspace. To share reports and dashboards with a group of people, you can create a group workspace and add the report or dashboard to the workspace to begin collaborating with other members in the group.
 
  <a href="https://powerbi.microsoft.com/en-us/documentation/powerbi-service-basic-concepts/">A detailed explanation of Power BI Concepts. </a>
 
-Power BI has a rich set of functionalities and capabilities that compete with Tableau and other Self Service Analytics Tools. The Power BI team releases new features every month. If you would like to keep up to date with the latest updates to Power BI, sign up for the <a href="https://powerbi.microsoft.com/en-us/newsletter/">Power BI Newsletter</a>
+Power BI is a powerful self-service data analysis tool that competes with Tableau and other Self Service Analytics Tools. The Power BI team releases new features every month. If you would like to keep up to date with the latest updates to Power BI, sign up for the <a href="https://powerbi.microsoft.com/en-us/newsletter/">Power BI Newsletter</a>
