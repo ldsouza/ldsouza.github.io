@@ -12,6 +12,25 @@ categories:
 ---
 What's new in SQL Server 2016 Reporting Services
 
+SQL Server Reporting Services traditionally has been used for creating paginated reports - reports formatted for printing that you can export and email. Paginated Reports is just one of type of reports today that companies use in their BI workloads. But in modern times, people are demanding reports accessible from mobile devices, tablets, modern experience data visualization. SQL Server 2016.
+
+
+Data Analyst - self service BI - mostly created in Excel.
+
+
+
+Single Purpose tools business data analyst driven report. - data exploration and interactive data visualization.
+
+Connect to Data - Explore Data - not sure what you wnat to create yet - Drag and Drop data - You can create a report or you may have already found the answer you were looking for.
+
+Power BI is complementary to Excel.
+
+Shift to mobile computing - more and more work is being done on mobile devices compared to what it once was. consume on phones and tablets, executives , mobile workers, deliver a great experience on phones and tablets.
+
+Micrsoft acqired Datazen, interactive BI on mobile devices
+
+
+Future Vision
 
 ## Modern Paginated Reports
 
@@ -49,32 +68,12 @@ SSRS 2016 has a brand new modern web portal where you can access paginated repor
 
 ## Flexible Parameter Positioning
 
-Report Authors have more control over the positioning of parameters in SSRS reports. Parameters can be placed in any position and spaces can be inserted between groups of parameters.
-
-report author have direct control over parameter positioning. You’ll now see the Parameters pane in Design view, where you can insert a parameter in a particular position or move existing parameters using drag-and-drop:
+Report Authors have direct control over the positioning of parameters in SSRS reports. Parameters can be inserted in a particular position, moved using drag-and-drop and spaces can be inserted between groups of parameters.
 
 ![Image]({{ site.url }}/images/blog/whats-new-ssrs-2016/7.JPG)
 
 
 
-Paginated Documents history of reports, formatted for printing, you can export and email. Parameters. - Traditional form or reporting
-
-Paginated Reports is just one of type of reports today that companies use in their BI workloads.
-
-Data Analyst - self service BI - mostly created in Excel.
-
-In modern times, people are demanding reprots accessible from mobile devices, tablets, modern experience data visualization.
-
-Single Purpose tools business data analyst driven report. - data exploration and interactive data visualization.
-
-Connect to Data - Explore Data - not sure what you wnat to create yet - Drag and Drop data - You can create a report or you may have already found the answer you were looking for.
-
-Power BI is complementary to Excel.
-
-Shift to mobile computing - more and more work is being done on mobile devices compared to what it once was. consume on phones and tablets, executives , mobile workers, deliver a great experience on phones and tablets.
-
-Micrsoft acqired Datazen, interactive BI on mobile devices
 
 
-Future Vision
 
