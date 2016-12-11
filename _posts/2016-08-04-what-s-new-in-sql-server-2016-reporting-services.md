@@ -37,7 +37,7 @@ SSRS 2016 has a brand new modern web portal where you can access paginated repor
 
 ## Flexible Parameter Positioning
 
-Report Authors have more control over the positioning of parameters in SSRS reports. The Parameters can be place 
+Report Authors have more control over the positioning of parameters in SSRS reports. Parameters can be placed in any position and spaces can be inserted between groups of parameters.
 
 report author have direct control over parameter positioning. You’ll now see the Parameters pane in Design view, where you can insert a parameter in a particular position or move existing parameters using drag-and-drop:
 
