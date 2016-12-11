@@ -6,7 +6,10 @@ featured: false
 comments: true
 title: What's new in SQL Server 2016 Reporting Services
 headline: What's new in SQL Server 2016 Reporting Services
-tags: SSRS
+tags:
+- SSRS
+- Power BI
+- SQL Server
 categories:
   - SSRS
 ---
