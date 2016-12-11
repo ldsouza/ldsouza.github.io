@@ -19,7 +19,15 @@ What's new in SQL Server 2016 Reporting Services
 
 ## Pin to Power BI Dashboards
 
+Now with SQL Server 2016, you can pin visuals from your on-premises SSRS reports to Power BI Dashboards. Visuals that you pin include charts, maps, gauges and images.
+
+This capability allows you to visualize your existing on-premises reports on Power BI.
+
+
+
 ## Create Interactive Mobile Reports
+
+Interactive Mobile Reporting is a much awaited feature by the SSRS community is finally here! Mobile Reports in SSRS 2016 dynamically adjusts content to fit your screen. The responsive layout allows you to create one report for multiple devices. 
 
 ## New Modern Web Portal
 
