@@ -10,6 +10,7 @@ tags:
 - SSRS
 - Power BI
 - SQL Server
+- Reporting
 categories:
   - SSRS
 ---
