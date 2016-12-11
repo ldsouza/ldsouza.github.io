@@ -13,9 +13,13 @@ categories:
 What's new in SQL Server 2016 Reporting Services
 
 
-## Paginated Reports
+## Modern Paginated Reports
 
-## Mobile Reports based on Datazen Technology
+SSRS 2016 has a new modern look for its paginated reports with new styles for tables, charts, gauges, maps, and other data visualizations.
+
+## Mobile Report Publisher
+
+Mobile reports are created in SSRS 2016 using the SQL Server Mobile Report Publisher, which is a new desktop app similar to Report Builder.
 
 ## Pin to Power BI Dashboards
 
@@ -29,7 +33,7 @@ Interactive Mobile Reporting is a much awaited feature by the SSRS community is 
 
 ## New Modern Web Portal
 
-SSRS 2016 has a brand new web portal where you can access paginated reports and mobile reports all in one place. This is compatible with browsers like Chrome, Firefox, Internet Explorer, Safari and Edge.
+SSRS 2016 has a brand new modern web portal where you can access paginated reports and mobile reports all in one place. This is compatible with browsers like Chrome, Firefox, Internet Explorer, Safari and Edge.
 
 Paginated Documents history of reports, formatted for printing, you can export and email. Parameters. - Traditional form or reporting
 
