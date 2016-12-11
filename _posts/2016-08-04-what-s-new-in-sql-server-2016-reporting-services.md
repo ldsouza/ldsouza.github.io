@@ -35,6 +35,12 @@ Interactive Mobile Reporting is a much awaited feature by the SSRS community is 
 
 SSRS 2016 has a brand new modern web portal where you can access paginated reports and mobile reports all in one place. This is compatible with browsers like Chrome, Firefox, Internet Explorer, Safari and Edge.
 
+## Flexible Parameter Positioning
+
+Report Authors have more control over the positioning of parameters in SSRS reports. The Parameters can be place 
+
+report author have direct control over parameter positioning. You’ll now see the Parameters pane in Design view, where you can insert a parameter in a particular position or move existing parameters using drag-and-drop:
+
 Paginated Documents history of reports, formatted for printing, you can export and email. Parameters. - Traditional form or reporting
 
 Paginated Reports is just one of type of reports today that companies use in their BI workloads.
