@@ -12,6 +12,17 @@ categories:
 ---
 What's new in SQL Server 2016 Reporting Services
 
+
+## Paginated Reports
+
+## Mobile Reports based on Datazen Technology
+
+## Pin to Power BI Dashboards
+
+## Create Interactive Mobile Reports
+
+## New Modern Web Portal
+
 Paginated Documents history of reports, formatted for printing, you can export and email. Parameters. - Traditional form or reporting
 
 Paginated Reports is just one of type of reports today that companies use in their BI workloads.
