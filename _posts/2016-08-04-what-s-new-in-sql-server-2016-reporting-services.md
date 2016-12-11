@@ -13,7 +13,7 @@ categories:
 
 SQL Server Reporting Services traditionally has been used for creating paginated reports. Paginated reports are formatted for printing and are reports you can export and email. Paginated Reports is just one of the type of reports today that companies use in their BI workloads. But in modern times, users are demanding reports that are accessible from mobile devices like phones and tablets and a modern data visualization experience. 
 
-In 2015, Microsoft acquired Datazen, an industry leader in mobile business intelligence and data visualization on Windows, iOS and Android devices. This acquizition paved the way for some of the most exciting changes in SSRS that we will go over in this post.
+In 2015, Microsoft acquired Datazen, an industry leader in mobile business intelligence and data visualization on Windows, iOS and Android devices. This acquisition paved the way for some of the most exciting changes in SSRS that we will go over in this post.
 
 ## Interactive Mobile Reports
 
@@ -46,7 +46,7 @@ This capability allows you to visualize your existing on-premises reports on Pow
 
 ## Modern Paginated Reports
 
-SSRS 2016 has a new modern look for its paginated reports with new styles for tables, charts, gauges, maps, and other data visualizations. New chart types like Treemap and Sunburt charts are not available,
+SSRS 2016 has a new modern look for its paginated reports with new styles for tables, charts, gauges, maps, and other data visualizations. New chart types like Treemap and Sunburst charts are not available,
 
 ![Image]({{ site.url }}/images/blog/whats-new-ssrs-2016/6.JPG)
 
@@ -57,5 +57,4 @@ Report Authors now have direct control over the positioning of parameters in SSR
 
 ![Image]({{ site.url }}/images/blog/whats-new-ssrs-2016/7.JPG)
 
-With the shift to mobile computing and more and more work being done on mobile devices compared to what it once was, these new features in SQL 2016 Reporting Serviecs will allow reports to be consumed on phones and tablets and deliver a great experience on phones and tablets for executives and mobile workers.
-
+With the shift to mobile computing and more and more work being done on mobile devices compared to what it once was, these new features in SQL 2016 Reporting Services will allow reports to be consumed on phones and tablets and deliver a great experience on phones and tablets for executives and mobile workers.
