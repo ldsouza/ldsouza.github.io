@@ -12,31 +12,21 @@ categories:
 ---
 What's new in SQL Server 2016 Reporting Services
 
-SQL Server Reporting Services traditionally has been used for creating paginated reports - reports formatted for printing that you can export and email. Paginated Reports is just one of type of reports today that companies use in their BI workloads. But in modern times, people are demanding reports accessible from mobile devices, tablets, modern experience data visualization. SQL Server 2016.
+SQL Server Reporting Services traditionally has been used for creating paginated reports - reports formatted for printing that you can export and email. Paginated Reports is just one of type of reports today that companies use in their BI workloads. But in modern times, people are demanding reports accessible from mobile devices, tablets and a modern experience data visualization. 
 
+Microsoft acquired Datazen, an industry leader in mobile business intelligence and data visualization on Windows, iOS and Android devices. This acquizition paved the way for some of the most exciting changes in SSRS that we will go over.
 
-Data Analyst - self service BI - mostly created in Excel.
+## Create Interactive Mobile Reports
 
+Interactive Mobile Reporting in SSRS is finally here! Mobile Reports in SSRS 2016 dynamically adjusts content to fit your screen. The responsive layout allows you to create one report for multiple devices.
 
+![Image]({{ site.url }}/images/blog/whats-new-ssrs-2016/3.JPG)
 
-Single Purpose tools business data analyst driven report. - data exploration and interactive data visualization.
+## New Modern Web Portal
 
-Connect to Data - Explore Data - not sure what you wnat to create yet - Drag and Drop data - You can create a report or you may have already found the answer you were looking for.
+SSRS 2016 has a brand new modern web portal where you can access paginated reports and mobile reports all in one place. This is compatible with your favorite browsers like Chrome, Firefox, Internet Explorer, Safari and Edge.
 
-Power BI is complementary to Excel.
-
-Shift to mobile computing - more and more work is being done on mobile devices compared to what it once was. consume on phones and tablets, executives , mobile workers, deliver a great experience on phones and tablets.
-
-Micrsoft acqired Datazen, interactive BI on mobile devices
-
-
-Future Vision
-
-## Modern Paginated Reports
-
-SSRS 2016 has a new modern look for its paginated reports with new styles for tables, charts, gauges, maps, and other data visualizations. New chart types like Treemap and Sunburt charts are not available,
-
-![Image]({{ site.url }}/images/blog/whats-new-ssrs-2016/6.JPG)
+![Image]({{ site.url }}/images/blog/whats-new-ssrs-2016/4.JPG)
 
 ## Mobile Report Publisher
 
@@ -54,23 +44,21 @@ This capability allows you to visualize your existing on-premises reports on Pow
 
 ![Image]({{ site.url }}/images/blog/whats-new-ssrs-2016/2.JPG)
 
-## Create Interactive Mobile Reports
+## Modern Paginated Reports
 
-Interactive Mobile Reporting in SSRS is finally here! Mobile Reports in SSRS 2016 dynamically adjusts content to fit your screen. The responsive layout allows you to create one report for multiple devices.
+SSRS 2016 has a new modern look for its paginated reports with new styles for tables, charts, gauges, maps, and other data visualizations. New chart types like Treemap and Sunburt charts are not available,
 
-![Image]({{ site.url }}/images/blog/whats-new-ssrs-2016/3.JPG)
+![Image]({{ site.url }}/images/blog/whats-new-ssrs-2016/6.JPG)
 
-## New Modern Web Portal
-
-SSRS 2016 has a brand new modern web portal where you can access paginated reports and mobile reports all in one place. This is compatible with your favorite browsers like Chrome, Firefox, Internet Explorer, Safari and Edge.
-
-![Image]({{ site.url }}/images/blog/whats-new-ssrs-2016/4.JPG)
 
 ## Flexible Parameter Positioning
 
 Report Authors have direct control over the positioning of parameters in SSRS reports. Parameters can be inserted in a particular position, moved using drag-and-drop and spaces can be inserted between groups of parameters.
 
 ![Image]({{ site.url }}/images/blog/whats-new-ssrs-2016/7.JPG)
+
+With the shift to mobile computing and more and more work being done on mobile devices compared to what it once was. These new features in SQL 2012 Reporting Serviecs will allow reports to be consumed on phones and tablets and delivers a great experience on phones and tablets for executives , mobile workers. These changes allow SSRS developers and power users to create beautiful interactive reports not limited by the device it can be accessed from.
+
 
 
 
