@@ -9,7 +9,7 @@ title: Getting Started with Microsoft Teams
 
 ### What is Microsoft Teams?
 
-Microsoft Teams is a new Office 365 collaboration app that keeps conversations and files in one place. 
+Microsoft Teams is a new Office 365 collaboration app that brings teams, conversations, files, notes, project plans from Office 365 together in one place. You can chat Privately and share files and notes with anyone in your org, Video calls and schedule online meetings.
 
 To turn on Microsoft Teams in your tenant, navigate to the Admin Center. Go to Settings –> Services & add-ins, and click on Microsoft Teams.
  
@@ -17,23 +17,26 @@ Turn Microsoft Teams setting on and customize the settings
 
 Now navigate to teams.microsoft.com and create a name for your new team or you can skip and add later.
 
-### Configure Settings
+### Configure Themes and Notifications
+
+Click the Settings button and Themes to select a theme of your liking. In this example, I will change to a Dark Theme.
+
+Click the notification settings to configure how you want to be notified when someone mentions you, the team or a channel and when someone sends you a direct message.
+
 
 ### Creating Teams and Channels
 
-Team can orgaize their channels and could be topics, products, projects, departments or just fun.
-Create an open collaborative workspace. 
+Teams are collections of people surrounding different projects and jobs within an organization. Teams contain one or more channels which are open collaborative workspaces where members can share conversations, files and more. A Team Owner can create a team or add members to a team.
 
-Channels are used to organize conversations by topic, area or anything else.
+Channels keep team conversations organized and you can dedicate channels to specific topics, areas, projects or something fun. Anyone who is a member of the team can add channels. Private Channels are not available at the moment, so if you would like to chat and share files privately, create another team where you can restrict membership.
 
-Chat Privately and share files and notes with anyone in your org.
 
-Video calls and schedule online meetings.
+Cons
+You have to mention a name or a team to notify them, when you start a new thread. There is no way to automatically notify a team.
+External Access not available
+Private Channels not supported
 
-All your teams files are organized in one place.
+Pros
+Integration with Office 365 Groups
+Easy to work with files and collaborate using the chat window
 
-Teams -> Channels
-
-### Adding Members to a Team
-
-### Creating Teams and Channels
