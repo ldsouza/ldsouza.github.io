@@ -11,6 +11,8 @@ title: Getting Started with Microsoft Teams
 Enter text in [Markdown](http://daringfireball.net/projects/markdown/). Use the toolbar above, or click the **?** button for formatting help.
 
 Microsoft Teams is a new Office 365 collaboration app that keeps conversations and files in one place. 
+
+To turn on Microsoft Teams in your tenant, navigate to the Admin Center. Go to Settings –> Services & add-ins, and click on Microsoft Teams.
  
 
 Team can orgaize their channels and could be topics, products, projects, departments or just fun.
