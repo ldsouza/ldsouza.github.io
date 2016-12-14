@@ -32,7 +32,7 @@ Turn Microsoft Teams setting on and customize the settings
 
 ![Image]({{ site.url }}/images/blog/getting-started-teams/3.JPG)
 
-Now navigate to teams.microsoft.com and create a name for your new team or you can skip and add later.
+Now navigate to https://teams.microsoft.com and create a name for your new team or you can skip and add later.
 
 ![Image]({{ site.url }}/images/blog/getting-started-teams/4.JPG)
 
