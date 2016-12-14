@@ -9,7 +9,20 @@ title: Getting Started with Microsoft Teams
 
 ### What is Microsoft Teams?
 
-Microsoft Teams is a new Office 365 collaboration app that brings teams, conversations, files, notes, project plans from Office 365 together in one place. You can chat Privately and share files and notes with anyone in your org, Video calls and schedule online meetings.
+Microsoft Teams is a new Office 365 chat-based workspace that brings teams, conversations, files, notes, project plans from Office 365 together in one place. You can chat privately and share files and notes with anyone in your org, Video calls and schedule online meetings.
+
+It is a chat based workspace not offered by Skype or Yammer - files, PowerBI, Planner and external Connectors
+
+It is customizable for each team
+
+Security unlike Slack everythiung resides in Office 365.
+
+Give you team quick access ot the information the need right in Office 365 - 
+
+
+### Licensing
+
+Microsoft Teams is automatically part of Office 365 Enterprise Plans.
 
 To turn on Microsoft Teams in your tenant, navigate to the Admin Center. Go to Settings –> Services & add-ins, and click on Microsoft Teams.
  
@@ -22,6 +35,10 @@ Now navigate to teams.microsoft.com and create a name for your new team or you c
 Click the Settings button and Themes to select a theme of your liking. In this example, I will change to a Dark Theme.
 
 Click the notification settings to configure how you want to be notified when someone mentions you, the team or a channel and when someone sends you a direct message.
+
+### Set Availability
+
+click Do not disturn will prevent any Pop-ups from coming in Microsoft Teams.
 
 
 ### Creating Teams and Channels
@@ -39,4 +56,9 @@ Private Channels not supported
 Pros
 Integration with Office 365 Groups
 Easy to work with files and collaborate using the chat window
+
+##connectors
+
+## BOts
+
 
