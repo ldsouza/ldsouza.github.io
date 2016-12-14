@@ -87,7 +87,7 @@ Now you can begin having conversations with the rest of your team, add files or 
 
 ![Image]({{ site.url }}/images/blog/getting-started-teams/14.JPG)
 
-Microsoft Teams has lot of potential and something that ties into the rest of the Office 365 collaboration spectrum. You may find it useful for your organization if you are already on Office 365 and especially there is no additional cost incurred.
+Microsoft Teams has lot of potential and something that ties into the rest of the Office 365 collaboration spectrum. You may find it useful for your organization if you are already on Office 365 and especially since there is no additional cost incurred.
 
 ### Pros of Microsoft Teams
 - Give you team quick access to the information they need right in Office 365.
