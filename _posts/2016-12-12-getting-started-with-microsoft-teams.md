@@ -31,20 +31,29 @@ Turn Microsoft Teams setting on and customize the settings
 
 ![Image]({{ site.url }}/images/blog/getting-started-teams/2.JPG)
 
-Now navigate to teams.microsoft.com and create a name for your new team or you can skip and add later.
-
 ![Image]({{ site.url }}/images/blog/getting-started-teams/3.JPG)
 
-### Configure Themes and Notifications
+Now navigate to teams.microsoft.com and create a name for your new team or you can skip and add later.
 
-Click the Settings button and Themes to select a theme of your liking. In this example, I will change to a Dark Theme.
+![Image]({{ site.url }}/images/blog/getting-started-teams/4.JPG)
+
+### Configure Themes, Notifications and Availability
+
+Click the Settings button and Themes to set Microsoft Teams to a theme of your liking. 
+
+![Image]({{ site.url }}/images/blog/getting-started-teams/5.JPG)
+
+In this example, I will change my theme to a Dark Theme.
+
+![Image]({{ site.url }}/images/blog/getting-started-teams/6.JPG)
 
 Click the notification settings to configure how you want to be notified when someone mentions you, the team or a channel and when someone sends you a direct message.
 
-### Set Availability
+![Image]({{ site.url }}/images/blog/getting-started-teams/7.JPG)
 
-click Do not disturn will prevent any Pop-ups from coming in Microsoft Teams.
+You can also set your availability by clicking your profile and selecting the appropriate setting. Setting your availability to Do not disturn will prevent any Pop-ups from coming up in Microsoft Teams.
 
+![Image]({{ site.url }}/images/blog/getting-started-teams/8.JPG)
 
 ### Creating Teams and Channels
 
