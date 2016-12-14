@@ -6,12 +6,11 @@ featured: false
 comments: false
 title: Getting Started with Microsoft Teams
 ---
-
-![Image]({{ site.url }}/images/blog/getting-started-teams/0.JPG)
-
 ### What is Microsoft Teams?
 
 Microsoft Teams is a new Office 365 chat-based workspace that brings teams, conversations, files, notes and project plans from Office 365 together in one place. You can chat privately and share files and notes with anyone in your orgization or have video calls and schedule online meetings. 
+
+![Image]({{ site.url }}/images/blog/getting-started-teams/0.JPG)
 
 Bots and Connectors to other applications makes Teams very appealing to lots of organizations.
 
