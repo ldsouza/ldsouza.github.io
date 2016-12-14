@@ -7,11 +7,13 @@ comments: false
 title: Getting Started with Microsoft Teams
 ---
 
+![Image]({{ site.url }}/images/blog/getting-started-teams/0.JPG)
+
 ### What is Microsoft Teams?
 
-Microsoft Teams is a new Office 365 chat-based workspace that brings teams, conversations, files, notes, project plans from Office 365 together in one place. You can chat privately and share files and notes with anyone in your org, Video calls and schedule online meetings.
+Microsoft Teams is a new Office 365 chat-based workspace that brings teams, conversations, files, notes and project plans from Office 365 together in one place. You can chat privately and share files and notes with anyone in your orgization or have video calls and schedule online meetings. 
 
-It is a chat based workspace not offered by Skype or Yammer - files, PowerBI, Planner and external Connectors
+Bots and Connectors to other applications makes Teams very appealing to lots of organizations.
 
 It is customizable for each team
 
@@ -20,15 +22,19 @@ Security unlike Slack everythiung resides in Office 365.
 Give you team quick access ot the information the need right in Office 365 - 
 
 
-### Licensing
+### Activating Teams
 
-Microsoft Teams is automatically part of Office 365 Enterprise Plans.
+Microsoft Teams is automatically part of Office 365 Enterprise Plans. To turn on Microsoft Teams in your tenant, navigate to the Admin Center. Go to Settings –> Services & add-ins, and click on Microsoft Teams.
 
-To turn on Microsoft Teams in your tenant, navigate to the Admin Center. Go to Settings –> Services & add-ins, and click on Microsoft Teams.
+![Image]({{ site.url }}/images/blog/getting-started-teams/1.JPG)
  
 Turn Microsoft Teams setting on and customize the settings
 
+![Image]({{ site.url }}/images/blog/getting-started-teams/2.JPG)
+
 Now navigate to teams.microsoft.com and create a name for your new team or you can skip and add later.
+
+![Image]({{ site.url }}/images/blog/getting-started-teams/3.JPG)
 
 ### Configure Themes and Notifications
 
