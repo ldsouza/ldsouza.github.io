@@ -98,6 +98,6 @@ Microsoft Teams has lot of potential and something that ties into the rest of th
 - Create your own Bots or use T-BOT, an intelligent assistant that will answer questions and provide guidance.
 
 ### Cons of Microsoft Teams
-- External User Access not available at the moment.
-- Private Channels not supported.
+- Adding External Users as Team members is not available at the moment.
+- Private Channels are not supported.
 - No way to automatically notify a team. You have to mention an individual or a team to notify them.
