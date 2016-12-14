@@ -1,14 +1,22 @@
 ---
 layout: post
-published: true
-mathjax: false
-featured: false
-comments: false
 title: Getting Started with Microsoft Teams
+description: >-
+  Helping you get started with Microsoft Teams
+modified: 'Tue Jul 05 2016 20:00:00 GMT-0400 (Eastern Daylight Time)'
+category: Office 365
+tags:
+  - Microsoft Teams
+  - Office 365
+  - Collaboration
+comments: true
+mathjax: false
+published: true
+featured: false
 ---
 ### What is Microsoft Teams?
 
-Microsoft Teams is a new Office 365 chat-based workspace that brings teams, conversations, files, notes and project plans from Office 365 together in one place. You can chat privately and share files and notes with anyone in your orgization or have video calls and schedule online meetings. 
+Microsoft Teams is a new Office 365 chat-based workspace that brings teams, conversations, files, notes and project plans from Office 365 together in one place. You can chat privately and share files and notes with anyone in your organization or have video calls and schedule online meetings. 
 
 ![Image]({{ site.url }}/images/blog/getting-started-teams/0.JPG)
 
@@ -42,7 +50,7 @@ Click the notification settings to configure how you want to be notified when so
 
 ![Image]({{ site.url }}/images/blog/getting-started-teams/7.JPG)
 
-You can also set your availability by clicking your profile and selecting the appropriate setting. Setting your availability to Do not disturn will prevent any Pop-ups from coming up in Microsoft Teams.
+You can also set your availability by clicking your profile and selecting the appropriate setting. Setting your availability to Do not disturb will prevent any Pop-ups from coming up in Microsoft Teams.
 
 ![Image]({{ site.url }}/images/blog/getting-started-teams/8.JPG)
 
@@ -54,7 +62,7 @@ To create a Team, select Teams in the left bar and click Create Team.
 
 ![Image]({{ site.url }}/images/blog/getting-started-teams/9.JPG)
 
-Name your team or if you have an existing Office 365 Group, you can add add a Team to an existing group.
+Name your team or if you have an existing Office 365 Group, you can add  a Team to an existing group.
 
 ![Image]({{ site.url }}/images/blog/getting-started-teams/10.JPG)
 
@@ -75,7 +83,7 @@ Name your channel based on a topic, a project, a product or something random.
 
 ![Image]({{ site.url }}/images/blog/getting-started-teams/13.JPG)
 
-Now you can being having conversations with the rest of your team, add files or take notes all in one place.
+Now you can begin having conversations with the rest of your team, add files or take notes all in one place.
 
 ![Image]({{ site.url }}/images/blog/getting-started-teams/14.JPG)
 
@@ -87,10 +95,9 @@ Microsoft Teams has lot of potential and something that ties into the rest of th
 - Easy to work with files and collaborate using the chat window.
 - Schedule Meetings and add files directly from Teams.
 - Connectors to external Applications outside of Office 365.
-- Create your own Bots or use T-BOT, a an intelligent assistant that will answer questions and provide guidance.
+- Create your own Bots or use T-BOT, an intelligent assistant that will answer questions and provide guidance.
 
 ### Cons of Microsoft Teams
 - External User Access not available at the moment.
 - Private Channels not supported.
 - No way to automatically notify a team. You have to mention an individual or a team to notify them.
-
