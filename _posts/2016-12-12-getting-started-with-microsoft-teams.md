@@ -79,17 +79,18 @@ Now you can being having conversations with the rest of your team, add files or 
 
 ![Image]({{ site.url }}/images/blog/getting-started-teams/14.JPG)
 
-### Pros
-Give you team quick access to the information they need right in Office 365
-Integration with Office 365 Groups
-Easy to work with files and collaborate using the chat window
-Schedule Meetings and add files directly from Teams
-Connectors to external Applications outside of Office 365
-You can create your own Bots or use T-BOT, a an intelligent assistant that will answer questions and provide guidance.
+Microsoft Teams has lot of potential and something that ties into the rest of the Office 365 collaboration spectrum. You may find it useful for your organization if you are already on Office 365 and especially there is no additional cost incurred.
 
-### Cons
-External Access not available
-Private Channels not supported
-There is no way to automatically notify a team. You have to mention an individual or a team to notify them.
+### Pros of Microsoft Teams
+- Give you team quick access to the information they need right in Office 365.
+- Integration with Office 365 Groups.
+- Easy to work with files and collaborate using the chat window.
+- Schedule Meetings and add files directly from Teams.
+- Connectors to external Applications outside of Office 365.
+- Create your own Bots or use T-BOT, a an intelligent assistant that will answer questions and provide guidance.
 
+### Cons of Microsoft Teams
+- External User Access not available at the moment.
+- Private Channels not supported.
+- No way to automatically notify a team. You have to mention an individual or a team to notify them.
 
