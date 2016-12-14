@@ -55,24 +55,49 @@ You can also set your availability by clicking your profile and selecting the ap
 
 ![Image]({{ site.url }}/images/blog/getting-started-teams/8.JPG)
 
-### Creating Teams and Channels
+### Creating Teams
 
 Teams are collections of people surrounding different projects and jobs within an organization. Teams contain one or more channels which are open collaborative workspaces where members can share conversations, files and more. A Team Owner can create a team or add members to a team.
 
-Channels keep team conversations organized and you can dedicate channels to specific topics, areas, projects or something fun. Anyone who is a member of the team can add channels. Private Channels are not available at the moment, so if you would like to chat and share files privately, create another team where you can restrict membership.
+To create a Team, select Teams in the left bar and click Create Team. 
+
+![Image]({{ site.url }}/images/blog/getting-started-teams/9.JPG)
+
+Name your team or if you have an existing Office 365 Group, you can add add a Team to an existing group.
+
+![Image]({{ site.url }}/images/blog/getting-started-teams/10.JPG)
+
+Add Members to your group or you can skip and add later. Members you add to your team will have access to all channels under that team.
+
+![Image]({{ site.url }}/images/blog/getting-started-teams/11.JPG)
 
 
-Cons
-You have to mention a name or a team to notify them, when you start a new thread. There is no way to automatically notify a team.
-External Access not available
-Private Channels not supported
+### Creating Channels
 
-Pros
+Channels keep team conversations organized. You can dedicate channels to specific topics, areas, projects or something fun. Anyone who is a member of the team can add channels. Private Channels are not available at the moment, so if you would like to chat and share files privately, create another team where you can restrict membership.
+
+To create a Channel, click the menu button next to the Team and select Add Channel. 
+
+![Image]({{ site.url }}/images/blog/getting-started-teams/12.JPG)
+
+Name your channel based on a topic, a project, a product or something random.
+
+![Image]({{ site.url }}/images/blog/getting-started-teams/13.JPG)
+
+Now you can being having conversations with the rest of your team, add files or take notes all in one place.
+
+![Image]({{ site.url }}/images/blog/getting-started-teams/14.JPG)
+
+# Pros
 Integration with Office 365 Groups
 Easy to work with files and collaborate using the chat window
+Schedule Meetings and add files directly from Teams
+Connectors to external Applications outside of Office 365
+You can create your own Bots or use T-BOT, a an intelligent assistant that will answer questions and provide guidance.
 
-##connectors
-
-## BOts
+# Cons
+External Access not available
+Private Channels not supported
+There is no way to automatically notify a team. You have to mention an individual or a team to notify them.
 
 
