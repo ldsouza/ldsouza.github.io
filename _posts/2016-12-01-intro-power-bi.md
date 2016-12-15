@@ -24,12 +24,12 @@ Power BI has a paid version called Power BI Pro that has more features like high
 
 ![Image]({{ site.url }}/images/blog/intro-power-bi/2.JPG)
 
-## Power BI Desktop Vs Browser
-Authors can create reports using Power BI Desktop or the browser. Power BI Desktop is a powerful data exploration and reporting tool that can be installed on your computer. It allows you to drag and drop visualizations onto the report canvas and allows you to publish reports to the cloud through the Power BI Service. Power BI Desktop cannot be used to create dashboards, but can be used for Data Modeling.
+## Power BI Desktop Vs Power BI Service
+Authors can create reports using Power BI Desktop or Power BI Service using the browser. Power BI Desktop is a powerful data exploration and reporting tool that can be installed on your computer. It allows you to drag and drop visualizations onto the report canvas and allows you to publish reports to the cloud through the Power BI Service. Power BI Desktop cannot be used to create dashboards, but can be used for Data Modeling.
 
 ![Image]({{ site.url }}/images/blog/intro-power-bi/3.JPG)
 
-The browser can be used to build reports and dashboards, but there is no data modeling functionality in the browser. Once a report is created in Power BI desktop, it can be published to the Power BI Service, where consumers can access the report or a dashboard on either a Browser, IPad, IPhone, Android or Windows 10 phone app.
+Power BI Service can be used to build reports and dashboards, but there is no data modeling functionality in the browser. Once a report is created in Power BI desktop, it can be published to the Power BI Service, where consumers can access the report or a dashboard on either a Browser, IPad, IPhone, Android or Windows 10 phone app.
 
 ![Image]({{ site.url }}/images/blog/intro-power-bi/4.JPG)
 
