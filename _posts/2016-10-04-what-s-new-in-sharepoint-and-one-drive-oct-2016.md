@@ -11,6 +11,7 @@ Vision and Roadmap of SharePoint and One Drive
 {% include youtubePlayer.html id="lNoL9dmarVE" %}  
 
 <br>
+
 ## Simple and Powerful File Sharing
 
 - Better Sync Client (fixes a lot of issues)
