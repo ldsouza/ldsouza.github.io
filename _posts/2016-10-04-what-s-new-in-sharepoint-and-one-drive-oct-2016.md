@@ -4,7 +4,7 @@ published: true
 mathjax: false
 featured: false
 comments: true
-title: testsdfsdf
+title: What's New in SharePoint and One Drive - Oct 2016
 tags:
 - SharePoint
 - One Drive
