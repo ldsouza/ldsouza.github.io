@@ -67,3 +67,5 @@ Any report or Dashboard you create is saved to your personal workspace. To share
  ![Image]({{ site.url }}/images/blog/intro-power-bi/6.JPG)
 
 Power BI is a powerful self-service data analysis tool that competes with Tableau and other Self Service Analytics Tools. The Power BI team releases new features every month. If you would like to keep up to date with the latest updates to Power BI, sign up for the <a href="https://powerbi.microsoft.com/en-us/newsletter/">Power BI Newsletter</a>
+
+Additional Resources: <a href="https://powerbi.microsoft.com/en-us/guided-learning/">Power BI Guided Learning</a>
