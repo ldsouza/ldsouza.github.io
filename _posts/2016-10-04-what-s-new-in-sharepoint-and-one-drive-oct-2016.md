@@ -22,52 +22,47 @@ title: What's New in SharePoint and One Drive - Oct 2016
 - New File Previews new file types -New PDF, photoshop preview in Files.
 - In the client, allows you to choose which files you want to take offline. Files still visible even if not taken offline.
 
-https://www.youtube.com/watch?v=lNoL9dmarVE
 
 ## Mobile and Intelligent Intranet
 
-Modern Team Sites, Office 365 Groups integration, simple fast site creation, powerful and fluid pages, powerapps and Flow, yammer and power BI integration. 
+- Modern Team Sites - simple fast site creation
+- Office 365 Groups integration, simple fast site creation
+- Powerful and fluid pages
+- Powerapps and Flow Preview
+- Yammer and Power BI integration.
+- Mobile Apps
+- New Modern SharePoint Pages render beautifully on mobile devices, include text and images
+- easy to add from a gallery of webparts, support multipeida. Rich experience. 
+- News - Ability to view all news articles from all your teams in one place.
 
-Mobile Apps
+## Document Libraries
 
-**New Team Sites** - News communicate and keep your team informed about announcemnets and other things that are important.
-
-New Modern SharePoint Pages are beautiful, render beautifully on mobile devices, include text and images, easy to add from a gallery of webparts, support multipeida. Rich experience. 
-
-Ability to view all news articles from all your teams in one place.
-
-**Document Libraries**
-
-Ability to see an activity feed for the entire library. Ability to add links to libraries. Allows you to collect information from all differetn places and expose it to your teams.
-
-Ability to group by metadata in a modern libaries without changing the view. Drag and drop documents into different groups of metadata and assign the new metadata automatically.
-
-
-**PowerApps**
-
-A List of Ideas. Submit an idea from your mobile device. Receieve an email when an idea is submitted and vote for it directly from your email or phone.
-
-Every SharePoint team site gets a group and vice versa.
+- Ability to see an activity feed for the entire library. 
+- Ability to add links to libraries- allows you to collect information from all differetn places and expose it to your teams.
+- Ability to group by metadata in a modern libaries without changing the view. 
+- Drag and drop documents into different groups of metadata and assign the new metadata automatically.
 
 
-***Security Settings for SharePoint and One Drive***
+## PowerApps
 
-SharePoint Admin Center -
-Control access from personal devices (prevent users from downloading, printing or syncing from non-domain computers).
-
-Control access based on location (network locations) - Supply Ip ranges to restrict to.
-
-*****Create Team Sites - have to tag each site (General Purpose, Internal, Confidential) - Team site classification - guide users how they should use the site and who they should share it with. Can add guidelines for users.
-
-You can apply policies based on the tags.
+- Connect to your systems and create new data
+- Build apps without writing code
+- Publish and use on web and mobile
 
 
-Auditing and Reporting
+## Security
 
-- Admin Center - Reports - Usage -
+- SharePoint Admin Center - Control access from personal devices (prevent users from downloading, printing or syncing from non-domain computers).
 
-Insights into how sharepoint and one drive are being used - How many active users, how much storage, insights per user, who is doing sharing or external sharing, any suspicious activity. Get additional value of Office 365 subscription
+- Control access based on location (network locations) - Supply Ip ranges to restrict to.
 
-Logging - Unified Logs for Hybrid Customers - One Premises and SHarEPoint online under Search and Investigation (Audit Log Search)
+- Ability to tag each site (General Purpose, Internal, Confidential) - Team site classification - guide users how they should use the site and who they should share it with. Can add guidelines for users. You can apply policies based on the tags.
+
+
+## Auditing and Reporting
+
+- Insights into how sharepoint and one drive are being used - How many active users, how much storage, insights per user, who is doing sharing or external sharing, any suspicious activity. Get additional value of Office 365 subscription
+
+- Logging - Unified Logs for Hybrid Customers - One Premises and SHarEPoint online under Search and Investigation (Audit Log Search)
 
 
