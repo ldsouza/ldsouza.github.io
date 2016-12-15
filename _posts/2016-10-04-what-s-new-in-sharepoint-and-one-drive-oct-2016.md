@@ -1,11 +1,15 @@
 ---
 layout: post
-published: false
+published: true
 mathjax: false
 featured: false
 comments: false
 title: What's New in SharePoint and One Drive - Oct 2016
 ---
+
+{% include youtubePlayer.html id="lNoL9dmarVE" %}  
+
+<br>
 
 
 ## Simple and Powerful File Sharing
