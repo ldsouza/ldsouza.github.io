@@ -3,9 +3,15 @@ layout: post
 published: true
 mathjax: false
 featured: false
-comments: false
-title: What's New in SharePoint and One Drive - Oct 2016
+comments: true
+title: title: What's New in SharePoint and One Drive - Oct 2016
+tags:
+- SharePoint
+- One Drive
+- Office 365
+category: SharePoint
 ---
+
 
 In this post, I will summarize the vision and roadmap of SharePoint and One Drive announced at Microsoft Ignite 2016. Learn how Microsoft is reinventing content collaboration.
 {% include youtubePlayer.html id="lNoL9dmarVE" %}  
