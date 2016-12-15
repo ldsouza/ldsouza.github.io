@@ -14,28 +14,26 @@ In this post, I will summarize the vision and roadmap of SharePoint and One Driv
 
 ## Simple and Powerful File Sharing
 
-- Better Sync Client (fixes a lot of issues)
-- Activity Center in Sync Client - insight into what's going on.
-- Surface all files and sites in One Drive.
-- Sync SharePoint libraries in One Drive
-- 25TB of storage per site/group
-- Sync SharePoint Libraries using the One Drive Sync Client. Sync SharePoint individual folder.
-- New Guest Access in Office 365 (no need for Mirosoft Account - could use Gmail Account)
+- Better Sync Client (fixes a lot of issues experienced in the older client)
+- Activity Center in Sync Client provides insights into what's going on.
+- Surface all your files and sites in One Drive and Sync SharePoint libraries in One Drive
+- Storage has increased to 25TB of storage per site/group
+- Sync SharePoint Libraries using the One Drive Sync Client and Sync SharePoint individual folders.
+- New Guest Access in Office 365 (no need for a Mirosoft Account)
 - Open SharePoint documents directly from the One Drive site.
-- New File Previews new file types -New PDF, photoshop preview in Files.
-- In the client, allows you to choose which files you want to take offline. Files still visible even if not taken offline.
+- New File Previews fore new file types like PDF, photoshop previews.
+- New sync client allows you to choose which files you want to take offline. Files are still visible even if not taken offline.
 
 
 ## Mobile and Intelligent Intranet
 
-- Modern Team Sites - simple fast site creation
-- Office 365 Groups integration, simple fast site creation
-- Powerful and fluid pages
-- Powerapps and Flow Preview
+- Modern Team Sites with powerful and fluid pages.
+- Office 365 Groups integration.
+- Powerapps and Flow.
 - Yammer and Power BI integration.
-- Mobile Apps
-- New Modern SharePoint Pages render beautifully on mobile devices, include text and images
-- easy to add from a gallery of webparts, support multipeida. Rich experience. 
+- New Mobile Apps
+- New Modern SharePoint Pages render beautifully on mobile devices, incluing text and images
+- Easy to add from a gallery of webparts, support multimedia and rich experience. 
 - News - Ability to view all news articles from all your teams in one place.
 
 ## Document Libraries
@@ -57,15 +55,15 @@ In this post, I will summarize the vision and roadmap of SharePoint and One Driv
 
 - SharePoint Admin Center - Control access from personal devices (prevent users from downloading, printing or syncing from non-domain computers).
 
-- Control access based on location (network locations) - Supply Ip ranges to restrict to.
+- Control access based on location (network locations) - Supply IP ranges to restrict network locations.
 
-- Ability to tag each site (General Purpose, Internal, Confidential) - Team site classification - guide users how they should use the site and who they should share it with. Can add guidelines for users. You can apply policies based on the tags.
+- Ability to tag each site (General Purpose, Internal, Confidential) - guide users how they should use the site and who they should share it with. Can add guidelines for users. You can apply policies based on the tags.
 
 
 ## Auditing and Reporting
 
-- Insights into how sharepoint and one drive are being used - How many active users, how much storage, insights per user, who is doing sharing or external sharing, any suspicious activity. Get additional value of Office 365 subscription
-
-- Logging - Unified Logs for Hybrid Customers - One Premises and SHarEPoint online under Search and Investigation (Audit Log Search)
-
+- Insights into how sharepoint and one drive are being used
+- Insights on how many active users, how much storage, insights per user
+- Find who is sharing internally, sharing externally or any suspicious activity. 
+- Logging - Unified Logs for Hybrid Customers - On Premises and SharePoint Online
 
