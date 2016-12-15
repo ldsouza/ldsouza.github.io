@@ -14,6 +14,8 @@ In this post, I will summarize the vision and roadmap of SharePoint and One Driv
 
 ## Simple and Powerful File Sharing
 
+![Image]({{ site.url }}/images/blog/whats-new-sp-oct16/1.JPG)
+
 - Better Sync Client (fixes a lot of issues experienced in the older client)
 - Activity Center in Sync Client provides insights into what's going on.
 - Surface all your files and sites in One Drive and Sync SharePoint libraries in One Drive
@@ -27,6 +29,8 @@ In this post, I will summarize the vision and roadmap of SharePoint and One Driv
 
 ## Mobile and Intelligent Intranet
 
+![Image]({{ site.url }}/images/blog/whats-new-sp-oct16/2.JPG)
+
 - Modern Team Sites with powerful and fluid pages.
 - Office 365 Groups integration.
 - Powerapps and Flow.
@@ -38,6 +42,8 @@ In this post, I will summarize the vision and roadmap of SharePoint and One Driv
 
 ## Document Libraries
 
+![Image]({{ site.url }}/images/blog/whats-new-sp-oct16/3.JPG)
+
 - Ability to see an activity feed for the entire library. 
 - Ability to add links to libraries- allows you to collect information from all differetn places and expose it to your teams.
 - Ability to group by metadata in a modern libaries without changing the view. 
@@ -46,6 +52,8 @@ In this post, I will summarize the vision and roadmap of SharePoint and One Driv
 
 ## PowerApps
 
+![Image]({{ site.url }}/images/blog/whats-new-sp-oct16/4.JPG)
+
 - Connect to your systems and create new data
 - Build apps without writing code
 - Publish and use on web and mobile
@@ -53,14 +61,16 @@ In this post, I will summarize the vision and roadmap of SharePoint and One Driv
 
 ## Security
 
-- SharePoint Admin Center - Control access from personal devices (prevent users from downloading, printing or syncing from non-domain computers).
+![Image]({{ site.url }}/images/blog/whats-new-sp-oct16/5.JPG)
 
+- SharePoint Admin Center: Control access from personal devices (prevent users from downloading, printing or syncing from non-domain computers).
 - Control access based on location (network locations) - Supply IP ranges to restrict network locations.
-
 - Ability to tag each site (General Purpose, Internal, Confidential) - guide users how they should use the site and who they should share it with. Can add guidelines for users. You can apply policies based on the tags.
 
 
 ## Auditing and Reporting
+
+![Image]({{ site.url }}/images/blog/whats-new-sp-oct16/6.JPG)
 
 - Insights into how sharepoint and one drive are being used
 - Insights on how many active users, how much storage, insights per user
