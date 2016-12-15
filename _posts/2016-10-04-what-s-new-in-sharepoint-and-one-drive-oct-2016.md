@@ -11,8 +11,6 @@ tags:
 - Office 365
 category: SharePoint
 ---
-
-
 In this post, I will summarize the vision and roadmap of SharePoint and One Drive announced at Microsoft Ignite 2016. Learn how Microsoft is reinventing content collaboration.
 {% include youtubePlayer.html id="lNoL9dmarVE" %}  
 
