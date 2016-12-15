@@ -7,7 +7,7 @@ comments: false
 title: What's New in SharePoint and One Drive - Oct 2016
 ---
 
-Vision and Roadmap of SharePoint and One Drive
+Vision and Roadmap of SharePoint and One Drive. This is a video of the announcments at Microsoft Ignite 2016 and learn how Microsoft is reinventing content collaboration.
 {% include youtubePlayer.html id="lNoL9dmarVE" %}  
 
 <br>
