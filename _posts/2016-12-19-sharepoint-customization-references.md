@@ -1,0 +1,26 @@
+---
+layout: post
+published: false
+mathjax: false
+featured: false
+comments: false
+title: SharePoint Customization References
+---
+
+Easy Custom Layouts for Default SharePoint Forms
+http://www.markrackley.net/2013/08/29/easy-custom-layouts-for-default-sharepoint-forms/
+
+Tabify your SharePoint Forms
+http://www.markrackley.net/2015/12/03/tabify-your-sharepoint-forms/
+
+SharePoint Tabbed Webparts
+http://www.markrackley.net/2015/08/16/sharepoint-tabbed-web-partshillbillytabs-3-0/
+
+Stratus Forms – A lightweight InfoPath Replacement
+http://www.stratusforms.com/
+
+
+Cascading Drop Down Lists in SharePoint / Office 365 using REST
+http://www.markrackley.net/2014/05/20/cascading-drop-down-lists-in-sharepoint-office-365-using-rest/
+
+
