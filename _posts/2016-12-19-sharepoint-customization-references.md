@@ -23,4 +23,9 @@ http://www.stratusforms.com/
 Cascading Drop Down Lists in SharePoint / Office 365 using REST
 http://www.markrackley.net/2014/05/20/cascading-drop-down-lists-in-sharepoint-office-365-using-rest/
 
+Integrate Office 365 video portal with sharepoint online
+http://www.paitgroup.com/integrate-your-office-365-video-portal-with-sharepoint-online/
+
+Add a Signature to SharePoint Forms
+http://www.paitgroup.com/easy-digital-signatures-in-sharepoint/
 
