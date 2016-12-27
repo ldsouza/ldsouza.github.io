@@ -29,3 +29,8 @@ http://www.paitgroup.com/integrate-your-office-365-video-portal-with-sharepoint-
 Add a Signature to SharePoint Forms
 http://www.paitgroup.com/easy-digital-signatures-in-sharepoint/
 
+SharePoint Corporate directory
+https://en.share-gate.com/blog/corporate-directory-sharepoint-search
+
+Custom Promoted Links
+http://www.slideshare.net/stacydeere/promoted-links-you-get-this-one-for-free
