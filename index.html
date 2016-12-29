@@ -9,29 +9,7 @@ tags: [blog]
 {% if site.paginate %}
 	{% for post in paginator.posts %} 
 
-<ul>
-  {% for post in site.posts %}
-    <li>
-
-      {% assign foundImage = 0 %}
-      {% assign images = post.content | split:"<img " %}
-      {% for image in images %}
-        {% if image contains 'src' %}
-
-            {% if foundImage == 0 %}
-                {% assign html = image | split:"/>" | first %}
-                <img {{ html }} />
-                {% assign foundImage = 1 %}
-            {% endif %}
-        {% endif %}
-      {% endfor %}
-
-      <a href="{{ post.url }}">{{ post.title }}</a>
-    </li>
-  {% endfor %}
-</ul>
-
-    <article class="notepad-index-post post row">
+   <article class="notepad-index-post post row">
         <div class="small-12 medium-3 large-2 columns datetime">
             <span class="notepad-post-meta">
                 <time datetime="{{ post.date | date_to_xmlschema }}">
@@ -51,6 +29,21 @@ tags: [blog]
                         {{ post.title }}
                     </a>
                 </h3>
+		    
+		    {% assign foundImage = 0 %}
+      {% assign images = post.content | split:"<img " %}
+      {% for image in images %}
+        {% if image contains 'src' %}
+
+            {% if foundImage == 0 %}
+                {% assign html = image | split:"/>" | first %}
+                <img {{ html }} />
+                {% assign foundImage = 1 %}
+            {% endif %}
+        {% endif %}
+      {% endfor %}
+		    
+		    
             </header>
             <section class="notepad-post-excerpt">
                 <p>{{ post.content | strip_html | truncatewords:40 }}</p>
