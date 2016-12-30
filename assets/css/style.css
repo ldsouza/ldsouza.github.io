@@ -279,6 +279,9 @@ main, .notepad-share-icons, .notepad-disqus {
     line-height: 1.1; }
     .notepad-content .notepad-index-post .notepad-post-header .notepad-post-title a {
       color: black; }
+    .notepad-content .notepad-index-post .notepad-post-header .notepad-post-title img {
+       display: block;
+    margin: 0 auto; }
   @media only screen and (min-width: 40.063em) {
     .notepad-content .notepad-index-post .notepad-post-header .notepad-post-title {
       text-align: left;
