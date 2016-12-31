@@ -291,7 +291,7 @@ main, .notepad-share-icons, .notepad-disqus {
 
 
 
-    img {
+   .notepad-post-header img {
        display: block;
     margin: 0 auto; }
 
