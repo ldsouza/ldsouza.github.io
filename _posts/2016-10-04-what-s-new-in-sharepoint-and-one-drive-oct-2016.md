@@ -12,8 +12,6 @@ tags:
 category: SharePoint
 ---
 In this post, I will summarize the vision and roadmap of SharePoint and One Drive announced at Microsoft Ignite 2016. Learn how Microsoft is reinventing content collaboration.
-{% include youtubePlayer.html id="lNoL9dmarVE" %}  
-
 <br>
 
 ## Simple and Powerful File Sharing
@@ -80,4 +78,6 @@ In this post, I will summarize the vision and roadmap of SharePoint and One Driv
 - Insights on how many active users, how much storage, insights per user
 - Find who is sharing internally, sharing externally or any suspicious activity. 
 - Logging - Unified Logs for Hybrid Customers - On Premises and SharePoint Online
+
+{% include youtubePlayer.html id="lNoL9dmarVE" %}  
 
