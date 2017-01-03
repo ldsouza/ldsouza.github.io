@@ -14,6 +14,8 @@ description: Quick and Easy Solution to manage Rental Agreements in SharePoint.
 ---
 In this post, I will share an excellent video series on implementing a Rental Agreements Solution in SharePoint.
 
+![Image]({{ site.url }}/images/blog/SharePoint-feature.JPG)
+
 This video is demonstrated by Peter Kalmström from [Kalmstrom Solutions](http://kalmstrom.com/). In this particular solution, we would like to store Rental Agreements for warehouses and stores in SharePoint and apply some business rules to them. You can use the concepts you learn here, to build your own business solution.
 
 Some of the concepts and techniques covered here are:-
