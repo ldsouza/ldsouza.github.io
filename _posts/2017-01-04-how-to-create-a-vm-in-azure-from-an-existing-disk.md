@@ -8,12 +8,6 @@ title: How to create a VM in Azure from an existing Disk
 ---
 
 {% highlight python %}
-x = ('a', 1, False)
-{% endhighlight %}
-
-
-
-<code></code><code>PowerShell
  Login-AzureRmAccount
 $destinationVhd = "https://azure.blob.core.windows.net/vhds/dev.vhd"
 $rgName = "Azure-RG"
@@ -41,4 +35,10 @@ $vmConfig = Add-AzureRmVMNetworkInterface -VM $vmConfig -Id $networkInterface.Id
 
 
 $vm = New-AzureRmVM -VM $vmConfig -Location $locationName -ResourceGroupName $rgName
+{% endhighlight %}
+
+
+
+<code></code><code>PowerShell
+
 </code><code></code>
