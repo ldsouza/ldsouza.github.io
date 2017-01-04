@@ -6,11 +6,10 @@ featured: false
 comments: false
 title: How to create a VM in Azure from an existing Disk
 ---
-Edit file:
 
-    group_vars/all
-    
-Set variables from your EC2 account.
+{% highlight python %}
+x = ('a', 1, False)
+{% endhighlight %}
 
 
 
