@@ -6,19 +6,11 @@ featured: false
 comments: false
 title: How to create a VM in Azure from an existing Disk
 ---
-{% highlight yaml %}
-{% raw %}
----
- - hosts: localhost
-   connection: local
-   gather_facts: false
-   user: root
-   pre_tasks:
-    - include_vars: ec2_vars/{{type}}.yml
-   roles:
-    - provision-ec2 
-{% endraw %}
-{% endhighlight %}
+Edit file:
+
+    group_vars/all
+    
+Set variables from your EC2 account.
 
 
 
