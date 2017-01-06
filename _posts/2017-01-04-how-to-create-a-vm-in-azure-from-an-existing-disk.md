@@ -25,17 +25,16 @@ $vmConfig = Add-AzureRmVMNetworkInterface -VM $vmConfig -Id $networkInterface.Id
 $vm = New-AzureRmVM -VM $vmConfig -Location $locationName -ResourceGroupName $rgName
 ```
 
-<code>
+```javascript
 Login-AzureRmAccount
 #attach existing datadisks to VM
 $rgName = "Azure-CPI"
 $vmname = "DEV-CRM"
 $DataDiskUri = "https://azurecpidisks280.blob.core.windows.net/vhds/DEV-CRM-disk-1-20161226192045.vhd"
 $vmConfig=Get-AzurermVM -ResourceGroupName $rgname -Name $vmname
- 
 Add-AzureRMVMDataDisk -Name "DEV-CRM-Data03" -VM $vmConfig -VhdUri $DataDiskUri -LUN 1 -Caching None -CreateOption Attach -DiskSizeInGB 1023
 Update-AzureRmVM -ResourceGroupName $rgname -VM $vmConfig
-<code>
+```
 
 
 
