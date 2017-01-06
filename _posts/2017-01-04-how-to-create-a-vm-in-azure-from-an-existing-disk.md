@@ -36,11 +36,21 @@ Add-AzureRMVMDataDisk -Name "DEV-Data01" -VM $vmConfig -VhdUri $DataDiskUri -LUN
 Update-AzureRmVM -ResourceGroupName $rgname -VM $vmConfig
 
 ```javascript
-function hey(name) {
-    return 'Hey ' + name;
-}
-
-console.log(hey('Brienna'));
+Login-AzureRmAccount
+$destinationVhd = "https://azure.blob.core.windows.net/vhds/dev.vhd"
+$rgName = "Azure-RG"
+$virtualNetworkName = "Azure-VNetwork"
+$locationName = "East US"
+$virtualNetwork = Get-AzureRmVirtualNetwork -ResourceGroupName $rgName -Name $virtualNetworkName
+$publicIp = New-AzureRmPublicIpAddress -Name "dev11" -ResourceGroupName $rgName -Location 
+$locationName -AllocationMethod Dynamic
+$networkInterface = New-AzureRmNetworkInterface -ResourceGroupName $rgName -Name "dev11" -
+Location $locationName -SubnetId $virtualNetwork.Subnets[1].Id -PublicIpAddressId $publicIp.Id
+$vmConfig = New-AzureRmVMConfig -VMName "DEV" -VMSize "Standard_DS1"
+$vmConfig = Set-AzureRmVMOSDisk -VM $vmConfig -Name "DEV" -VhdUri $destinationVhd -CreateOption 
+Attach -Windows
+$vmConfig = Add-AzureRmVMNetworkInterface -VM $vmConfig -Id $networkInterface.Id
+$vm = New-AzureRmVM -VM $vmConfig -Location $locationName -ResourceGroupName $rgName
 ```
 
 
