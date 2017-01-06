@@ -53,6 +53,12 @@ $vmConfig = Add-AzureRmVMNetworkInterface -VM $vmConfig -Id $networkInterface.Id
 $vm = New-AzureRmVM -VM $vmConfig -Location $locationName -ResourceGroupName $rgName
 ```
 
+```
+function test() {
+  console.log("notice the blank line before this function?");
+}
+```
+
 
 
 
