@@ -30,3 +30,13 @@ $vm = New-AzureRmVM -VM $vmConfig -Location $locationName -ResourceGroupName $rg
 <code></code><code>PowerShell
 
 </code><code></code>
+
+
+>#attach existing datadisks to VM
+$rgName = "Azure-RG"
+$vmname = "DEV"
+$DataDiskUri = "https://azure.blob.core.windows.net/vhds/DEV-disk-1-20161226192045.vhd"
+$vmConfig=Get-AzurermVM -ResourceGroupName $rgname -Name $vmname
+Add-AzureRMVMDataDisk -Name "DEV-Data01" -VM $vmConfig -VhdUri $DataDiskUri -LUN 1 -Caching None -CreateOption Attach -DiskSizeInGB 1023
+Update-AzureRmVM -ResourceGroupName $rgname -VM $vmConfig
+ 
