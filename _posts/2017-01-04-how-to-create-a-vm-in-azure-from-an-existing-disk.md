@@ -35,6 +35,14 @@ $vmConfig=Get-AzurermVM -ResourceGroupName $rgname -Name $vmname
 Add-AzureRMVMDataDisk -Name "DEV-Data01" -VM $vmConfig -VhdUri $DataDiskUri -LUN 1 -Caching None -CreateOption Attach -DiskSizeInGB 1023
 Update-AzureRmVM -ResourceGroupName $rgname -VM $vmConfig
 
+```javascript
+function hey(name) {
+    return 'Hey ' + name;
+}
+
+console.log(hey('Brienna'));
+```
+
 
 
 
