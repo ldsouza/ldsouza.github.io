@@ -1,7 +1,7 @@
 ---
 layout: page
 permalink: /about/index.html
-title: Laurel Dsouza
+title: About Me
 tags: [ldsouza]
 chart: true
 ---
