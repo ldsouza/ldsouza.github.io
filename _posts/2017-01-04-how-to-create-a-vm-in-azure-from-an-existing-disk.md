@@ -8,7 +8,7 @@ title: How to create a VM in Azure from an existing Disk
 ---
 
 
-![Image]({{ site.url }}/images/blog/generic/azure.JPEG)
+![Image]({{ site.url }}/images/blog/generic/azure.jpg
 
 ```javascript
 Login-AzureRmAccount
