@@ -7,6 +7,9 @@ comments: false
 title: How to create a VM in Azure from an existing Disk
 ---
 
+
+![Image]({{ site.url }}/images/blog/generic/azure.JPEG)
+
 ```javascript
 Login-AzureRmAccount
 $destinationVhd = "https://azure.blob.core.windows.net/vhds/dev.vhd"
