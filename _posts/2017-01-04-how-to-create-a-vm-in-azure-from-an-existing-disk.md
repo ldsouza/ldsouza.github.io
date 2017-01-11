@@ -9,7 +9,7 @@ title: How to create a VM in Azure from an existing Disk
 
 This powershell script is useful to create a VM from an existing Disk. This is useful if you want to move your on-premises virtual machines to Azure or if you want to move a virtual machine in Azure to a different network.
 
-![Image]({{ site.url }}/images/blog/generic/azure.jpg
+![Image]({{ site.url }}/images/blog/generic/azure.jpg)
 
 ```javascript
 Login-AzureRmAccount
