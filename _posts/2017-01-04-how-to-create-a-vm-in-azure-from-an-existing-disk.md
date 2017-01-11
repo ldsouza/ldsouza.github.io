@@ -7,7 +7,7 @@ comments: false
 title: How to create a VM in Azure from an existing Disk
 ---
 
-This powershell script is useful to create a VM from an existing Disk. This is useful if you want to move your on-premises virtual machines to Azure or if you want to move a virtual machine in Azure to a different network.
+In this blog post, I will show you how to create a virtual machine in Azure from an existing disk in a storage account. This Azure RM powershell script is useful when you want to move your on-premises virtual machines to Azure. You would have to first copy your on-premises disks in vhd format to an Azure Storage Account, before you can run this script.
 
 ![Image]({{ site.url }}/images/blog/generic/azure.jpg)
 
@@ -29,6 +29,8 @@ $vmConfig = Add-AzureRmVMNetworkInterface -VM $vmConfig -Id $networkInterface.Id
 $vm = New-AzureRmVM -VM $vmConfig -Location $locationName -ResourceGroupName $rgName
 ```
 
+How to attach an existing data disk to a VM
+
 ```javascript
 Login-AzureRmAccount
 #attach existing datadisks to VM
@@ -40,7 +42,7 @@ Add-AzureRMVMDataDisk -Name "DEV-CRM-Data03" -VM $vmConfig -VhdUri $DataDiskUri 
 Update-AzureRmVM -ResourceGroupName $rgname -VM $vmConfig
 ```
 
-
+Another scenario is if you want to move a existing virtual machine in Azure to a different network. Azure does not let you move a vm to another network, so we have a to delete the existing VM and re-create it using its disks.
 
 
  
