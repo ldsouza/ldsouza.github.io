@@ -5,7 +5,6 @@ mathjax: false
 featured: false
 comments: true
 title: Introduction to Power BI
-imagefeature: cover2.png
 tags:
 - Power BI
 - Analytics
