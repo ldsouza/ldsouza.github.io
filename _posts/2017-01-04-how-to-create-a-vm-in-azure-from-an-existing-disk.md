@@ -16,7 +16,7 @@ In this example we will be using Azure Resource Manager to create a new virtual 
 Login-AzureRmAccount
 ```
 Copy the path of the existing Virtual Machine OS disk from the storage account.
-```
+```javascript
 $destinationVhd = "https://azure.blob.core.windows.net/vhds/dev.vhd"
 $rgName = "Azure-RG"
 $virtualNetworkName = "Azure-VNetwork"
