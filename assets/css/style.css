@@ -1121,7 +1121,7 @@ img.mfp-img {
   right: 0;
   padding-top: 0; }
 
-.highlight .nx { color: #000000} /* Name.Other */
+.highlight { color: #cccccc} /* Name.Other */
   .highlight .py { color: #000000} /* Name.Property */
   .highlight .nt { color: #F06F00; font-weight: bold} /* Name.Tag */
  -.highlight .nv { color: #8a2be2; text-decoration: underline} /* Name.Variable */
