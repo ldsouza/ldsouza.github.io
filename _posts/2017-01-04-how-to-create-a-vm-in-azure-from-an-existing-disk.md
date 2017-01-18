@@ -7,8 +7,7 @@ comments: false
 title: How to create a VM in Azure from an existing Disk
 ---
 
-In this blog post, I will show you how to create a virtual machine in Azure from an existing disk in a storage account. This Azure RM powershell script is useful when you want to move your on-premises virtual machines to Azure. You would have to first copy your on-premises disks in vhd format to an Azure Storage Account, before you can run this script.
-
+In this blog post, I will show you how to create a virtual machine in Azure from an existing disk in an Azure storage account. This Azure RM PowerShell script is useful when you want to move your on-premises virtual machines to Azure. Before you can run this script, you would have to first copy your on-premises disks in vhd format to an Azure Storage Account.
 ![Image]({{ site.url }}/images/blog/generic/azure.jpg)
 
 In this example we will be using Azure Resource Manager to create a new virtual machine.
@@ -44,7 +43,7 @@ $networkInterface = New-AzureRmNetworkInterface -ResourceGroupName $rgName -Name
 Location $locationName -SubnetId $virtualNetwork.Subnets[1].Id -PublicIpAddressId $publicIp.Id
 ```
 
-Define the virtual machine size by looking up the available virtal machine sizes for the location specified earlier.
+Define the virtual machine size by looking up the available virtual machine sizes for the location specified earlier.
 
 ```javascript
 Get-AzureRmVMSize $locationName | Out-GridView
@@ -73,7 +72,7 @@ Add-AzureRMVMDataDisk -Name "DEV-VM-Data03" -VM $vmConfig -VhdUri $DataDiskUri -
 Update-AzureRmVM -ResourceGroupName $rgname -VM $vmConfig
 ```
 
-Another scenario is if you want to move a existing virtual machine in Azure to a different network. Azure does not let you move a vm to another network, so we have a to delete the existing VM and re-create it using its disks.
+Another scenario, where this script could be handy, is if you want to move an existing virtual machine in Azure to a different network. Azure does not let you move a VM to another network, so we have a to delete the existing VM and re-create it using its disks.
 
 
- 
+
