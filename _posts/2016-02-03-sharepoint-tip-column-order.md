@@ -5,10 +5,10 @@ description: How to modify the column order in a libary or list form
 headline: 
 modified: 2014-07-19
 published: true
-category: SQL Server
+category: SharePoint
 tags:
-  - SSIS
-  - Data Transformation
+  - SharePoint Online
+  - SharePoint
 comments: true
 mathjax: 
 ---
