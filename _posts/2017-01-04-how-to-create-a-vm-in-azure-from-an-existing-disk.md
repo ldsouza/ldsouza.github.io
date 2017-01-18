@@ -50,6 +50,7 @@ Get-AzureRmVMSize $locationName | Out-GridView
 ```
 
 We are now ready to create the VM.
+
 ```javascript
 $vmConfig = New-AzureRmVMConfig -VMName "DEV" -VMSize "Standard_DS1"
 $vmConfig = Set-AzureRmVMOSDisk -VM $vmConfig -Name "DEV" -VhdUri $destinationVhd -CreateOption 
