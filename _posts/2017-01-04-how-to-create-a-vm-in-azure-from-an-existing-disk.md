@@ -5,6 +5,11 @@ mathjax: false
 featured: false
 comments: false
 title: How to create a VM in Azure from an existing Disk
+category: Azure
+tags:
+  - Azure
+  - Cloud
+  - Powershell
 ---
 
 In this blog post, I will show you how to create a virtual machine in Azure from an existing disk in an Azure storage account. This Azure RM PowerShell script is useful when you want to move your on-premises virtual machines to Azure. Before you can run this script, you would have to first copy your on-premises disks in vhd format to an Azure Storage Account.
