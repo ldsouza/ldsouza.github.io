@@ -75,8 +75,8 @@ kramdown:
 
 prose:
   rooturl: '_posts'
-  siteurl: 'http://ldsouza.github.io'
-  relativeLinks: 'http://ldsouza.github.io/links.jsonp'
+  siteurl: 'http://solutionsdelve.com'
+  relativeLinks: 'http://solutionsdelve.com/links.jsonp'
   media: 'images'
   metadata:
     _posts:
