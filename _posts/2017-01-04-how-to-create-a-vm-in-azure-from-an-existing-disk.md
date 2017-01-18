@@ -45,6 +45,7 @@ Location $locationName -SubnetId $virtualNetwork.Subnets[1].Id -PublicIpAddressI
 ```
 
 Define the virtual machine size by looking up the available virtal machine sizes for the location specified earlier.
+
 ```javascript
 Get-AzureRmVMSize $locationName | Out-GridView
 ```
