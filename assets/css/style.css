@@ -1121,5 +1121,6 @@ img.mfp-img {
   right: 0;
   padding-top: 0; }
 
-.highlight { color: #fff; background-color: #8B8B8B; font-family: Consolas,"Liberation Mono",Courier,monospace;} /* Name.Other */
+.highlight { color: #fff; background-color: #8B8B8B; font-family: Consolas,"Liberation Mono",Courier,monospace;
+line-height: 1.2} /* Name.Other */
 
