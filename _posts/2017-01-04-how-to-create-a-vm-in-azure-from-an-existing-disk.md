@@ -38,7 +38,7 @@ $virtualNetworkName = "Azure-VNetwork"
 $locationName = "East US"
 ```
 
-Define a Network Interface with a public IP Address to access the new VM.
+Create a Network Interface with a public IP Address to access the new VM.
 
 ```javascript
 $virtualNetwork = Get-AzureRmVirtualNetwork -ResourceGroupName $rgName -Name $virtualNetworkName
@@ -48,7 +48,7 @@ $networkInterface = New-AzureRmNetworkInterface -ResourceGroupName $rgName -Name
 Location $locationName -SubnetId $virtualNetwork.Subnets[1].Id -PublicIpAddressId $publicIp.Id
 ```
 
-Define the virtual machine size by looking up the available virtual machine sizes for the location specified earlier.
+Set the virtual machine size by looking up the available virtual machine sizes for the location specified earlier.
 
 ```javascript
 Get-AzureRmVMSize $locationName | Out-GridView
