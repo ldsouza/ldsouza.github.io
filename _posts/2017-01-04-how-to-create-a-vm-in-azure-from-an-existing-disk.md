@@ -64,7 +64,7 @@ $vmConfig = Add-AzureRmVMNetworkInterface -VM $vmConfig -Id $networkInterface.Id
 $vm = New-AzureRmVM -VM $vmConfig -Location $locationName -ResourceGroupName $rgName
 ```
 
-## How to attach an existing data disk to a VM
+#### How to attach an existing data disk to a VM
 
 ```javascript
 Login-AzureRmAccount
