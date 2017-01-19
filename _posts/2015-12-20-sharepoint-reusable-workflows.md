@@ -8,7 +8,7 @@ categories: SharePoint
 tags:
   - SharePoint Online
   - Office 365
-comments: true
+comments: false
 share: true
 published: true
 ---
