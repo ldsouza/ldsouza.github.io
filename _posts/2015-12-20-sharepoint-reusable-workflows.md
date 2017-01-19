@@ -55,7 +55,7 @@ Provide a name for the workflow and workflow settings like start options. Repeat
 
 ![Image]({{ site.url }}/images/blog/sharepoint-reusable-workflows/8.JPG)
 
-Any time you have to make a change to the reusable workflow, you update it once and it should apply to all the associated lists. I hope this quick demo will show you the power of reusable workflows and how you can possible implement it in your solutions.
+Any time you have to make a change to the reusable workflow, you update it once and it should apply to all the associated lists. I hope this quick demo demonstrated the power of reusable workflows and how you can implement it in your solutions.
 
 
 
