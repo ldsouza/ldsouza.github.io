@@ -2,7 +2,7 @@
 layout: post
 modified: 2014-07-19
 category: Office 365
-comments: true
+comments: false
 mathjax: 
 tags:
   - Office 365
