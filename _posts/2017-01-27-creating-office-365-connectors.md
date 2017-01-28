@@ -4,6 +4,6 @@ published: false
 mathjax: false
 featured: false
 comments: false
-title: Creating Office 365 Connectors
+title: Creating Connectors in Office 365
 ---
 Office 365 connectors are online apps that 
