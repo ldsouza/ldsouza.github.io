@@ -4,11 +4,18 @@ published: true
 mathjax: false
 featured: false
 comments: false
-title: How to disable Office 365 Groups Creation
+title: How to restrict Office 365 Groups Creation
+category: Office365
+tags:
+  - Office365
+  - Admin
+  - Powershell
 ---
 
 Office 365 Groups is a collaboration service that allows groups or teams in your organization to create documents, work on project plans, send emails and schedule appointments all in one place. The process to create an Office 365 Group is straightforward and very user-friendly and does not require involvement from IT. 
 This is the default behavior in Office 365, but some organizations may want to restrict which users can create groups in Office 365. I will be covering how you can disable the creation of Office 365 Groups in your tenant.
+
+![Image]({{ site.url }}/images/blog/generic/365Groups.JPG)
 
 There are few steps to make sure you can accomplish the tasks in this post -
 
