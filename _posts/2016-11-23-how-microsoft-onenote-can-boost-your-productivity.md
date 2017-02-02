@@ -9,7 +9,7 @@ tags:
 - OneNote
 - Office 365
 - SharePoint
-category: Office365
+category: Office 365
 ---
 In this blog post, I highlight some of the features of OneNote and how it can help you boost your productivity in the office or at home.
 
