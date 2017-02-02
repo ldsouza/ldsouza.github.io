@@ -4,10 +4,10 @@ published: true
 mathjax: false
 featured: false
 comments: false
-title: How to restrict Office 365 Groups Creation
+title: How to restrict the creation of Office 365 Groups
 category: Office365
 tags:
-  - Office365
+  - Office 365
   - Admin
   - Powershell
 ---
