@@ -20,7 +20,7 @@ The process to create an Office 365 Group is straightforward and very user-frien
 Some organizations may want to have a governance plan in place first and may want to restrict which users can create groups in Office 365. Below are the steps you can take to disable the creation of Office 365 Groups in your tenant.
 
 
-### 1) Install Azure AD PowerShell Module and Online Services Sign-In Assistant.
+### Install the Azure AD PowerShell Module and the Online Services Sign-In Assistant.
 
 Download and install the Preview version of the Azure AD PowerShell module.
 
@@ -80,6 +80,7 @@ $SettingId = $Setting.ObjectId
 $Value = $Setting.GetSettingsValue()
 ```
 
+
 ### Disable Group creation and restrict creation to only the group we created earlier.
 
 ```javascript
@@ -87,6 +88,7 @@ $Value[“GroupCreationAllowedGroupId”] = "d79b3d44-969b-429d-b5bd-3fa89e7ab7f
 $Value[“EnableGroupCreation”] = “false”
 Set-MsolSettings -SettingId $SettingId -SettingsValue $Value
 ```
+
 
 ### Verify the new settings of the template.
 
@@ -97,6 +99,7 @@ $setting.values
 ```
 
 ![Image]({{ site.url }}/images/blog/restrict-365-groups-creation/7.JPG)
+
 
 
 ### Test this with a user not part of the 'AllowedtoCreateGroups' security group and you should receive the following message.
