@@ -14,12 +14,39 @@ To setup AAD Domain Services -
 
 1) Create a Group called 'AAD DC Administrators'
 
-![Image]({{ site.url }}/images/blog/setup-aad-domain-services/2.JPG)
+![Image]({{ site.url }}/images/blog/setup-aad-domain-services/1.JPG)
 
 2) Create a classic Virtual Network
 
+![Image]({{ site.url }}/images/blog/setup-aad-domain-services/2.JPG)
+
 3) Enable Azure AD Domain Services in the Classic Portal
 
-4) Enable synchronization of credential hashes to AAD
+![Image]({{ site.url }}/images/blog/setup-aad-domain-services/3.JPG)
+
+4) Set the DNS server of the Virtual network
+
+![Image]({{ site.url }}/images/blog/setup-aad-domain-services/3.JPG)
+
+5) Enable synchronization of credential hashes to AAD
+
+Run the following Powershell script replacing the relevant connector names below. To find the connector names, open Synchronization Services on the AD Connect Server and click the connectors tab.
+
+AD CONNECTOR NAME is the connector of Type 'Active Directory Domain Services'
+AAD Connector Name is the connector of Type 'Windows Azure Active Directory (Microsoft)
+
+$adConnector = “<CASE SENSITIVE AD CONNECTOR NAME>”
+$aadConnector = “<CASE SENSITIVE AAD CONNECTOR NAME>”
+Import-Module adsync
+$c = Get-ADSyncConnector -Name $adConnector
+$p = New-Object Microsoft.IdentityManagement.PowerShell.ObjectModel.ConfigurationParameter “Microsoft.Synchronize.ForceFullPasswordSync”, String, ConnectorGlobal, $null, $null, $null
+$p.Value = 1
+$c.GlobalParameters.Remove($p.Name)
+$c.GlobalParameters.Add($p)
+$c = Add-ADSyncConnector -Connector $c
+Set-ADSyncAADPasswordSyncConfiguration -SourceConnector $adConnector -TargetConnector $aadConnector -Enable $false
+Set-ADSyncAADPasswordSyncConfiguration -SourceConnector $adConnector -TargetConnector $aadConnector -Enable $true
+
+
 
 Challenges - 
