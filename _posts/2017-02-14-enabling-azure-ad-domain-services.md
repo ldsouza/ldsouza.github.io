@@ -14,5 +14,12 @@ To setup AAD Domain Services -
 
 1) Create a Group called 'AAD DC Administrators'
 
-Challenges -
+![Image]({{ site.url }}/images/blog/setup-aad-domain-services/2.JPG)
 
+2) Create a classic Virtual Network
+
+3) Enable Azure AD Domain Services in the Classic Portal
+
+4) Enable synchronization of credential hashes to AAD
+
+Challenges - 
