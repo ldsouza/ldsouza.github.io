@@ -73,5 +73,5 @@ Once this is complete, users can sign into computers joined to the managed domai
 
 ### Challenges
 
-A big challenge is setting this up with Azure Resource Manager (ARM) virtual machines, since Azure AD Domain Services is not supported in Azure Resource Manager yet. To accomplish this, we have to set a VPN connection between the Classic Network on which Azure AD Domain Services is enabled and the Azure RM Network.
+Since Azure AD Domain Services is not supported in Azure Resource Manager yet, a big challenge is setting this up with Azure Resource Manager (ARM) virtual machines. To accomplish this, we have to set a VPN connection between the Classic Network in which Azure AD Domain Services is enabled and the Azure RM Network.
 
