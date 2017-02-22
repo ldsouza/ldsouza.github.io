@@ -5,7 +5,7 @@ mathjax: false
 featured: false
 comments: false
 title: Enabling Azure AD Domain Services
-category: Azure
+category: Azure, Admin
 tags:
   - Azure
   - Cloud
