@@ -56,6 +56,8 @@ $c = Add-ADSyncConnector -Connector $c
 Set-ADSyncAADPasswordSyncConfiguration -SourceConnector $adConnector -TargetConnector $aadConnector -Enable $false
 Set-ADSyncAADPasswordSyncConfiguration -SourceConnector $adConnector -TargetConnector $aadConnector -Enable $true
 
-
+Once this is complete, users can sign into computers joined to the managed domain using their Azure AD credentials.
 
 Challenges -
+
+A big challenge is setting this up with Azure Resource Manager virtual machines. To accomplish this, we have to set a VPN connection between the Classic Network on which Azure AD Domain Services is enabled and the Azure RM Network.
