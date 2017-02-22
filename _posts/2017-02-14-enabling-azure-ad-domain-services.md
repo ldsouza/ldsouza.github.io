@@ -12,19 +12,28 @@ Some of the features AAD Domain Services provides are Domain join, Domain Authen
 
 To setup AAD Domain Services -
 
-1) Create a Group called 'AAD DC Administrators'
+1) Create a Group called 'AAD DC Administrators' in Azure AD.
+
+The members of this group are granted  administrative privileges on machines joined to the Azure AD Domain. Set the group type of this group to ' Security'.
 
 ![Image]({{ site.url }}/images/blog/setup-aad-domain-services/1.JPG)
 
 2) Create a classic Virtual Network
 
+Azure AD Domain Services is not supported in Azure Resource Manager, so we have to create a virtual network and subnet in the Azure classic portal to enable Azure AD Domain Services. 
+
 ![Image]({{ site.url }}/images/blog/setup-aad-domain-services/2.JPG)
 
 3) Enable Azure AD Domain Services in the Classic Portal
 
+Click Active Directory in the Classic Portal and select the 'Configure' tab.
+Scroll to Domain Services and change the setting from 'No' to 'Yes' and select the DNS name of this managed domain service and the virtual network we created earlier.
+
 ![Image]({{ site.url }}/images/blog/setup-aad-domain-services/3.JPG)
 
 4) Set the DNS server of the Virtual network
+
+After enabling Domain Services, two IP Addresses will be displayed under Domain Services. Note this down and add this as a DNS Server for the virtual network.
 
 ![Image]({{ site.url }}/images/blog/setup-aad-domain-services/3.JPG)
 
@@ -49,4 +58,4 @@ Set-ADSyncAADPasswordSyncConfiguration -SourceConnector $adConnector -TargetConn
 
 
 
-Challenges - 
+Challenges -
