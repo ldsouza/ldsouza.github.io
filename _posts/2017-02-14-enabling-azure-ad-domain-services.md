@@ -37,7 +37,7 @@ Scroll to Domain Services and change the setting from 'No' to 'Yes' and select t
 
 After enabling Domain Services, two IP Addresses will be displayed under Domain Services. Note this down and add this as a DNS Server for the virtual network.
 
-![Image]({{ site.url }}/images/blog/setup-aad-domain-services/3.JPG)
+![Image]({{ site.url }}/images/blog/setup-aad-domain-services/4.JPG)
 
 5) Enable synchronization of credential hashes to AAD
 
