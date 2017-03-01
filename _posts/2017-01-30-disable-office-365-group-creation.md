@@ -38,7 +38,7 @@ Download and install the Online Services Sign-In Assistant.
 
 
 
-### Connect to the Office 365 service and sign into your Account.
+#### Connect to the Office 365 service and sign into your Account.
 
 ```javascript 
 Connect-MsolService
@@ -47,7 +47,7 @@ Connect-MsolService
 ![Image]({{ site.url }}/images/blog/restrict-365-groups-creation/3.JPG)
 
 
-### Check the company level setting for creating Groups in your Office 365 tenant.
+#### Check the company level setting for creating Groups in your Office 365 tenant.
 
 ```javascript
 Get-MsolCompanyInformation
@@ -58,7 +58,7 @@ Verify that <b>UsersPermissiontoCreateGroupsEnabled<b> setting is set to True.
 ![Image]({{ site.url }}/images/blog/restrict-365-groups-creation/5.JPG)
 
 
-### Create a Security Group in Azure AD called "AllowedtoCreateGroups" and find the Object ID of this group.
+#### Create a Security Group in Azure AD called "AllowedtoCreateGroups" and find the Object ID of this group.
 
 
 ![Image]({{ site.url }}/images/blog/restrict-365-groups-creation/4.JPG)
@@ -72,7 +72,7 @@ We can now use the ObjectID to restrict Office 365 Group Creation to this group.
 ![Image]({{ site.url }}/images/blog/restrict-365-groups-creation/4.JPG)
 
 
-### Select the Office 365 Group settings template by running the following cmdlet.
+#### Select the Office 365 Group settings template by running the following cmdlet.
 
 ```javascript
 $Setting = Get-MsolAllSettings | Where-Object { $_.DisplayName -eq “Group.Unified” }
@@ -81,7 +81,7 @@ $Value = $Setting.GetSettingsValue()
 ```
 
 
-### Disable Group creation and restrict creation to only the group we created earlier.
+#### Disable Group creation and restrict creation to only the group we created earlier.
 
 ```javascript
 $Value[“GroupCreationAllowedGroupId”] = "d79b3d44-969b-429d-b5bd-3fa89e7ab7fd"
@@ -90,7 +90,7 @@ Set-MsolSettings -SettingId $SettingId -SettingsValue $Value
 ```
 
 
-### Verify the new settings of the template.
+#### Verify the new settings of the template.
 
 ```javascript
 Get-MsolAllSettings
@@ -102,7 +102,9 @@ $setting.values
 
 
 
-### Test this with a user not part of the 'AllowedtoCreateGroups' security group and you should receive the following message.
+#### Test this with a user not part of the 'AllowedtoCreateGroups' security group
+
+You should receive the following message.
 
 ![Image]({{ site.url }}/images/blog/restrict-365-groups-creation/8.JPG)
 
