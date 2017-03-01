@@ -7,7 +7,6 @@ comments: false
 title: Enabling Azure AD Domain Services
 category:
   - Azure
-  - Admin
 tags:
   - Azure
   - Cloud
