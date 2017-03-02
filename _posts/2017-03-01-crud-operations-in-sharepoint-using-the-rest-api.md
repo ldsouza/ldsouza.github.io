@@ -8,7 +8,7 @@ title: CRUD Operations in SharePoint using the REST API
 ---
 ## A New Post
 
-This is part 1 of the series in which we will be performing CRUD (Create, Read, Update, and Delete) against SharePoint entities using the REST Representational State Transfer (REST) interface.
+This is part 1 of the series in which I will be performing CRUD (Create, Read, Update, and Delete) against SharePoint entities using the REST Representational State Transfer (REST) interface.
 
 The advantage of REST is that we can use http requests to retrieve or update SharePoint items without accessing any of the SharePoint libraries.
 
@@ -33,7 +33,7 @@ function Readlist() {
             output = output + "<tr><td>" + items[i].Title + "</td><td>" + items[i].Gender +"</td><td>" + items[i].Email +"</td><td>" + items[i].Address +"</td><td>" + items[i].City +"</td><td>" + items[i].State +"</td><td>" + items[i].Zip +"</td></tr>";
        
         }
-    $("#divList").html(output);
+    $("#divSPList").html(output);
 
     }, function (data) {
         alert("Ooops, an error occured. Please try again");
@@ -56,6 +56,10 @@ var restURL = siteurl + "/_api/web/lists/getbytitle('" + listName + "')/items";
 }
 ```
 
+Create SharePoint List Items
+
+In this example, we will be adding new customers to the Customer List by making a POST Request.
+
 ```javascript
 function add()
 {
@@ -71,6 +75,8 @@ function add()
         alert("Ooops, an error occured. Please try again");
     });
 }
+
+
 
 //Create operation
 
