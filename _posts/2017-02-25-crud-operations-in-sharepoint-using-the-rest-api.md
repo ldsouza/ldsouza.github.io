@@ -1,8 +1,10 @@
 ---
 layout: post
-published: true
-mathjax: false
-featured: false
+category: SharePoint
+tags:
+  - SharePoint Online
+  - Development
+  - SharePoint
 comments: false
 title: CRUD Operations in SharePoint using the REST API
 ---
