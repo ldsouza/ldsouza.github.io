@@ -1,6 +1,6 @@
 ---
 layout: post
-published: false
+published: true
 mathjax: false
 featured: false
 comments: false
@@ -8,11 +8,11 @@ title: CRUD Operations in SharePoint using the REST API
 ---
 ## A New Post
 
-Enter text in [Markdown](http://daringfireball.net/projects/markdown/). Use the toolbar above, or click the **?** button for formatting help.
 
+```javascript
 var listName = "Customers";
 var url = _spPageContextInfo.webAbsoluteUrl;
-function Read() { 
+function Readlist() { 
     getListItems(listName, url, function (data) {
         var items = data.d.results;
  var output;
@@ -35,7 +35,6 @@ function Read() {
 // success: The function to execute if the call is sucesfull
 // failure: The function to execute if the call fails
 function getListItems(listName, siteurl, success, failure) {
-var userId = _spPageContextInfo.userId;
 var restURL = siteurl + "/_api/web/lists/getbytitle('" + listName + "')/items";
     $.ajax({
         url: restURL,
@@ -49,3 +48,4 @@ var restURL = siteurl + "/_api/web/lists/getbytitle('" + listName + "')/items";
         }
     });
 }
+```
