@@ -10,7 +10,13 @@ title: CRUD Operations in SharePoint using the REST API
 ---
 This is a blog post in the series 'CRUD Operations in SharePoint using the REST API'. In this series I will be performing **CRUD (Create, Read, Update, and Delete)** against SharePoint entities using the REST Representational State Transfer (REST) interface.
 
+![Image]({{ site.url }}/images/blog/crud-sharepoint-rest/2.JPG)
+
 The advantage of REST is that we can use http requests to retrieve or update SharePoint items without accessing any of the SharePoint libraries.
+
+Create a custom SharePoint list named Customers and add the following columns to the list.
+
+![Image]({{ site.url }}/images/blog/crud-sharepoint-rest/1.JPG)
 
 ### Read SharePoint List Items
 
