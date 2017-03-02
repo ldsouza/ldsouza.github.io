@@ -6,18 +6,16 @@ featured: false
 comments: false
 title: CRUD Operations in SharePoint using the REST API
 ---
-## A New Post
-
-This is part 1 of the series in which I will be performing CRUD (Create, Read, Update, and Delete) against SharePoint entities using the REST Representational State Transfer (REST) interface.
+This is a blog post in the series 'CRUD Operations in SharePoint using the REST API'. In this series I will be performing CRUD (Create, Read, Update, and Delete) against SharePoint entities using the REST Representational State Transfer (REST) interface.
 
 The advantage of REST is that we can use http requests to retrieve or update SharePoint items without accessing any of the SharePoint libraries.
 
-Read SharePoint List Items
+### Read SharePoint List Items
 
 In this example, we will be reading a Customer List by making a GET Request.
 Set the name of the list you want to read from. In this instance our list name is Customers.
 
-The Javascript
+Javascript
 ```javascript
 
 // READ operation
@@ -56,10 +54,18 @@ var restURL = siteurl + "/_api/web/lists/getbytitle('" + listName + "')/items";
 }
 ```
 
-Create SharePoint List Items
+HTML
+```javascript
+<body onload="Readlist()">
+<div id="divSPList"></div>
+  </body>
+  ```
 
-In this example, we will be adding new customers to the Customer List by making a POST Request.
+### Create SharePoint List Items
 
+In this example, we will be adding new customers to the Customer List by constructing a RESTful HTTP request, but this time we will be using a POST request.
+
+Javascript
 ```javascript
 function add()
 {
@@ -113,4 +119,66 @@ function empty() {
     $("#cGender").val("");
    
 }
+```
+
+HTML
+```javascript
+<div class="col-sm-10">
+<form class="form-horizontal">
+
+
+
+<legend>Add Customer</legend>
+      <label style="display:none;" id="cId"></label>
+<div class="form-group">
+      <label control-label" for="textinput">Name</label>
+      <input name="cTitle" id="cTitle" type="text" class="form-control" input-sm" placeholder="Enter Name">
+</div>
+
+
+ <div class="form-group">
+     <label control-label" for="textinput">Gender</label>
+    <select name="cGender" id="cGender" type="text" class="form-control" input-sm" placeholder="Enter Gender">
+        <option>Male</option>
+        <option>Female</option>
+      </select>
+ </div>
+
+ <div class="form-group">
+     <label control-label" for="textinput">Email</label>  
+      <input name="cEmail" id="cEmail" type="text" class="form-control" input-sm" placeholder="Enter Email">
+ </div>
+
+ <div class="form-group">
+     <label control-label" for="textinput">Address</label>  
+      <input name="cAddress" id="cAddress" type="text" class="form-control" input-sm" placeholder="Enter Address">
+ </div>
+
+ <div class="form-group">
+     <label control-label" for="textinput">City</label>  
+      <input name="cCity" id="cCity" type="text" class="form-control" input-sm" placeholder="Enter City">
+ </div>
+
+ <div class="form-group">
+     <label control-label" for="textinput">State</label>
+   <select name="cState" id="cState" type="text" class="form-control" input-sm" placeholder="Enter State">
+        <option>DC</option>
+        <option>VA</option>
+        <option>MD</option>
+      </select>
+  </div>
+
+ <div class="form-group">
+     <label control-label" for="textinput">Zip</label>  
+      <input name="cZip" id="cZip" type="text" class="form-control" input-sm" placeholder="Enter Zip">
+ </div>
+
+
+ <div class="form-group">
+    <button onclick="operation('add')" type="button" id="btnAddSubmit" class="btn btn-success" value="Add">Save </button>
+    <button id="button2id" name="button2id" class="btn btn-danger">Clear</button>
+</div>
+
+</form>
+</div>
 ```
