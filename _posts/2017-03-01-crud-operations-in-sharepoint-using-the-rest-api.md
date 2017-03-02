@@ -8,10 +8,15 @@ title: CRUD Operations in SharePoint using the REST API
 ---
 ## A New Post
 
-You can Read and Create List items from SharePoint using the REST Representational State Transfer (REST) interface.
+This is part 1 of the series in which we will be performing CRUD (Create, Read, Update, and Delete) against SharePoint entities using the REST Representational State Transfer (REST) interface.
 
+The advantage of REST is that we can use http requests to retrieve or update SharePoint items without accessing any of the SharePoint libraries.
 
-Set the name of the list you want to read from. In this instance our list name is Customers.  
+Read SharePoint List Items
+
+In this example, we will be reading a Customer List by making a GET Request.
+Set the name of the list you want to read from. In this instance our list name is Customers.
+
 The Javascript
 ```javascript
 
