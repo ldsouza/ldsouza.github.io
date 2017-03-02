@@ -50,3 +50,56 @@ var restURL = siteurl + "/_api/web/lists/getbytitle('" + listName + "')/items";
     });
 }
 ```
+
+```javascript
+function add()
+{
+
+	var itemProperties = {'Title':$("#cTitle").val(),'Gender': $("#cGender").val(),'Email': $("#cEmail").val(),'Address': $("#cAddress").val(),'City': $("#cCity").val(),'State': $("#cState").val(),'Zip': $("#cZip").val()};
+    
+	createListItem(url,listName,itemProperties,function () {
+
+		empty();
+		
+				
+    }, function () {
+        alert("Ooops, an error occured. Please try again");
+    });
+}
+
+//Create operation
+
+function createListItem(siteUrl,listName, itemProperties, success, failure) {
+var itemType = GetItemTypeForListName(listName);
+    itemProperties["__metadata"] = { "type": itemType };
+
+    $.ajax({
+        url: siteUrl + "/_api/web/lists/getbytitle('" + listName + "')/items",
+        type: "POST",
+        contentType: "application/json;odata=verbose",
+        data: JSON.stringify(itemProperties),
+        headers: {
+            "Accept": "application/json;odata=verbose",
+            "X-RequestDigest": $("#__REQUESTDIGEST").val()
+        },
+        success: function (data) {
+            success(data.d);
+        },
+        error: function (data) {
+            failure(data);
+        }
+    });
+}
+
+
+function empty() {
+    $("#cTitle").val("");
+	$("#cState").val("");
+	$("#cAddress").val("");
+    $("#cCity").val("");
+	$("#cZip").val("");
+	$("#cEmail").val("");
+    $("#cGender").val("");
+   
+}
+```
