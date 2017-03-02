@@ -9,7 +9,13 @@ title: CRUD Operations in SharePoint using the REST API
 ## A New Post
 
 
+To read from the list, we will be using the REST API.
+
+Set the name of the list you want to read from. In this instance our list name is Customers.  
+The Javascript
 ```javascript
+
+// READ operation
 var listName = "Customers";
 var url = _spPageContextInfo.webAbsoluteUrl;
 function Readlist() { 
@@ -29,11 +35,6 @@ function Readlist() {
     });
 }
  
-// READ operation
-// listName: The name of the list you want to get items from
-// siteurl: The url of the site that the list is in. 
-// success: The function to execute if the call is sucesfull
-// failure: The function to execute if the call fails
 function getListItems(listName, siteurl, success, failure) {
 var restURL = siteurl + "/_api/web/lists/getbytitle('" + listName + "')/items";
     $.ajax({
