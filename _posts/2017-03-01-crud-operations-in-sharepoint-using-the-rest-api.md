@@ -22,10 +22,10 @@ Set the name of the list you want to read from. In this instance our list name i
 var listName = "Customers";
 var url = _spPageContextInfo.webAbsoluteUrl;
 function Readlist() { 
-    getListItems(listName, url, function (data) {
-        var items = data.d.results;
- var output;
- output = "<table class='table'><tr><th>Customer Name</th><th>Gender</th><th>Email</th><th>Address</th><th>City</th><th>State</th><th>Zip</th></tr>";
+getListItems(listName, url, function (data) {
+var items = data.d.results;
+var output;
+output = "<table class='table'><tr><th>Customer Name</th><th>Gender</th><th>Email</th><th>Address</th><th>City</th><th>State</th><th>Zip</th></tr>";
         // Add all the new items
         for (var i = 0; i < items.length; i++) {
             output = output + "<tr><td>" + items[i].Title + "</td><td>" + items[i].Gender +"</td><td>" + items[i].Email +"</td><td>" + items[i].Address +"</td><td>" + items[i].City +"</td><td>" + items[i].State +"</td><td>" + items[i].Zip +"</td></tr>";
@@ -70,7 +70,7 @@ In this example, we will be adding new customers to the Customer List by constru
 function add()
 {
 
-	var itemProperties = {'Title':$("#cTitle").val(),'Gender': $("#cGender").val(),'Email': $("#cEmail").val(),'Address': $("#cAddress").val(),'City': $("#cCity").val(),'State': $("#cState").val(),'Zip': $("#cZip").val()};
+var itemProperties = {'Title':$("#cTitle").val(),'Gender': $("#cGender").val(),'Email': $("#cEmail").val(),'Address': $("#cAddress").val(),'City': $("#cCity").val(),'State': $("#cState").val(),'Zip': $("#cZip").val()};
     
 	createListItem(url,listName,itemProperties,function () {
 
