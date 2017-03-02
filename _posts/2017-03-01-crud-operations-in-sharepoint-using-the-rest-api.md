@@ -182,3 +182,5 @@ HTML
 </form>
 </div>
 ```
+
+Using the REST API, you can build your own interfaces and forms to interact with SharePoint Data.  In the next part of this blog post series, I will cover the Update and Delete operations you can take on SharePoint List Items using REST.
