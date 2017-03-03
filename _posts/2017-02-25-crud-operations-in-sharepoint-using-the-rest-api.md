@@ -20,6 +20,8 @@ Create a custom SharePoint list named Customers and add the following columns to
 
 ### Read SharePoint List Items
 
+![Image]({{ site.url }}/images/blog/crud-sharepoint-rest/3.JPG)
+
 In this example, we will be reading a Customer List by making a GET Request.
 Set the name of the list you want to read from. In this instance our list name is Customers.
 
@@ -70,6 +72,8 @@ var restURL = siteurl + "/_api/web/lists/getbytitle('" + listName + "')/items";
   ```
 
 ### Create SharePoint List Items
+
+![Image]({{ site.url }}/images/blog/crud-sharepoint-rest/4.JPG)
 
 In this example, we will be adding new customers to the Customer List by constructing a RESTful HTTP request, but this time we will be using a POST request.
 
