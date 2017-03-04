@@ -8,7 +8,7 @@ tags:
 comments: false
 title: CRUD Operations in SharePoint using the REST API
 ---
-This is a blog post in the series 'CRUD Operations in SharePoint using the REST API'. In this series I will be performing **CRUD (Create, Read, Update, and Delete)** against SharePoint entities using the REST Representational State Transfer (REST) interface.
+This is a blog post in the series 'CRUD Operations in SharePoint using the REST API'. In this series I will be performing **CRUD (Create, Read, Update, and Delete)** against SharePoint entities using the REST Representational State Transfer (REST) interface and jQuery Ajax.
 
 ![Image]({{ site.url }}/images/blog/crud-sharepoint-rest/2.JPG)
 
@@ -193,4 +193,4 @@ function empty() {
 </div>
 ```
 
-Using the REST API, you can build your own interfaces and forms to interact with SharePoint Data.  In the next part of this blog post series, I will cover the Update and Delete operations you can take on SharePoint List Items using REST.
+Using the REST API, you can build your own interfaces and forms to interact with SharePoint Data.  In the next part of this blog post series, I will cover the Update and Delete operations you can perform on SharePoint List Items using REST.
