@@ -22,9 +22,11 @@ In the previous post, I have created a custom SharePoint list named Customers an
 
 ### Update SharePoint List Items
 
-![Image]({{ site.url }}/images/blog/crud-sharepoint-rest/6.JPG)
+![Image]({{ site.url }}/images/blog/crud-sharepoint-rest/5.JPG)
 
 In this example, we will be updating a customer in the Customer List by constructing a RESTful HTTP request.
+
+![Image]({{ site.url }}/images/blog/crud-sharepoint-rest/7.JPG)
 
 **Javascript**
 ```javascript
@@ -94,6 +96,8 @@ function getListItemWithId(itemId, listName, siteurl, success, failure) {
 ```
 
 ### Delete SharePoint List Items
+
+![Image]({{ site.url }}/images/blog/crud-sharepoint-rest/8.JPG)
 
 **Javascript**
 ```javascript
