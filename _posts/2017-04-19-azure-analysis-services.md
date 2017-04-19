@@ -14,6 +14,7 @@ Install the On-Premises Data Gateway
 https://docs.microsoft.com/en-us/azure/analysis-services/analysis-services-gateway
 
 Connect through SQL Server Management Studio - 
+https://docs.microsoft.com/en-us/azure/analysis-services/analysis-services-manage
 
 Install the latest 
 
