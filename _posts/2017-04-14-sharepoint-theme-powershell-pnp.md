@@ -15,3 +15,9 @@ SharePoint 2016	Install-Module SharePointPnPPowerShell2016
 SharePoint 2013	Install-Module SharePointPnPPowerShell2013
 
 
+Download the sharepoint color palette tool -
+
+https://www.microsoft.com/en-us/download/details.aspx?id=38182
+
+Create a SharePoint color theme and generate a .spolor theme file.
+
