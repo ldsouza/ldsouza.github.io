@@ -6,6 +6,11 @@ featured: false
 comments: false
 title: Sharepoint theme powershell pnp
 ---
+Patterns and Practices is a community contributed source of allows you to perform complex provisioning and artifact management actions towards SharePoint.
+
+![Image]({{ site.url }}/images/blog/sp-pnp-branding-theme/0.JPG)
+
+
 1) you can run the following commands to install the PowerShell cmdlets:
 
 SharePoint Online	Install-Module SharePointPnPPowerShellOnline
