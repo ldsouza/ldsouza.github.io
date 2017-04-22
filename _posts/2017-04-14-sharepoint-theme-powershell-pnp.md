@@ -1,10 +1,12 @@
 ---
 layout: post
-published: false
+published: true
 mathjax: false
 featured: false
 comments: false
 title: Sharepoint theme powershell pnp
+category: SharePoint
+tags: 'SharePoint Online,Development,SharePoint'
 ---
 Patterns and Practices is a community contributed source of allows you to perform complex provisioning and artifact management actions towards SharePoint.
 
