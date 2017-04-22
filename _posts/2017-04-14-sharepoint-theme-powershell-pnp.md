@@ -4,11 +4,11 @@ published: true
 mathjax: false
 featured: false
 comments: false
-title: Sharepoint theme powershell pnp
+title: 'Branding SharePoint Theme using PnP '
 category: SharePoint
 tags: 'SharePoint Online,Development,SharePoint'
 ---
-Patterns and Practices is a community contributed source of allows you to perform complex provisioning and artifact management actions towards SharePoint.
+Patterns and Practices (PnP) is a community contributed source of allows you to perform complex provisioning and artifact management actions towards SharePoint.
 
 ![Image]({{ site.url }}/images/blog/sp-pnp-branding-theme/0.JPG)
 
