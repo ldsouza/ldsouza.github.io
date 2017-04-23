@@ -1,14 +1,16 @@
 ---
 layout: post
-published: false
+published: true
 mathjax: false
 featured: false
 comments: false
-title: 'Branding SharePoint Theme using PnP '
+title: 'Branding SharePoint Theme using PnP PowerShell '
 category: SharePoint
 tags: 'SharePoint Online,Development,SharePoint'
 ---
-Patterns and Practices (PnP) is a community contributed source of allows you to perform complex provisioning and artifact management actions towards SharePoint.
+Patterns and Practices (PnP) is an open source community effort that provides solutions and real world examples that can be easily implemented with minimal effort.Some of these examples include perform complex provisioning and artifact management actions towards SharePoint.
+
+In this post, I will show you how to brand SharePoint with a custom theme using PnP PowerShell. You can use this example to brand site collections or subsites, set the SharePoint composed look and the master page.
 
 ![Image]({{ site.url }}/images/blog/sp-pnp-branding-theme/0.JPG)
 
