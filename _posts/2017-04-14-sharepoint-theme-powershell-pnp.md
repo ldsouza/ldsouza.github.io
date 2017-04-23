@@ -39,10 +39,9 @@ To see more instructions on installing PnP Powershell.
 
 You can use the SharePoint Color Palette tool to create a customized theme for your SharePoint site. This theme can be used in SharePoint Online, SharePoint 2016 or SharePoint 2013.
 
+<a href="https://www.microsoft.com/en-us/download/details.aspx?id=38182">Download here</a>
+
 ![Image]({{ site.url }}/images/blog/sp-pnp-branding-theme/2.JPG)
-
-<a href="https://www.microsoft.com/en-us/download/details.aspx?id=38182">PnP Powershell Install Instructions</a>
-
 
 ### 3) Create a SharePoint color theme and generate a .spolor theme file.
 
