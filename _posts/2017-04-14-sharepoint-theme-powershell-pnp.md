@@ -43,7 +43,7 @@ You can use the SharePoint Color Palette tool to create a customized theme for y
 
 ![Image]({{ site.url }}/images/blog/sp-pnp-branding-theme/2.JPG)
 
-### 3) Create a SharePoint color theme and generate a .spolor theme file.
+### 3) Create a SharePoint color theme
 
 Set the colors in the SharePoint Color Palette Tool and save the file as a .spcolor file.
 
