@@ -10,6 +10,8 @@ tags:
   - SharePoint Online
   - Development
   - SharePoint
+  - Patterns & Practices
+  - PowerShell
 ---
 In this post, I will show you how to brand SharePoint with a custom theme using PnP PowerShell. You can use this example to brand site collections or subsites and set the SharePoint composed look and the master page.
 
