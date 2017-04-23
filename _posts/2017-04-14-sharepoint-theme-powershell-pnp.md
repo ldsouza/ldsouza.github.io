@@ -17,9 +17,7 @@ Patterns and Practices (PnP) is an open source community effort that provides so
 
 ### 1) Install PnP Powershell Commands
 
-You can run the following commands to install the PowerShell cmdlets. To see more instructions on installing PnP Powershell.
-
-<a href="https://github.com/SharePoint/PnP-PowerShell#installation">PnP Powershell Install Instructions</a>
+You can run the following commands to install the PowerShell cmdlets. 
 
 ```javascript
 /*SharePoint Online*/
@@ -33,20 +31,34 @@ Install-Module SharePointPnPPowerShell2013
 
 ```
 
-### 2) Download  and Install the sharepoint color palette tool -
+To see more instructions on installing PnP Powershell.
 
-https://www.microsoft.com/en-us/download/details.aspx?id=38182
+<a href="https://github.com/SharePoint/PnP-PowerShell#installation">PnP Powershell Install Instructions</a>
 
-### 3) Create a SharePoint color theme and generate a .spolor theme file.
+### 2) Download  and Install the sharepoint color palette tool
+
+You can use the SharePoint Color Palette tool to create a customized theme for your SharePoint site. This theme can be used in SharePoint Online, SharePoint 2016 or SharePoint 2013.
 
 ![Image]({{ site.url }}/images/blog/sp-pnp-branding-theme/2.JPG)
 
+<a href="https://www.microsoft.com/en-us/download/details.aspx?id=38182">PnP Powershell Install Instructions</a>
+
+
+### 3) Create a SharePoint color theme and generate a .spolor theme file.
+
+Set the colors in the SharePoint Color Palette Tool and save the file as a .spcolor file.
+
 ![Image]({{ site.url }}/images/blog/sp-pnp-branding-theme/1.JPG)
 
-### 4) Download the files from the github repository
+### 4) Download the script files from this github repository
+
+The script files below can be used to set the theme of SharePoint Online, SharePoint 2016 or SharePoint 2013 site. You can change the background image and the custom .spcolor file to your custom theme.
+
 <a href="https://github.com/ldsouza/Pnp-SharePoint-Branding/tree/master/Set%20SharePoint%20Theme">Download Here</a>
 
 ### 5) Run the Powershell script
+
+Set the Target Web Url to your site or subsite and set the MasterUrl to seattle.master or oslo.master.
 
 ```javascript
 
@@ -54,3 +66,6 @@ https://www.microsoft.com/en-us/download/details.aspx?id=38182
 aster"
 
 ```
+After running the script, your SharePoint site should now be branded. From this example you can see the potential of PnP Powershell and how quickly you can brand and provision sites in SharePoint.
+
+This example was provided by Eric Overfield and you can find more excellent examples of using PnP at his Github Repository <a href="https://github.com/eoverfield/SP-Branding-Options">here</a>.
