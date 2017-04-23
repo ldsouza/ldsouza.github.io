@@ -12,10 +12,10 @@ In this post, I will show you how to brand SharePoint with a custom theme using 
 
 ![Image]({{ site.url }}/images/blog/sp-pnp-branding-theme/0.JPG)
 
-Patterns and Practices (PnP) is an open source community effort that provides solutions and real world examples that can be easily implemented with minimal effort.Some of these examples include perform complex provisioning and artifact management actions towards SharePoint.
+Patterns and Practices (PnP) is an open source community effort that provides solutions and real world examples that can be easily implemented with minimal effort.Some of these examples include perform complex provisioning, management and branding towards SharePoint.
 
 
-Step 1) Install PnP Powershell
+### 1) Install PnP Powershell
 
 you can run the following commands to install the PowerShell cmdlets:
 
@@ -31,20 +31,20 @@ Install-Module SharePointPnPPowerShell2013
 
 ```
 
-2) Download the sharepoint color palette tool -
+### 2) Download  and Install the sharepoint color palette tool -
 
 https://www.microsoft.com/en-us/download/details.aspx?id=38182
 
-Create a SharePoint color theme and generate a .spolor theme file.
+### 3) Create a SharePoint color theme and generate a .spolor theme file.
 
 ![Image]({{ site.url }}/images/blog/sp-pnp-branding-theme/2.JPG)
 
 ![Image]({{ site.url }}/images/blog/sp-pnp-branding-theme/1.JPG)
 
-3) Download the files from the github repository
+### 4) Download the files from the github repository
 <a href="https://github.com/ldsouza/Pnp-SharePoint-Branding/tree/master/Set%20SharePoint%20Theme">Download Here</a>
 
-4) Run the Powershell script
+### 5) Run the Powershell script
 
 ```javascript
 
