@@ -8,16 +8,18 @@ title: 'Branding SharePoint Theme using PnP PowerShell '
 category: SharePoint
 tags: 'SharePoint Online,Development,SharePoint'
 ---
-In this post, I will show you how to brand SharePoint with a custom theme using PnP PowerShell. You can use this example to brand site collections or subsites, set the SharePoint composed look and the master page.
+In this post, I will show you how to brand SharePoint with a custom theme using PnP PowerShell. You can use this example to brand site collections or subsites and set the SharePoint composed look and the master page.
 
 ![Image]({{ site.url }}/images/blog/sp-pnp-branding-theme/0.JPG)
 
 Patterns and Practices (PnP) is an open source community effort that provides solutions and real world examples that can be easily implemented with minimal effort.Some of these examples include perform complex provisioning, management and branding towards SharePoint.
 
 
-### 1) Install PnP Powershell
+### 1) Install PnP Powershell Commands
 
-you can run the following commands to install the PowerShell cmdlets:
+You can run the following commands to install the PowerShell cmdlets. To see more instructions on installing PnP Powershell.
+
+<a href="https://github.com/SharePoint/PnP-PowerShell#installation">PnP Powershell Install Instructions</a>
 
 ```javascript
 /*SharePoint Online*/
