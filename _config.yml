@@ -36,7 +36,7 @@ bing_verify:
 # For external links add external: true
 links:
   - title: Home
-    url: https://www.solutionsdelve.com/
+    url: /
     external: false
     icon: home
   - title: Categories
