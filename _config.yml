@@ -40,13 +40,13 @@ links:
     external: false
     icon: home
   - title: Categories
-    url: https://www.solutionsdelve.com/categories
+    url: /categories
   - title: Tags
-    url: https://www.solutionsdelve.com/tags
+    url: /tags
   - title: About
-    url: https://www.solutionsdelve.com/about
+    url: /about
   - title: Search
-    url: https://www.solutionsdelve.com/search
+    url: /search
 
 # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 timezone:    America/New_York
