@@ -14,3 +14,5 @@ Powershell ISE
 PS C:\Windows\system32> Get-Command -Module azurerm
 
 PS C:\Windows\system32> get-module -ListAvailable | where name -Like "*Azure*"
+
+PS C:\Windows\system32> get-module -ListAvailable | where name -Like "*Azure*" |foreach {get-command -Module $_}
