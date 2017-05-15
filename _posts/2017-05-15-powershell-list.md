@@ -24,4 +24,9 @@ Update-module AzureRM
 import-module AzureRM
 (get-module AzureRM).Version
 
+Login-AzureRMAccount
+
+Azure service manager - Add-AzureAccount
+
+
 
