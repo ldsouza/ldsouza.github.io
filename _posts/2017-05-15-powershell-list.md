@@ -43,5 +43,6 @@ Get-AzureRmStorageAccount | ft StorageAccountName, ResourceGroupName
 Get-AzureRmContext
 
 
+http://savilltech.com/blog/automating-deployments-to-azure-iaas-with-custom-actions/
 
 
