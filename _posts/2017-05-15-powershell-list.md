@@ -31,3 +31,17 @@ Azure service manager - Add-AzureAccount
 
 $cred = get-credential
  Login-AzureRMAccount -Credential $cred
+
+
+**Save a Password Securely to Use with PowerShell**
+http://windowsitpro.com/development/save-password-securely-use-powershell
+
+**Azure Subscription**
+Get-AzureRmSubscription
+Select-AzureRmSubscription -SubscriptionId 'a984cf58-3128-46e3-baa2-f5e5d915b560'
+Get-AzureRmStorageAccount | ft StorageAccountName, ResourceGroupName
+Get-AzureRmContext
+
+
+
+
