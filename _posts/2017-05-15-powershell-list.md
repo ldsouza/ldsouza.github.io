@@ -19,14 +19,15 @@ PS C:\Windows\system32> get-module -ListAvailable | where name -Like "*Azure*" |
 
 PS C:\Windows\system32> Get-Command -verb new
 
+## Install Azure Module
 install-module Azurerm
 Update-module AzureRM
 import-module AzureRM
 (get-module AzureRM).Version
 
+## Logging into Azure
 Login-AzureRMAccount
-
 Azure service manager - Add-AzureAccount
 
-
-
+$cred = get-credential
+ Login-AzureRMAccount -Credential $cred
