@@ -36,3 +36,6 @@ SELECT DATEADD(s,-1,DATEADD(mm, DATEDIFF(m,0,GETDATE()),0))
 
 #### Last Date of Next Month:  
 SELECT DATEADD(s,-1,DATEADD(mm, DATEDIFF(m,0,GETDATE())+2,0))
+
+#### Convert Date to YYYYMMDD
+SELECT CONVERT(VARCHAR(10), Now(), 112)
