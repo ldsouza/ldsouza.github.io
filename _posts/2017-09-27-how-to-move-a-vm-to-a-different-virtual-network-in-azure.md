@@ -41,15 +41,15 @@ Select the Virtual Machine to Backup. This is the VM in our old network.
 
 ![Image]({{ site.url }}/images/blog/move-azure-vm-vnet/4.JPG)
 
-### 3) Backup the Virtual Machine
+### 3) Backup the Virtual Machine from the old network
 
-Once the configuration is complete, click Backup Now to begin the backup of the VM.
+Once the configuration is complete, click Backup Now to begin the backup of the VM. You should recieve a popup alert in Azure once the backup is complete.
 
 ![Image]({{ site.url }}/images/blog/move-azure-vm-vnet/5.JPG)
 
-### 4) Set the DNS server of the Virtual network
+### 4) Restore the Virtual Machine to the new network
 
-After enabling Domain Services, two IP Addresses will be displayed under Domain Services. Note this down and add this as a DNS Server in the virtual network configuration under Networks.
+After Backup is complete, select the 
 
 ![Image]({{ site.url }}/images/blog/setup-aad-domain-services/4.JPG)
 
