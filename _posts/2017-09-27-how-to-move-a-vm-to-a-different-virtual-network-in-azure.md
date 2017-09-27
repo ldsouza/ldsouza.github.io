@@ -7,9 +7,12 @@ mathjax: false
 featured: false
 comments: false
 title: How to move a VM to a different virtual network in Azure
+tags: 'Azure,Cloud'
+category:
+  - Azure
 ---
 
-We often encounter scenarios where we have to move development workloads to a production network. In an on-premise environment, moving virtual machines to a different virtual network is a breeze, but it has not always been straightforward in Azure.
+We often encounter scenarios where we have to move workloads to a different virtual network. In an on-premise environment, moving virtual machines to a different virtual network is a breeze, but it has not always been straightforward in Azure.
 
 One of the methods to moving a virtual machine in Azure, is deleting the existing VM, creating a new VM in the new network and then attaching the existing disks. 
 
@@ -49,34 +52,19 @@ Once the configuration is complete, click Backup Now to begin the backup of the 
 
 ### 4) Restore the Virtual Machine to the new network
 
-After Backup is complete, select the 
+After Backup is complete, Select the Azure VM in Backup Items and click Restore VM.
 
-![Image]({{ site.url }}/images/blog/setup-aad-domain-services/4.JPG)
+![Image]({{ site.url }}/images/blog/move-azure-vm-vnet/6.JPG)
 
-### 5) Enable synchronization of credential hashes to AAD
+Set Restore Type to Create Virtual Machine, Select the Resource Group and the New Virtual Network.
 
-Run the following PowerShell script after replacing the relevant connector names below. To find the connector names, open Synchronization Services on the AD Connect Server and click the connectors tab.
+![Image]({{ site.url }}/images/blog/move-azure-vm-vnet/7.JPG)
 
-AD CONNECTOR NAME is the connector of Type 'Active Directory Domain Services'.
+Once the VM is restored, you can see it in your list of virtual machines. You can then decommission the VM in the old network.
 
-AAD Connector Name is the connector of Type 'Windows Azure Active Directory (Microsoft).
+![Image]({{ site.url }}/images/blog/move-azure-vm-vnet/8.JPG)
 
-```javascript
-$adConnector = “<CASE SENSITIVE AD CONNECTOR NAME>”
-$aadConnector = “<CASE SENSITIVE AAD CONNECTOR NAME>”
-Import-Module adsync
-$c = Get-ADSyncConnector -Name $adConnector
-$p = New-Object Microsoft.IdentityManagement.PowerShell.ObjectModel.ConfigurationParameter “Microsoft.Synchronize.ForceFullPasswordSync”, String, ConnectorGlobal, $null, $null, $null
-$p.Value = 1
-$c.GlobalParameters.Remove($p.Name)
-$c.GlobalParameters.Add($p)
-$c = Add-ADSyncConnector -Connector $c
-Set-ADSyncAADPasswordSyncConfiguration -SourceConnector $adConnector -TargetConnector $aadConnector -Enable $false
-Set-ADSyncAADPasswordSyncConfiguration -SourceConnector $adConnector -TargetConnector $aadConnector -Enable $true
-```
 
-Once this is complete, users can sign into computers joined to the managed domain using their Azure AD credentials.
+### Summary
 
-### Challenges
-
-Since Azure AD Domain Services is not supported in Azure Resource Manager yet, a big challenge is setting this up with Azure Resource Manager (ARM) virtual machines. To accomplish this, we have to set a VPN connection between the Classic Network in which Azure AD Domain Services is enabled and the Azure RM Network.
+To summarize, we used Azure Recovery Services Vault to move a vm to a different network. I find this method more straightforward and with some scripting, we can easily make this process scale. I will cover the script in a later blog post. I hope you found this post helpful!
