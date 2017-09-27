@@ -18,7 +18,7 @@ One of the methods to moving a virtual machine in Azure, is deleting the existin
 
 In this blog post, I will show you how to moving a vm to a different virtal network using Azure Recovery Services Vault.
 
-![Image]({{ site.url }}/images/blog/setup-aad-domain-services/5.JPG)
+![Image]({{ site.url }}/images/blog/generic/azure.jpg)
 
 Here is a step-by-step guide -
 
