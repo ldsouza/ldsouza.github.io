@@ -17,26 +17,35 @@ In this blog post, I will show you how to moving a vm to a different virtal netw
 
 ![Image]({{ site.url }}/images/blog/setup-aad-domain-services/5.JPG)
 
-First we need to setup Azure , follow the five steps below -
+Here is a step-by-step guide -
 
-### 1) Create a Group called 'AAD DC Administrators' in Azure AD.
+### 1) Create a Recovery Services Vault in Azure
 
-The members of this group are granted administrative privileges on machines joined to the Azure AD Domain. Set the group type of this group to 'Security'.
+Enter the name of the Vault, select the subscription, Resource group and region.
 
-![Image]({{ site.url }}/images/blog/setup-aad-domain-services/1.JPG)
+![Image]({{ site.url }}/images/blog/move-azure-vm-vnet/0.JPG)
 
-### 2) Create a classic Virtual Network
+Once the recovery services vault is created, create a new backup
 
-Azure AD Domain Services is not supported in Azure Resource Manager, so we have to create a virtual network and subnet in the Azure classic portal to enable Azure AD Domain Services. 
+![Image]({{ site.url }}/images/blog/move-azure-vm-vnet/1.JPG)
 
-![Image]({{ site.url }}/images/blog/setup-aad-domain-services/2.JPG)
+### 2) Configure the Virtual Machine Backup
 
-### 3) Enable Azure AD Domain Services in the Classic Portal
+Create a New Backup Goal and Backup Policy. Select the Backup Frequency and Retention Range. You can create a new policy to set this backup to not re-occur.
 
-Click Active Directory in the Classic Portal and select the 'Configure' tab.
-Scroll to Domain Services and change the setting from 'No' to 'Yes' and select a DNS name of this managed domain service and the virtual network we created earlier.
+![Image]({{ site.url }}/images/blog/move-azure-vm-vnet/2.JPG)
 
-![Image]({{ site.url }}/images/blog/setup-aad-domain-services/3.JPG)
+![Image]({{ site.url }}/images/blog/move-azure-vm-vnet/3.JPG)
+
+Select the Virtual Machine to Backup. This is the VM in our old network.
+
+![Image]({{ site.url }}/images/blog/move-azure-vm-vnet/4.JPG)
+
+### 3) Backup the Virtual Machine
+
+Once the configuration is complete, click Backup Now to begin the backup of the VM.
+
+![Image]({{ site.url }}/images/blog/move-azure-vm-vnet/5.JPG)
 
 ### 4) Set the DNS server of the Virtual network
 
