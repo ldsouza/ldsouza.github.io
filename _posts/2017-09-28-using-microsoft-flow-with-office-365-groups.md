@@ -11,8 +11,11 @@ title: Using Microsoft Flow with Office 365 Groups
 
 Office 365 Groups is a collaboration service that allows groups or teams in your organization to create documents, work on project plans, send emails and schedule appointments all in one place.
 
-It comes with a sharepoint site collection where the group files are stored. Documents can be uploaded and stored in the Group documents which is the same as 'Shared Documents' Library in the SharePoint Site.
+It comes with a SharePoint site collection where the group files are stored. Documents can be uploaded and stored in the Group documents which is the same as 'Shared Documents' Library in the SharePoint Site.
 
+I was curious to see if I could create workflows on this default SharePoint library, so I connected to the site collection using SharePoint Designer and I was able to create workflows.
+
+One of the goals of this whole process was to email an attachment of files uploaded in SharePoint to members of the group. This option/feature is not available out-of-the-box, so I used Microsoft flow to accomplish this.
 
 One of the methods to moving a virtual machine in Azure, is deleting the existing VM, creating a new VM in the new network and then attaching the existing disks. 
 
