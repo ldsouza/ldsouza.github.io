@@ -22,3 +22,5 @@ Securely share externally without an account - Sharing with external users (no o
 
 Link to Teams from SharEPoint
 
+Real Time co-authoring in Excel
+
