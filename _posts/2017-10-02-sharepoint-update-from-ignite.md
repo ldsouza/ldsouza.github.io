@@ -24,3 +24,6 @@ Link to Teams from SharEPoint
 
 Real Time co-authoring in Excel
 
+SharEPoint News Updates
+Customize look and layout of site - Custom Themes sharEpoint pages.
+New webparts
