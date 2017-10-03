@@ -47,3 +47,4 @@ Site management - view Office 365 group sites
 Managed device acess only policy - site level
 
 User -restore one drive last 30 days
+sharepoint migration tool
