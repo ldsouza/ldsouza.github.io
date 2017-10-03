@@ -37,5 +37,6 @@ Associate publishing sites, classic sites, team sites, communication sites
 Flow integrated into one drive
 
 Sharepoint lists column formatting, flow get information and start flow.
+No throttling in sharepoint lists/libraries
 
 replace default sharepoint forms with powerapps
