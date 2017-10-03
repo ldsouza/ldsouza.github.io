@@ -40,3 +40,5 @@ Sharepoint lists column formatting, flow get information and start flow.
 No throttling in sharepoint lists/libraries
 
 replace default sharepoint forms with powerapps
+
+Site management - view Office 365 group sites
