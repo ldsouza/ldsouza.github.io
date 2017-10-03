@@ -32,3 +32,6 @@ New webparts
 
 Sharepoint Hub Sites - sites inherit branding, navigation, rollup news and activity
 Associate publishing sites, classic sites, team sites, communication sites
+
+
+Flow integrated into one drive
