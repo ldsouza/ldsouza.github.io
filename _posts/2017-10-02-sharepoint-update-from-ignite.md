@@ -6,7 +6,7 @@ categories:
 mathjax: false
 featured: false
 comments: false
-title: SharePoint Update from Ignite
+title: SharePoint Updates from Ignite
 ---
 ## A New Post
 
@@ -35,3 +35,7 @@ Associate publishing sites, classic sites, team sites, communication sites
 
 
 Flow integrated into one drive
+
+Sharepoint lists column formatting, flow get information and start flow.
+
+replace default sharepoint forms with powerapps
