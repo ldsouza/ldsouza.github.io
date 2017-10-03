@@ -43,3 +43,5 @@ replace default sharepoint forms with powerapps
 
 Admin, usage and security
 Site management - view Office 365 group sites
+
+Managed device acess only policy - site level
