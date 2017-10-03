@@ -30,4 +30,4 @@ Customize look and layout of site - Custom Themes sharEpoint pages.
 New webparts
 
 
-Sharepoint Hub Sites
+Sharepoint Hub Sites - sites inherit branding, navigation, rollup news and activity
