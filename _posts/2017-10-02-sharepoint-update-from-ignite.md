@@ -65,4 +65,4 @@ Column Formrating - sharepoint lists (Json code)
 flow action in column
 
 better support for large lists
-
+Predictive indexing
