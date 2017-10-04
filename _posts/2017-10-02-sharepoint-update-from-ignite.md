@@ -49,9 +49,12 @@ Managed device acess only policy - site level
 User -restore one drive last 30 days
 sharepoint migration tool
 
-
+Search video
 text extraction from images
 
+
+Shareoint list libarries video
+https://myignite.microsoft.com/videos/53861
 Sharepoint list - sharepoint framewoek extensions
 
 Sharepoint list - bulk tagging metadata - modern experience
