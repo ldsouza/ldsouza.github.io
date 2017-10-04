@@ -49,11 +49,11 @@ Managed device acess only policy - site level
 User -restore one drive last 30 days
 sharepoint migration tool
 
-Search video
+**Search video
 text extraction from images
 
 
-Shareoint list libarries video
+**Shareoint list libarries video**
 https://myignite.microsoft.com/videos/53861
 Sharepoint list - sharepoint framewoek extensions
 
@@ -63,4 +63,6 @@ Drag and drop prompts required metadata.
 Consolidate filters, pin columns to filter
 Column Formrating - sharepoint lists (Json code)
 flow action in column
+
+better support for large lists
 
