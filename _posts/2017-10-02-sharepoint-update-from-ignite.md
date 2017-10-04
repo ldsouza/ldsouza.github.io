@@ -59,4 +59,5 @@ Drag and drop prompts required metadata.
 
 Consolidate filters, pin columns to filter
 Column Formrating - sharepoint lists (Json code)
+flow action in column
 
