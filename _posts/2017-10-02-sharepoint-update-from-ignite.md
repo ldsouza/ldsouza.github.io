@@ -60,6 +60,8 @@ Sharepoint list - sharepoint framewoek extensions
 Sharepoint list - bulk tagging metadata - modern experience
 Drag and drop prompts required metadata.
 
+files that need attention view
+
 Consolidate filters, pin columns to filter
 Column Formrating - sharepoint lists (Json code)
 flow action in column
