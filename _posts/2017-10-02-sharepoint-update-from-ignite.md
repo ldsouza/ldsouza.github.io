@@ -68,3 +68,9 @@ flow action in column
 
 better support for large lists
 Predictive indexing
+
+
+
+**Admin**
+
+Sharepoint site usage - view site visits, unique viewers and files shared externatlly and files trending.
