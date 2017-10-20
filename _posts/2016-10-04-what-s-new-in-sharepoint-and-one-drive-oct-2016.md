@@ -5,11 +5,8 @@ mathjax: false
 featured: false
 comments: true
 title: What's New in SharePoint and One Drive - Oct 2016
-tags:
-- SharePoint
-- One Drive
-- Office 365
-category: SharePoint
+tags: 'SharePoint,One Drive,Office 365'
+category: OFFICE 365
 ---
 In this post, I will summarize the vision and roadmap of SharePoint and One Drive announced at Microsoft Ignite 2016. Learn how Microsoft is reinventing content collaboration.
 <br>
@@ -79,5 +76,4 @@ In this post, I will summarize the vision and roadmap of SharePoint and One Driv
 - Find who is sharing internally, sharing externally or any suspicious activity. 
 - Logging - Unified Logs for Hybrid Customers - On Premises and SharePoint Online
 
-{% include youtubePlayer.html id="lNoL9dmarVE" %}  
-
+{% include youtubePlayer.html id="lNoL9dmarVE" %}
