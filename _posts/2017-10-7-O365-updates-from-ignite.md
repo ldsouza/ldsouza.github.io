@@ -16,10 +16,11 @@ In this blog post, I will be highlighting the major updates Microsoft announced 
 
 ![Image]({{ site.url }}/images/blog/whats-new-ignite-2017/1.jpg)
 
-A large organizations connect their Modern Workplace with One Drive and SharePoint and thee growth and usage is phenomenal. Here are some exciting updates that were announced at Ignite 2017.
+A large organizations connect their Modern Workplace with One Drive and SharePoint and their growth and adoption rate is phenomenal. 
 
 ![Image]({{ site.url }}/images/blog/whats-new-ignite-2017/2.JPG)
 
+Here are some exciting updates that were announced at Ignite 2017 -
 
 ## One Drive - Share and Work Together
 
