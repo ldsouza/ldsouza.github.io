@@ -34,6 +34,7 @@ Here are some exciting updates that were announced at Ignite 2017 -
 - Text extraction from images for Search
 
 
+
 ## SharePoint - Mobile and Intelligent Intranet
 
 ![Image]({{ site.url }}/images/blog/whats-new-ignite-2017/SP.JPG)
@@ -47,6 +48,7 @@ Here are some exciting updates that were announced at Ignite 2017 -
 - Extend SharePoint with new SharePoint Framework Extensions
 - Richer Integration with Microsoft Flow and Power Apps
 - Better support for large lists and Predictive indexing
+
 
 
 ## Admin, Usage and Security
