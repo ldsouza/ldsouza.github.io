@@ -6,73 +6,36 @@ categories:
 mathjax: false
 featured: false
 comments: false
-title: SharePoint Updates from Ignite
+title: What's new in Office 365 - updated from Ignite 2017
 ---
-## A New Post
+**One Drive - Share and Work Together**
 
-Enter text in [Markdown](http://daringfireball.net/projects/markdown/). Use the toolbar above, or click the **?** button for formatting help.
-
-Sync all files with Files on demand (GA) - Files On Demand (Windows 10)
-
-View Document metrics number of views who viewed
-
-Short shared urls
-
-Securely share externally without an account - Sharing with external users (no office 365 account), with access code.
-
-Link to Teams from SharEPoint
-
-Real Time co-authoring in Excel
-
-SharEPoint News Updates, save news for later
-Me tab in Sharepoint mobile
-Customize look and layout of site - Custom Themes sharEpoint pages.
-New webparts
+Sync all files with Files on demand - Access all your files without using up your device storage
+View Document metrics - Number of views and who viewed a document.
+Real Time Co-Authoring in Excel.
+Easy Shareable links, Short shared urls and Securely shared external links
+Microsoft Flow integrated into One Drive.
+Text extraction from images for Search
 
 
-Sharepoint Hub Sites - sites inherit branding, navigation, rollup news and activity
-Associate publishing sites, classic sites, team sites, communication sites
+**SharePoint - Mobile and Intelligent Intranet**
+
+New Sharepoint Hub Sites - Sites that inherit branding, navigation, rollup news and activity
+SharEPoint News Updates and Save news for later Feature
+Customize look and layout of site - Custom Theme SharEpoint pages.
+Build richer, more dynamic pages with new web parts
+Column formatting and Consolidated Filters in SharePoint Lists.
+No throttling in Sharepoint lists/libraries
+Extend SharePoint with new SharePoint Framework Extensions
+Richer Integration with Microsoft Flow and Power Apps
+Better support for large lists and Predictive indexing
 
 
-Flow integrated into one drive
+**Admin, Usage and Secuirty**
 
-Sharepoint lists column formatting, flow get information and start flow.
-No throttling in sharepoint lists/libraries
-
-replace default sharepoint forms with powerapps
-
-Admin, usage and security
-Site management - view Office 365 group sites
-
+New SharePoint and One Drive Admin Center
+Sharepoint Site Usage - View Site Visits, Unique Viewers, Files shared externally and files trending.
+Site management - View Office 365 Group Sites
 Managed device acess only policy - site level
-
-User -restore one drive last 30 days
-sharepoint migration tool
-
-**Search video
-text extraction from images
-
-
-**Shareoint list libarries video**
-https://myignite.microsoft.com/videos/53861
-Sharepoint list - sharepoint framewoek extensions
-
-Sharepoint list - bulk tagging metadata - modern experience
-Drag and drop prompts required metadata.
-
-files that need attention view
-
-Consolidate filters, pin columns to filter
-Column Formrating - sharepoint lists (Json code)
-flow action in column
-
-better support for large lists
-Predictive indexing
-
-
-
-**Admin**
-
-Sharepoint site usage - view site visits, unique viewers and files shared externatlly and files trending.
-
-new sharepoint admin center
+File Restore from One Drive - Restore from last 30 days
+New Sharepoint Migration Tool
