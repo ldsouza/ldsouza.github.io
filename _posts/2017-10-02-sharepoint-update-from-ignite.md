@@ -7,11 +7,13 @@ comments: false
 title: What's new in Office 365 - Updates from Ignite 2017
 tags: 'SharePoint,One Drive,Office 365'
 category: OFFICE 365
+categories:
+  - personal
 ---
 
 In this blog post, I will be highlighting the major updates Microsoft announced at its Ignite Conference in Orlando, Florida. These exciting features connect the workplace with intelligent content management and intranets.
 
-![Image]({{ site.url }}/images/blog/whats-new-ignite-2017/main.jpg)
+![Image]({{ site.url }}/images/blog/whats-new-ignite-2017/0.jpg)
 
 A large organizations connect their Modern Workplace with One Drive and SharePoint and thee growth and usage is phenomenal. Here are some exciting updates that were announced at Ignite 2017.
 
