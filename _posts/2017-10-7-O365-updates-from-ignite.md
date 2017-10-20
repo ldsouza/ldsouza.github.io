@@ -16,7 +16,7 @@ In this blog post, I will be highlighting the major updates Microsoft announced 
 
 ![Image]({{ site.url }}/images/blog/whats-new-ignite-2017/1.jpg)
 
-A large organizations connect their Modern Workplace with One Drive and SharePoint and their growth and adoption rate is phenomenal. 
+A large organizations connect their Modern Workplace with One Drive and SharePoint and their growth and adoption rate is phenomenal. Here are some metrics below that indicate their momentum.
 
 ![Image]({{ site.url }}/images/blog/whats-new-ignite-2017/2.JPG)
 
