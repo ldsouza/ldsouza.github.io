@@ -17,6 +17,12 @@ I was curious to see if I could create workflows on this default SharePoint libr
 
 One of the goals of this whole process was to email an attachment of files uploaded in SharePoint to members of the group. This option/feature is not available out-of-the-box, so I used Microsoft flow to accomplish this.
 
+Head over to https://flow.microsoft.com and sign in with your Office 365 account.
+
+![Image]({{ site.url }}/images/blog/flow-365-groups/1.JPG)
+
+Click the create from blank template
+
 One of the methods to moving a virtual machine in Azure, is deleting the existing VM, creating a new VM in the new network and then attaching the existing disks. 
 
 In this blog post, I will show you how to moving a vm to a different virtal network using Azure Recovery Services Vault.
@@ -71,4 +77,3 @@ Once the VM is restored, you can see it in your list of virtual machines. You ca
 ### Summary
 
 To summarize, we used Azure Recovery Services Vault to move a vm to a different network. I find this method more straightforward and with some scripting, we can easily make this process scale. I will cover the script in a later blog post. I hope you found this post helpful!
-
