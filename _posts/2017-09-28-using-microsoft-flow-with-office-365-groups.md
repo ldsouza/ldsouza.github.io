@@ -45,4 +45,4 @@ Replace your Office 365 site url in the above expression.
 
 ### Summary
 
-To summarize, we used Azure Recovery Services Vault to move a vm to a different network. I find this method more straightforward and with some scripting, we can easily make this process scale. I will cover the script in a later blog post. I hope you found this post helpful!
+Here is a simple example of you how you can leverage two powerful tools Microsoft Flow and Office 365 groups to get notified of a document upload in your Office 365 group site collection.
