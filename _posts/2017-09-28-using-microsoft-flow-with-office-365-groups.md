@@ -21,57 +21,24 @@ Head over to https://flow.microsoft.com and sign in with your Office 365 account
 
 ![Image]({{ site.url }}/images/blog/flow-365-groups/1.JPG)
 
-Click the create from blank template
+Click the 'Create from Blank' button.Search for the SharePoint trigger 'When a file is created in a folder'.
 
-One of the methods to moving a virtual machine in Azure, is deleting the existing VM, creating a new VM in the new network and then attaching the existing disks. 
+Enter the Office 365 group site url in site address and select 'Shared Documents' under Folder Id. This is the default SharePoint library used by the Office 365 group.
 
-In this blog post, I will show you how to moving a vm to a different virtal network using Azure Recovery Services Vault.
+![Image]({{ site.url }}/images/blog/flow-365-groups/2.JPG)
 
-![Image]({{ site.url }}/images/blog/move-azure-vm-vnet/01.JPG)
+The next step is to select an action. Click Next Step and then add an Action. Select the 'Send an Email' action.
 
-Here is a step-by-step guide -
+Enter the email address of the Office 365 group in the To field. Select the filename from the earlier SharePoint condition. In the body, enter the following for a link to the document.
 
-### 1) Create a Recovery Services Vault in Azure
+replace(concat('https://contoso.sharepoint.com/sites/ogroup',triggerOutputs()['headers']['x-ms-file-path']),'','%20')
 
-Enter the name of the Vault, select the subscription, Resource group and region.
+Replace your Office 365 site url in the above expression.
 
-![Image]({{ site.url }}/images/blog/move-azure-vm-vnet/0.JPG)
+![Image]({{ site.url }}/images/blog/flow-365-groups/3.JPG)
 
-Once the recovery services vault is created, create a new backup
 
-![Image]({{ site.url }}/images/blog/move-azure-vm-vnet/1.JPG)
-
-### 2) Configure the Virtual Machine Backup
-
-Create a New Backup Goal and Backup Policy. Select the Backup Frequency and Retention Range. You can create a new policy to set this backup to not re-occur.
-
-![Image]({{ site.url }}/images/blog/move-azure-vm-vnet/2.JPG)
-
-![Image]({{ site.url }}/images/blog/move-azure-vm-vnet/3.JPG)
-
-Select the Virtual Machine to Backup. This is the VM in our old network.
-
-![Image]({{ site.url }}/images/blog/move-azure-vm-vnet/4.JPG)
-
-### 3) Backup the Virtual Machine from the old network
-
-Once the configuration is complete, click Backup Now to begin the backup of the VM. You should recieve a popup alert in Azure once the backup is complete.
-
-![Image]({{ site.url }}/images/blog/move-azure-vm-vnet/5.JPG)
-
-### 4) Restore the Virtual Machine to the new network
-
-After Backup is complete, Select the Azure VM in Backup Items and click Restore VM.
-
-![Image]({{ site.url }}/images/blog/move-azure-vm-vnet/6.JPG)
-
-Set Restore Type to Create Virtual Machine, Select the Resource Group and the New Virtual Network.
-
-![Image]({{ site.url }}/images/blog/move-azure-vm-vnet/7.JPG)
-
-Once the VM is restored, you can see it in your list of virtual machines. You can then decommission the VM in the old network.
-
-![Image]({{ site.url }}/images/blog/move-azure-vm-vnet/8.JPG)
+![Image]({{ site.url }}/images/blog/flow-365-groups/4.JPG)
 
 
 ### Summary
