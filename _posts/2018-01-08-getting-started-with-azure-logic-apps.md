@@ -16,6 +16,16 @@ To get started with Logic Apps, you would have to login to an Azure subscription
 
 Click Create Logic App, Enter a name for your logic app, select and resource group and location and you should have your first logic app ready to develop.
 
+Search for Logic app in the Azure Marketplace
+
+Click Create
+
+You will see the logic apps designer
+
+Popular templates
+
+Create a Blank Logic App
+
 
 
 
