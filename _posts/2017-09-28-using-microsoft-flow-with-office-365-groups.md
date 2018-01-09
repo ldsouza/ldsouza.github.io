@@ -15,7 +15,7 @@ Office 365 Groups is a collaboration service that allows groups or teams in your
 
 ![Image]({{ site.url }}/images/blog/flow-365-groups/1.JPG)
 
-A Office 365 group comes with a SharePoint site collection where the group files are stored. Documents can be uploaded and stored in the Group documents which is the same as 'Shared Documents' Library in the SharePoint Site.
+A Office 365 group comes with a SharePoint site collection where the group files are stored. Documents can be uploaded and stored in  Group documents which is the same as the 'Shared Documents' Library in the SharePoint Site.
 
 When a file is uploaded online, the members of the group are not notified. We can leverage Microsoft Flow to create a flow to email an attachment to members of the group, when a document is uploaded to the library.
 
