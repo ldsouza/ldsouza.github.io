@@ -6,9 +6,12 @@ categories:
 mathjax: false
 featured: false
 comments: false
-title: Using Microsoft Flow with Office 365 Groups
-tags: 'Office 365,SharePoint,One Drive'
 category: Office 365
+tags:
+  - Office 365
+  - SharePoint
+  - Microsoft Flow
+  - Office 365 Groups
 ---
 
 Office 365 Groups is a collaboration service that allows groups or teams in your organization to create documents, work on project plans, send emails and schedule appointments all in one place.
