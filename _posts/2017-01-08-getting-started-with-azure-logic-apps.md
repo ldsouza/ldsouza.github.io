@@ -7,8 +7,11 @@ mathjax: false
 featured: false
 comments: false
 title: Getting Started with Azure Logic Apps
-tags: 'Azure,Logic Apps'
 category: Azure
+tags:
+  - Azure
+  - Logic Apps
+  - Workflow
 ---
 In a previous post, I showed an example of you can use Micrsoft Flow to perform business automation. Flow is a user-friendly workflow tool targeted towards business users. Azure Logic apps is a developer focused tool that allows developers to build integration solutions and define complex workflows. 
 
