@@ -10,13 +10,13 @@ title: Getting Started with Azure Logic Apps
 tags: 'Azure,Logic Apps'
 category: Azure
 ---
-In a previous post, I showed an example of you can use Micrsoft flow to automate tasks. Flow is a user-friendly tool targeted towards business users. Azure Logic apps is a developer focused tool that allows developers to build integration solutions and define complex workflows. It is a Platform as a Service (PaAS) available in Azure.
+In a previous post, I showed an example of you can use Micrsoft Flow to perform business automation. Flow is a user-friendly workflow tool targeted towards business users. Azure Logic apps is a developer focused tool that allows developers to build integration solutions and define complex workflows. 
 
 ![Image]({{ site.url }}/images/blog/azure-logic-apps/1.JPG)
 
-Using Logic Apps, you can connect and integrate data from the cloud to on-premises.It's large ecosystem out-of-the-box cloud connectors make integration less challenging and reduces the time to develop complex solutions.
+Using Logic Apps, you can connect and integrate data from the cloud to on-premises. It's large ecosystem of out-of-the-box cloud connectors make integration less challenging and reduces the time to develop complex solutions.
 
-To get started with Logic Apps, you would have to login to an Azure subscription.
+Logic Apps is a  Platform as a Service (PaAS) available in Azure, so to get started with Logic Apps, you would have to first login to an Azure subscription.
 
 ![Image]({{ site.url }}/images/blog/azure-logic-apps/2.JPG)
 
