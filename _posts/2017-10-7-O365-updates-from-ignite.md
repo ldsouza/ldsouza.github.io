@@ -13,9 +13,7 @@ tags:
 ---
 
 In this blog post, I will be highlighting the major updates Microsoft announced at its Ignite Conference in Orlando, Florida. These exciting features connect the workplace with intelligent content management and intranets.
-
 ![Image]({{ site.url }}/images/blog/whats-new-ignite-2017/1.jpg)
-
 Large number of organizations connect their Modern Workplace with One Drive and SharePoint and their growth and adoption rate is phenomenal. Here are some metrics below that indicate their momentum.
 
 ![Image]({{ site.url }}/images/blog/whats-new-ignite-2017/2.JPG)
