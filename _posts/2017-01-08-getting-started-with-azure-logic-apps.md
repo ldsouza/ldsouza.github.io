@@ -13,7 +13,7 @@ tags:
   - Logic Apps
   - Automation
 ---
-In a previous post, I showed an example of you can use Micrsoft Flow to automate your business processes. Flow is a user-friendly workflow tool targeted towards business users. Azure Logic apps is a developer focused tool that allows developers to build integration solutions and define complex workflows. 
+In a previous post, I showed an example of you can use Microsoft Flow to automate your business processes. Flow is a user-friendly workflow tool targeted towards business users. Azure Logic apps is a developer focused tool that allows developers to build integration solutions and define complex workflows. 
 
 ![Image]({{ site.url }}/images/blog/azure-logic-apps/1.JPG)
 
@@ -47,5 +47,5 @@ Here is an excellent article explaining the pricing model -  [Logic Apps Pricing
 
 ![Image]({{ site.url }}/images/blog/azure-logic-apps/7.JPG)
 
-In future posts, I will explain in detail the differences betweek Microsoft Flow and Azure Logic Apps and when does it make sense to use one versus the other.
+In future posts, I will explain in detail the differences between Microsoft Flow and Azure Logic Apps and when does it make sense to use one versus the other.
 
