@@ -41,7 +41,9 @@ The next step is to select an Action to run after a trigger condition has been m
 
 ![Image]({{ site.url }}/images/blog/azure-logic-apps/6.JPG)
 
-An important point is to use the pricing calculator to determine how much Azure Logic Apps will cost you. The good thing is that it is consumption based, so you only pay for usage. But it is important to be mindful how frequently you set the polling interval in your trigger, because that can easily increase how much you pay.
+Before deploying your app, make sure to use the pricing calculator to determine how much Azure Logic Apps will cost you. The good thing is that it is consumption based, so you only pay for usage. 
+
+But it is important to be mindful how frequently you set the polling interval in your trigger, because that can easily increase how much you pay.
 
 Here is an excellent article explaining the pricing model -  [Logic Apps Pricing Explained](https://peter.intheazuresky.com/2017/02/24/be-careful-of-the-logic-app-consumption-prizing-model/)
 
