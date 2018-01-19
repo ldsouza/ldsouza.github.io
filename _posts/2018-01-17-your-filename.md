@@ -26,3 +26,6 @@ $cred = New-Object -TypeName pscredential –ArgumentList "d17d1afe-6ce7-427e-85
 Login-AzureRmAccount -Credential $cred -ServicePrincipal –TenantId 35edb7bb-df3e-4c68-9814-c50f8dd7204d
 
 Start-AzureRmAutomationRunbook -AutomationAccountName "Automation" -Name "Start-VM-DEV-CRM" -ResourceGroupName "Development"
+
+
+https://kasperk.it/microsoft/login-azurermaccount-command-found-module-azurerm-profile-module-not-loaded
