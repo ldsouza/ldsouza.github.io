@@ -6,13 +6,16 @@ categories:
 mathjax: false
 featured: false
 comments: false
-title: ''
+title: Automating  your Connection to Azure
 ---
-## A New Post
+In this post, I will show you how to login to Azure non-interactively using an Azure Active Directory Application and an Azure Resource Manager Service Principal. This is very useful when you want to automate your Azure scripts and run them on a schedule or without requiring an interactive login.
 
-Enter text in [Markdown](http://daringfireball.net/projects/markdown/). Use the toolbar above, or click the **?** button for formatting help.
+### 1) Create an Azure Active Directory application
 
-Create a Azure RM Service Principal
+
+
+### 2) Create an Azure RM Service Principal
+
 https://docs.microsoft.com/en-us/azure/azure-resource-manager/resource-group-create-service-principal-portal
 
 
