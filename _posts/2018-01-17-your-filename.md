@@ -18,6 +18,8 @@ In this post, I will show you how to login to Azure non-interactively using an A
 
 https://docs.microsoft.com/en-us/azure/azure-resource-manager/resource-group-create-service-principal-portal
 
+### 2) Create the Tenant ID
+
 
 $pass = ConvertTo-SecureString "k1ez4gZhx48Ifv5xxNzzykzwsOgqbTRKIBA7V4AvabQ=" -AsPlainText –Force
 $cred = New-Object -TypeName pscredential –ArgumentList "d17d1afe-6ce7-427e-85ca-a02fdf01fdf8@col1050.onmicrosoft.com", $pass
