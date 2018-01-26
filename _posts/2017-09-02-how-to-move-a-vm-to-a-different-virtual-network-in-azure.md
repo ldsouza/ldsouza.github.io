@@ -8,6 +8,8 @@ title: How to move a VM to a different virtual network in Azure
 tags: 'Azure,Cloud'
 category:
   - Azure
+categories:
+  - personal
 ---
 
 We often encounter scenarios where we have to move workloads to a different virtual network. In an on-premise environment, moving virtual machines to a different virtual network is a breeze, but it has not always been straightforward in Azure.
