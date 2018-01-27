@@ -24,12 +24,6 @@ Click 'New Application Registration' to register our application with Azure Acti
 
 ![Image]({{ site.url }}/images/blog/azure-login-non-interactive/2.JPG)
 
-### 2) Create an Azure RM Service Principal
-
-https://docs.microsoft.com/en-us/azure/azure-resource-manager/resource-group-create-service-principal-portal
-
-![Image]({{ site.url }}/images/blog/azure-login-non-interactive/2.JPG)
-
 ![Image]({{ site.url }}/images/blog/azure-login-non-interactive/3.JPG)
 
 ![Image]({{ site.url }}/images/blog/azure-login-non-interactive/4.JPG)
@@ -39,6 +33,12 @@ https://docs.microsoft.com/en-us/azure/azure-resource-manager/resource-group-cre
 ![Image]({{ site.url }}/images/blog/azure-login-non-interactive/6.JPG)
 
 ![Image]({{ site.url }}/images/blog/azure-login-non-interactive/7.JPG)
+
+### 2) Create an Azure RM Service Principal
+
+https://docs.microsoft.com/en-us/azure/azure-resource-manager/resource-group-create-service-principal-portal
+
+
 
 ### 2) Create the Tenant ID
 
