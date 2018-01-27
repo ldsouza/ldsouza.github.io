@@ -5,7 +5,11 @@ mathjax: false
 featured: false
 comments: false
 category: Office 365
-tags: 'Office 365,SharePoint,Microsoft Flow,Office 365 Groups'
+tags:
+  - SharePoint Online
+  - Office 365
+  - SharePoint
+  - Office 365 Groups
 title: Using Microsoft Flow with Office 365 Groups
 ---
 
