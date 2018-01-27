@@ -52,9 +52,9 @@ Select Azure Active Directory again, and now select Properties for your Azure AD
 ![Image]({{ site.url }}/images/blog/azure-login-non-interactive/7.JPG)
 
 
-### 4) Login to Azure Programtically
+### 4) Login to Azure Programmatically
 
-First we will convert our authenticaion key from to a secure strings 
+First we will convert our authentication key from to a secure strings 
 
 ```javascript
 $pass = ConvertTo-SecureString "<Authentication Key>" -AsPlainText –Force
