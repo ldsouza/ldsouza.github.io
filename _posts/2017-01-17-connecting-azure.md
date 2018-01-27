@@ -24,7 +24,11 @@ Click 'New Application Registration' to register our application with Azure Acti
 
 ![Image]({{ site.url }}/images/blog/azure-login-non-interactive/2.JPG)
 
+Enter and name and url for your Application. Select Web app / API for the type of application and then click Create.
+
 ![Image]({{ site.url }}/images/blog/azure-login-non-interactive/3.JPG)
+
+### 2) Get the application ID and authentication key
 
 ![Image]({{ site.url }}/images/blog/azure-login-non-interactive/4.JPG)
 
@@ -33,8 +37,6 @@ Click 'New Application Registration' to register our application with Azure Acti
 ![Image]({{ site.url }}/images/blog/azure-login-non-interactive/6.JPG)
 
 ![Image]({{ site.url }}/images/blog/azure-login-non-interactive/7.JPG)
-
-### 2) Create an Azure RM Service Principal
 
 https://docs.microsoft.com/en-us/azure/azure-resource-manager/resource-group-create-service-principal-portal
 
