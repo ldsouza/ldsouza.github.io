@@ -1,24 +1,38 @@
 ---
 layout: post
-published: false
-categories:
-  - personal
+published: true
 mathjax: false
 featured: false
 comments: false
-title: Automating  your Connection to Azure
+title: Connecting to Azure using a Non-Interactive Login
+tags: 'Azure,Automation'
+category: Azure
 ---
 In this post, I will show you how to login to Azure non-interactively using an Azure Active Directory Application and an Azure Resource Manager Service Principal. This is very useful when you want to automate your Azure scripts and run them on a schedule or without requiring an interactive login.
 
+![Image]({{ site.url }}/images/blog/azure-login-non-interactive/0.JPG)
+
 ### 1) Create an Azure Active Directory application
 
-
+![Image]({{ site.url }}/images/blog/azure-login-non-interactive/1.JPG)
 
 ### 2) Create an Azure RM Service Principal
 
 https://docs.microsoft.com/en-us/azure/azure-resource-manager/resource-group-create-service-principal-portal
 
+![Image]({{ site.url }}/images/blog/azure-login-non-interactive/2.JPG)
+
 ### 2) Create the Tenant ID
+
+![Image]({{ site.url }}/images/blog/azure-login-non-interactive/3.JPG)
+
+![Image]({{ site.url }}/images/blog/azure-login-non-interactive/4.JPG)
+
+![Image]({{ site.url }}/images/blog/azure-login-non-interactive/5.JPG)
+
+![Image]({{ site.url }}/images/blog/azure-login-non-interactive/6.JPG)
+
+![Image]({{ site.url }}/images/blog/azure-login-non-interactive/7.JPG)
 
 
 $pass = ConvertTo-SecureString "k1ez4gZhx48Ifv5xxNzzykzwsOgqbTRKIBA7V4AvabQ=" -AsPlainText –Force
