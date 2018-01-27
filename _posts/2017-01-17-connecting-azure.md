@@ -14,7 +14,7 @@ In this post, I will login to Azure non-interactively using an Azure Active Dire
 
 ![Image]({{ site.url }}/images/blog/azure-login-non-interactive/0.JPG)
 
-### 1) Login to Azure Portal and Create an Azure Active Directory application
+### 1) Create an Azure Active Directory application in the Azure Portal
 
 Click on Azure Active Directory and select App Registrations.
 
