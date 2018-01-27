@@ -5,7 +5,10 @@ mathjax: false
 featured: false
 comments: false
 title: Connecting to Azure using a Non-Interactive Login
-tags: 'Azure,Automation,Powershell'
+tags:
+  - Azure
+  - Automation
+  - Powershell
 category: Azure
 ---
 In this post, I will login to Azure non-interactively using an Azure Active Directory Application and an Azure Resource Manager Service Principal. This is very useful when you want to automate your Azure scripts and run them on a schedule or without requiring an interactive login.
