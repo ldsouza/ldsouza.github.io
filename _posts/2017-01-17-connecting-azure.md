@@ -62,6 +62,7 @@ $pass = ConvertTo-SecureString "<Authentication Key>" -AsPlainText –Force
   
 Your Application ID is appended to your tenant URL @xxx.onmicrosoft.com
 
+
 ```javascript 
 $cred = New-Object -TypeName pscredential –ArgumentList "<Application ID>@xxx.onmicrosoft.com", $pass
   
