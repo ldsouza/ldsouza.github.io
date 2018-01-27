@@ -28,30 +28,52 @@ Enter and name and url for your Application. Select Web app / API for the type o
 
 ![Image]({{ site.url }}/images/blog/azure-login-non-interactive/3.JPG)
 
-### 2) Get the application ID and authentication key
+### 2) Get the Application ID and Authentication key
+
+After creating the Application, we now need to get the Application ID and Key, so we can login non-interactively. Copy the Application ID of your application.
+
+To generate an authentication key, select keys and enter a description for the key and its expiration. Copy the key displayed.
 
 ![Image]({{ site.url }}/images/blog/azure-login-non-interactive/4.JPG)
 
 ![Image]({{ site.url }}/images/blog/azure-login-non-interactive/5.JPG)
 
-![Image]({{ site.url }}/images/blog/azure-login-non-interactive/6.JPG)
-
-![Image]({{ site.url }}/images/blog/azure-login-non-interactive/7.JPG)
 
 https://docs.microsoft.com/en-us/azure/azure-resource-manager/resource-group-create-service-principal-portal
 
 
 
-### 2) Create the Tenant ID
+### 3) Get the Tenant ID or Directory ID
+
+Select Azure Active Directory again, and now select Properties for your Azure AD. Copy the Directory ID. This value is the same as your tenant ID.
+
+![Image]({{ site.url }}/images/blog/azure-login-non-interactive/6.JPG)
+
+![Image]({{ site.url }}/images/blog/azure-login-non-interactive/7.JPG)
 
 
+### 4) Login to Azure Programtically
 
+First we will convert our authenticaion key from to a secure strings 
 
-$pass = ConvertTo-SecureString "k1ez4gZhx48Ifv5xxNzzykzwsOgqbTRKIBA7V4AvabQ=" -AsPlainText –Force
-$cred = New-Object -TypeName pscredential –ArgumentList "d17d1afe-6ce7-427e-85ca-a02fdf01fdf8@col1050.onmicrosoft.com", $pass
-Login-AzureRmAccount -Credential $cred -ServicePrincipal –TenantId 35edb7bb-df3e-4c68-9814-c50f8dd7204d
+```javascript
+$pass = ConvertTo-SecureString "<Authentication Key>" -AsPlainText –Force
+```
+  
+Your Application ID is appended to your tenant URL @xxx.onmicrosoft.com
 
-Start-AzureRmAutomationRunbook -AutomationAccountName "Automation" -Name "Start-VM-DEV-CRM" -ResourceGroupName "Development"
+```javascript 
+$cred = New-Object -TypeName pscredential –ArgumentList "<Application ID>@xxx.onmicrosoft.com", $pass
+  
+Login-AzureRmAccount -Credential $cred -ServicePrincipal –TenantId <Tenant ID>
+```
 
+### Issues
 
-https://kasperk.it/microsoft/login-azurermaccount-command-found-module-azurerm-profile-module-not-loaded
+The ‘Login-AzureRmAccount’ command was found in the module ‘AzureRM.Profile’, but the module could not be loaded
+
+If you get the following error message, you can fix this using the following powershell command with elevated permissions. 
+
+```javascript
+Set-ExecutionPolicy RemoteSigned
+```
