@@ -5,8 +5,13 @@ mathjax: false
 featured: false
 comments: false
 title: The Future of Skype for Business and the transition to Teams
-categories:
-  - personal
+category: Office 365
+tags:
+  - Microsoft Teams
+  - Office 365
+  - Skype
+  - Collaboration
+  - Communication
 ---
 Microsoft announced at Ignite last year, their plan for the future of intelligent communication. The big announcement was that Microsoft Teams would be the primary client for intelligent communications in Office 365, replacing the current Skype for Business client over time.
 
