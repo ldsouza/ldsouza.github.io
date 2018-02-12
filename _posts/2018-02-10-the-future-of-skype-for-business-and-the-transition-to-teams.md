@@ -19,7 +19,9 @@ Microsoft announced their plan for the future of intelligent communication at th
 
 This transition involves bringing the capabilities of Skype for Business like calling and meetings into Microsoft Teams.
 
-To learn more about Mirosoft Teams and to get started with Microsoft Teams, here is a blog post I had written earlier on the subject. https://www.solutionsdelve.com/office%20365/getting-started-with-microsoft-teams
+To learn more about Mirosoft Teams and to get started with Microsoft Teams, here is a blog post I had written earlier on the subject.
+<a href="https://www.solutionsdelve.com/office%20365/getting-started-with-microsoft-teams">Getting Started with Microsoft Teams</a>
+
 
 ## The Future of Teams
 
@@ -38,4 +40,3 @@ This is very exciting news and gives organization some clarity on investing in M
 Here is some good discussion on the impact this decision will have on Skype for Business server on-premises and other considerations.
 
 {% include youtubePlayer.html id="hmSlrwoXZpY" %}
-https://www.youtube.com/watch?v=hmSlrwoXZpY
