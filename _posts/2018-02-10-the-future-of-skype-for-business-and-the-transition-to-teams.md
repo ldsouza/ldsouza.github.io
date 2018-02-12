@@ -15,7 +15,7 @@ tags:
 ---
 Microsoft announced at Ignite last year, their plan for the future of intelligent communication. The big announcement was that Microsoft Teams would be the primary client for intelligent communications in Office 365, replacing the current Skype for Business client over time.
 
-![Image]({{ site.url }}/images/blog/skype-microsoft-teams/0.JPG)
+![Image]({{ site.url }}/images/blog/skype-microsoft-teams/0.jpg)
 
 This involves bringing the capabilities of Skype for Business like calling and meetings into Microsoft Teams.
 
