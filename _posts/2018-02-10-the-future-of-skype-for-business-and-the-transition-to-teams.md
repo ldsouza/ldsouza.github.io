@@ -13,15 +13,17 @@ tags:
   - Collaboration
   - Communication
 ---
-Microsoft announced at Ignite last year, their plan for the future of intelligent communication. The big announcement was that Microsoft Teams would be the primary client for intelligent communications in Office 365, replacing the current Skype for Business client over time.
+Microsoft announced their plan for the future of intelligent communication at the Ignite Conference last year. The big announcement was that Microsoft Teams would be the primary client for intelligent communications in Office 365, replacing the current Skype for Business client over time.
 
 ![Image]({{ site.url }}/images/blog/skype-microsoft-teams/0.jpg)
 
-This involves bringing the capabilities of Skype for Business like calling and meetings into Microsoft Teams.
+This transition involves bringing the capabilities of Skype for Business like calling and meetings into Microsoft Teams.
 
-Get started with Microsoft Teams - https://www.solutionsdelve.com/office%20365/getting-started-with-microsoft-teams
+To learn more about Mirosoft Teams and to get started with Microsoft Teams, here is a blog post I had written earlier on the subject. https://www.solutionsdelve.com/office%20365/getting-started-with-microsoft-teams
 
-Here is an example of how Microsoft envisions Teams will be a powerful tool that combines communications, collaboration, and intelligence.
+## The Future of Teams
+
+Here is an example, of how Microsoft, envisions Teams will be a powerful tool that combines communications, collaboration, and intelligence.
 
 Before a meeting, Teams will surface relevant documents and rich information about the participants to help you prepare.
 
@@ -31,6 +33,9 @@ After the meeting, the cloud recording and transcript can be automatically added
 
 This is very exciting news and gives organization some clarity on investing in Microsoft Teams as the choice of communication and collaboration tool in Office 365.
 
-Here is some good discussion on the impact this will have on Skype for Business server onpremises and other considerations.
+## Is this the end for Skype for Business
 
+Here is some good discussion on the impact this decision will have on Skype for Business server on-premises and other considerations.
+
+{% include youtubePlayer.html id="hmSlrwoXZpY" %}
 https://www.youtube.com/watch?v=hmSlrwoXZpY
