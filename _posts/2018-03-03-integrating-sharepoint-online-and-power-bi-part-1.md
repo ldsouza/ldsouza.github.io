@@ -65,7 +65,7 @@ Note: Keep in mind that a column that has been re-named still shows the original
 ![Image]({{ site.url }}/images/blog/integrate-powerbi-sharepoint-online/7.JPG)
 
 
-## Modify the Query and Change Data Types.
+## Modify the Power BI Query
 
 The Author and Editor columns are supposed to display the names of the person who created and modified the list item. Instead, the columns show Record instead of the display name of the Created by and Modified By. To view the data, click the expand button and select Title to bring in only the display name. You can also bring in additional information like Department, Phone number into the returned data.
 
