@@ -1,6 +1,6 @@
 ---
 layout: page
-permalink: /about/contact.html
+permalink: /contact/index.html
 title: About Me
 tags: [ldsouza]
 chart: true
