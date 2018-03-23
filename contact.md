@@ -1,8 +1,7 @@
 ---
-layout: page
+layout: page1
 permalink: /contact/index.html
-title: About Me
-tags: [ldsouza]
-chart: true
+title: Contact Me
+
 ---
 {% include contact.html %}
