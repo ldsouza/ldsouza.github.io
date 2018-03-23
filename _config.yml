@@ -45,10 +45,10 @@ links:
     url: /tags/
   - title: About
     url: /about/
-  - title: Search
-    url: /search/
   - title: Contact
     url: /contact/
+  - title: Search
+    url: /search/    
 
 # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 timezone:    America/New_York
