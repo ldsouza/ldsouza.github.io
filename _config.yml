@@ -47,6 +47,8 @@ links:
     url: /about/
   - title: Search
     url: /search/
+      - title: Contact
+    url: /search/
 
 # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 timezone:    America/New_York
