@@ -1,5 +1,5 @@
 ---
-layout: page1
+layout: fullpage
 permalink: /portfolio/index.html
 
 ---
