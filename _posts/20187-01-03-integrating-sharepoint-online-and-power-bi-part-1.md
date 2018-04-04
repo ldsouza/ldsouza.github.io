@@ -6,11 +6,6 @@ featured: false
 comments: false
 title: Integrating SharePoint Online and Power BI (Part 1)
 tags:
-- Power BI
-- Analytics
-- BI
-- SharePoint Online
-- Office 365
 category:
 ---
 As a SharePoint User, you probably have interacted with data stored in a SharePoint list.  We use SharePoint Lists to collect and organize onboarding tasks, vacation requests, expense reports, sales numbers and so much more.
