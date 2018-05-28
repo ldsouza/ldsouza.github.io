@@ -1,6 +1,6 @@
 ---
 layout: fullpage
-permalink: /portfolio/index.html
+permalink: /365services/index.html
 title: SharePoint & OFfice 365
 ---
-{% include portfolio.html %}
+{% include 365services.html %}
