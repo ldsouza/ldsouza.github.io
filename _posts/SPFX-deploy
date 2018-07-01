@@ -1,0 +1,7 @@
+Deploy SPFX webpart
+npm -i
+gulp -serve
+gulp - server no browser
+gulp bundle --ship
+
+gulp package-solution --ship
