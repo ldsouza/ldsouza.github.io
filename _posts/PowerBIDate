@@ -1,5 +1,7 @@
 https://community.powerbi.com/t5/Desktop/Power-Query-M-version-of-CALENDARAUTO-DAX-function/td-p/53747
 
+YYYYMMDD = VALUE ( FORMAT ( JSA[DatePerformed], "YYYYMMDD" ) )
+
 DimDate =
 VAR fiscal_year_end_month = 3
 RETURN
