@@ -2,6 +2,8 @@ https://community.powerbi.com/t5/Desktop/Power-Query-M-version-of-CALENDARAUTO-D
 
 YYYYMMDD = VALUE ( FORMAT ( JSA[DatePerformed], "YYYYMMDD" ) )
 
+SWITCH(Table1[MonthNumber],1,"January",2,"February",3,"March",4,"April",5,"May",6,"June",7,"July",8,"August",9,"September",10,"October",11,"November",12,"December")
+
 DimDate =
 VAR fiscal_year_end_month = 3
 RETURN
