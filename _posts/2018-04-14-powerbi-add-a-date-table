@@ -1,12 +1,12 @@
 ---
 layout: post
 published: true
-title: An Awesome Headline!
-categories:
-  - personal
 mathjax: false
 featured: false
 comments: false
+title: How to add a Date Table to a Power BI Data Model
+tags:
+category:
 ---
 Power BI Desktop is a powerful data exploration and reporting tool that can be used to import data into the Power BI data model from several data sources. Once you have imported data from multiple sources, you can create relationships between the tables and visualize data on dashboards and reports. 
 
