@@ -24,8 +24,6 @@ Here is a step-by-step guide:
 
 ### 1) Create a Date Table in Power BI Using DAX 
 
-This question was posted on the Power BI community page <a href="https://community.powerbi.com/t5/Desktop/Power-Query-M-version-of-CALENDARAUTO-DAX-function/td-p/53747">here</a> and moderator Eric Zhang posted an excellent solution. 
-
 Select the Modeling Tab in Power BI Desktop and select New Table. Paste in the DAX code below and click Enter.
 
 ![Image]({{ site.url }}/images/blog/powerbi-add-a-date-table/1.JPG)
@@ -81,6 +79,8 @@ RETURN
 ```
 
 ![Image]({{ site.url }}/images/blog/powerbi-add-a-date-table/2.JPG)
+
+This excellent tip was posted by Power BI Community moderator Eric Zhang <a href="https://community.powerbi.com/t5/Desktop/Power-Query-M-version-of-CALENDARAUTO-DAX-function/td-p/53747">here</a>. 
 
 If you have not added any other dataset or you have not designated a date column in one of your tables as a date, you may get this error message. You have to make sure you set the column to Date/Time.
 
