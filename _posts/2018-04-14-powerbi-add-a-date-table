@@ -12,6 +12,8 @@ Power BI Desktop is a powerful data exploration and reporting tool that can be u
 
 You may have a date timestamp for each one of the data sources that your import into Power BI. Instead of having multiple filters and/or slicers pulling these different date columns, a better approach is to use a date table or a date dimension from a warehouse instead. If you do not have an existing date table in a database or a warehouse somewhere, you can add one in Power BI itself.
 
+![Image]({{ site.url }}/images/blog/integrate-powerbi-sharepoint-online/0-featured.JPG)
+
 There are several ways to do this
 
 ### 1) Create a Date Table in Power BI Using DAX 
