@@ -14,7 +14,7 @@ In the past, we have been using views to group and filter SharePoint data. How a
 
 In this blog post, I will show you how we can easily integrate SharePoint Online and Power BI. We can now view beautiful reports right where your data lives, in SharePoint itself.
 
-![Image]({{ site.url }}/images/blog/integrate-powerbi-sharepoint-online/0.JPG)
+![Image]({{ site.url }}/images/blog/integrate-powerbi-sharepoint-online/0-featured.JPG)
 
 First, a brief explanation of Power BI. Power BI is Microsoft’s suite of interactive business analytics tools that can deliver insights throughout your organization.
 
