@@ -104,7 +104,4 @@ Create a new relationship between the table (YYYYMMDD) and the date table (DateA
 
 ![Image]({{ site.url }}/images/blog/powerbi-add-a-date-table/3.JPG)
 
-SWITCH(Table1[MonthNumber],1,"January",2,"February",3,"March",4,"April",5,"May",6,"June",7,"July",8,"August",9,"September",10,"October",11,"November",12,"December")
-
-
 You should now be able to add any date column from the date table as a slicer. This saves you a lot of time the more datasets you add to your model and makes reporting by dates so much easier.
