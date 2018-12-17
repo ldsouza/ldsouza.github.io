@@ -10,7 +10,7 @@ comments: false
 ---
 Power BI Desktop is a powerful data exploration and reporting tool that can be used to import data into the Power BI data model from several data sources. Once you have imported data from multiple sources, you can create relationships between the tables and visualize data on dashboards and reports. 
 
-You may have a date column for each one of the data sources that your import into Power BI. Instead of having multiple filters and/or slicers pulling these different date columns, a better approach is to use a date table or a date dimension from a warehouse instead. If you do not have an existing date table in a database or a warehouse somewhere, and you don't want to wait on IT to create one for you. You can do it yourself in Power BI itself.
+You may have a date timestamp for each one of the data sources that your import into Power BI. Instead of having multiple filters and/or slicers pulling these different date columns, a better approach is to use a date table or a date dimension from a warehouse instead. If you do not have an existing date table in a database or a warehouse somewhere, you can add one in Power BI itself.
 
 There are several ways to do this
 
@@ -18,8 +18,10 @@ https://community.powerbi.com/t5/Desktop/Power-Query-M-version-of-CALENDARAUTO-D
 
 YYYYMMDD = VALUE ( FORMAT ( JSA[DatePerformed], "YYYYMMDD" ) )
 
+
 SWITCH(Table1[MonthNumber],1,"January",2,"February",3,"March",4,"April",5,"May",6,"June",7,"July",8,"August",9,"September",10,"October",11,"November",12,"December")
 
+```javascript
 DimDate =
 VAR fiscal_year_end_month = 3
 RETURN
@@ -67,3 +69,4 @@ RETURN
         "DayOfWeek", FORMAT ( [Date], "dddd" ),
         "DayOfWeekShort", FORMAT ( [Date], "dddd" )
     )
+```
