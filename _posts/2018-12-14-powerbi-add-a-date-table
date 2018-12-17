@@ -3,11 +3,18 @@ layout: post
 published: true
 mathjax: false
 featured: false
-comments: false
-title: How to add a Date Table to a Power BI Data Model
+comments: true
+title: What's new in SQL Server 2016 Reporting Services
+headline: What's new in SQL Server 2016 Reporting Services
 tags:
-category:
+- SSRS
+- Power BI
+- SQL Server
+- Reporting
+categories:
+  - SSRS
 ---
+
 Power BI Desktop is a powerful data exploration and reporting tool that can be used to import data into the Power BI data model from several data sources. Once you have imported data from multiple sources, you can create relationships between the tables and visualize data on dashboards and reports. 
 
 You may have a date timestamp for each one of the data sources that your import into Power BI. Instead of having multiple filters and/or slicers pulling these different date columns, a better approach is to use a date table or a date dimension from a warehouse instead. If you do not have an existing date table in a database or a warehouse somewhere, you can add one in Power BI itself.
