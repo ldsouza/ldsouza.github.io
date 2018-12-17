@@ -4,8 +4,8 @@ published: true
 mathjax: false
 featured: false
 comments: false
-title: How to add a Date Table to Power BI
-headline: How to add a Date Table to Power BI
+title: Supercharge your Power BI Data Model by adding a Date Table
+headline: Supercharge your Power BI Data Model by adding a Date Table
 tags:
 - Power BI
 - Data Modeling
