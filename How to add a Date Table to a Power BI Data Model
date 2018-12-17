@@ -14,12 +14,13 @@ You may have a date timestamp for each one of the data sources that your import 
 
 There are several ways to do this
 
-https://community.powerbi.com/t5/Desktop/Power-Query-M-version-of-CALENDARAUTO-DAX-function/td-p/53747
+### 1) Create a Date Table in Power BI Using DAX 
 
-YYYYMMDD = VALUE ( FORMAT ( JSA[DatePerformed], "YYYYMMDD" ) )
+This question was posted on the Power BI community page <a href="https://community.powerbi.com/t5/Desktop/Power-Query-M-version-of-CALENDARAUTO-DAX-function/td-p/53747">here</a> and moderator Eric Zhang posted an excellent solution. 
+
+Select the Modeling Tab in Power BI Desktop and select New Table. Paste in the DAX code below and click Enter.
 
 
-SWITCH(Table1[MonthNumber],1,"January",2,"February",3,"March",4,"April",5,"May",6,"June",7,"July",8,"August",9,"September",10,"October",11,"November",12,"December")
 
 ```javascript
 DimDate =
@@ -70,3 +71,9 @@ RETURN
         "DayOfWeekShort", FORMAT ( [Date], "dddd" )
     )
 ```
+
+YYYYMMDD = VALUE ( FORMAT ( JSA[DatePerformed], "YYYYMMDD" ) )
+
+
+
+SWITCH(Table1[MonthNumber],1,"January",2,"February",3,"March",4,"April",5,"May",6,"June",7,"July",8,"August",9,"September",10,"October",11,"November",12,"December")
