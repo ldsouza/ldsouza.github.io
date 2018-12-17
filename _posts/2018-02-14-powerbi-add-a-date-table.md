@@ -3,7 +3,7 @@ layout: post
 published: true
 mathjax: false
 featured: false
-comments: true
+comments: false
 title: How to add a Date Table to Power BI
 headline: How to add a Date Table to Power BI
 tags:
@@ -14,13 +14,13 @@ categories:
   - Power BI
 ---
 
-Power BI Desktop is a powerful data exploration and reporting tool that can be used to import data into the Power BI data model from several data sources. Once you have imported data from multiple sources, you can create relationships between the tables and visualize data on dashboards and reports. 
-
-You may have a date timestamp for each one of the data sources that your import into Power BI. Instead of having multiple filters and/or slicers pulling these different date columns, a better approach is to use a date table or a date dimension from a warehouse instead. If you do not have an existing date table in a database or a warehouse somewhere, you can add one in Power BI itself.
+Power BI Desktop is a powerful data exploration and reporting tool that can be used to import data into the Power BI data model from several data sources. Once you have imported data from multiple sources, you can create relationships between the tables and visualize data on dashboards and reports. In this post, I will show you how to supercharge your Power BI Data Model by adding a date table and help your filter your dashboards and reports using date filters from a single source.
 
 ![Image]({{ site.url }}/images/blog/powerbi-add-a-date-table/0.JPG)
 
-There are several ways to do this
+For every dataset you import into Power BI, you generally have a date timestamp like a transaction date or order date. The benefit of using Power BI is that it helps take disparate sources and helps you visualize them on a single dashboard or report. Instead of having multiple filters and/or slicers pulling these different date columns, a better approach is to use a date table or a date dimension from a warehouse instead. If you do not have an existing date table in a database or a warehouse, you can add one in Power BI itself.
+
+Here is a step-by-step guide:
 
 ### 1) Create a Date Table in Power BI Using DAX 
 
@@ -28,7 +28,7 @@ This question was posted on the Power BI community page <a href="https://communi
 
 Select the Modeling Tab in Power BI Desktop and select New Table. Paste in the DAX code below and click Enter.
 
-
+![Image]({{ site.url }}/images/blog/powerbi-add-a-date-table/1.JPG)
 
 ```javascript
 DimDate =
@@ -80,8 +80,31 @@ RETURN
     )
 ```
 
-YYYYMMDD = VALUE ( FORMAT ( JSA[DatePerformed], "YYYYMMDD" ) )
+![Image]({{ site.url }}/images/blog/powerbi-add-a-date-table/2.JPG)
 
+If you have not added any other dataset or you have not designated a date column in one of your tables as a date, you may get this error message. You have to make sure you set the column to Date/Time.
 
+![Image]({{ site.url }}/images/blog/powerbi-add-a-date-table/1-.JPG)
+
+### 2) Add a New Calculated Column in DAX to your Table in Power BI
+
+After selecting the table, select New Column in the Modeling Tab.
+
+![Image]({{ site.url }}/images/blog/powerbi-add-a-date-table/4.JPG)
+
+```javascript
+YYYYMMDD = VALUE ( FORMAT ( Sales[OrderDate], "YYYYMMDD" ) )
+```
+
+You can add this to new column to all your tables that have a date/time column.
+
+### 3) Create Relationship between the column we just created and the date table
+
+Create a new relationship between the table (YYYYMMDD) and the date table (DateAsInteger). Select Many to One under Cardinality.
+
+![Image]({{ site.url }}/images/blog/powerbi-add-a-date-table/3.JPG)
 
 SWITCH(Table1[MonthNumber],1,"January",2,"February",3,"March",4,"April",5,"May",6,"June",7,"July",8,"August",9,"September",10,"October",11,"November",12,"December")
+
+
+You should now be able to add any date column from the date table as a slicer. This saves you a lot of time the more datasets you add to your model and makes reporting by dates so much easier.
