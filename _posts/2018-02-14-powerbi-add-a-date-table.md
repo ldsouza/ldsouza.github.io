@@ -4,8 +4,8 @@ published: true
 mathjax: false
 featured: false
 comments: true
-title: What's new in SQL Server 2016 Reporting Services
-headline: What's new in SQL Server 2016 Reporting Services
+title: How to add a Date Table to Power BI
+headline: How to add a Date Table to Power BI
 tags:
 - Power BI
 - Data Modeling
