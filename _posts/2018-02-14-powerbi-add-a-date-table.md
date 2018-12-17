@@ -7,12 +7,11 @@ comments: true
 title: What's new in SQL Server 2016 Reporting Services
 headline: What's new in SQL Server 2016 Reporting Services
 tags:
-- SSRS
 - Power BI
-- SQL Server
+- Data Modeling
 - Reporting
 categories:
-  - SSRS
+  - Power BI
 ---
 
 Power BI Desktop is a powerful data exploration and reporting tool that can be used to import data into the Power BI data model from several data sources. Once you have imported data from multiple sources, you can create relationships between the tables and visualize data on dashboards and reports. 
