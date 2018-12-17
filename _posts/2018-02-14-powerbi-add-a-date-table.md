@@ -18,7 +18,7 @@ Power BI Desktop is a powerful data exploration and reporting tool that can be u
 
 ![Image]({{ site.url }}/images/blog/powerbi-add-a-date-table/0.JPG)
 
-For every dataset you import into Power BI, you generally have a date timestamp like a transaction date or order date. The benefit of using Power BI is that it helps take disparate sources and helps you visualize them on a single dashboard or report. Instead of having multiple filters and/or slicers pulling these different date columns, a better approach is to use a date table or a date dimension from a warehouse instead. If you do not have an existing date table in a database or a warehouse, you can add one in Power BI itself.
+For every dataset you import into Power BI, you generally have a date timestamp like a transaction date or an order date. The benefit of using a tool like Power BI, is that it helps us take disparate data sources and allows us to visualize them on a single dashboard or report. Instead of having multiple filters and/or slicers using these different date columns, a better approach instead is to use a date table or a date dimension from a warehouse. If you do not have an existing date table in a database or a warehouse, you can add one in Power BI itself.
 
 Here is a step-by-step guide:
 
