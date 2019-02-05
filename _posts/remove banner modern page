@@ -1,0 +1,13 @@
+# Connect to the site  
+Connect-PnPOnline https://mccabe1.sharepoint.com/sites/team -UseWebLogin
+Connect-PnPOnline https://mccabe1.sharepoint.com/sites/team -PnPO365ManagementShell  
+# List all pages, and find the id of the modern page  
+Get-PnPListItem -List SitePages  
+# Change layout from "Article" to "Home" to remove top banner  
+Set-PnPListItem -List SitePages –Identity <id> -Values @{"PageLayoutType"="Home"}  
+
+
+Connect-SPOService -Url https://mccabe1.sharepoint.com
+
+
+Set-PnPListItem -List SitePages –Identity 975550d9-3c39-4b31-9c9d-d4b1c9c3c5d5 -Values @{"PageLayoutType"="Home"}  
