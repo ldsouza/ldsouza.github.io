@@ -109,4 +109,36 @@ You should receive the following message.
 ![Image]({{ site.url }}/images/blog/restrict-365-groups-creation/8.JPG)
 
 
+#### If the above steps do not work, try the following steps instead. Get the Group Name
 
+```javascript
+$GroupName = "AllowedtoCreateO365Groups"
+$AllowGroupCreation = "False"
+```
+
+#### Run the following script to restrict the creating of Groups
+
+```javascript
+Connect-AzureAD
+
+$settingsObjectID = (Get-AzureADDirectorySetting | Where-object -Property Displayname -Value "Group.Unified" -EQ).id
+if(!$settingsObjectID)
+{
+	  $template = Get-AzureADDirectorySettingTemplate | Where-object {$_.displayname -eq "group.unified"}
+    $settingsCopy = $template.CreateDirectorySetting()
+    New-AzureADDirectorySetting -DirectorySetting $settingsCopy
+    $settingsObjectID = (Get-AzureADDirectorySetting | Where-object -Property Displayname -Value "Group.Unified" -EQ).id
+}
+
+$settingsCopy = Get-AzureADDirectorySetting -Id $settingsObjectID
+$settingsCopy["EnableGroupCreation"] = $AllowGroupCreation
+
+if($GroupName)
+{
+	$settingsCopy["GroupCreationAllowedGroupId"] = (Get-AzureADGroup -SearchString $GroupName).objectid
+}
+
+Set-AzureADDirectorySetting -Id $settingsObjectID -DirectorySetting $settingsCopy
+
+(Get-AzureADDirectorySetting -Id $settingsObjectID).Values
+```
