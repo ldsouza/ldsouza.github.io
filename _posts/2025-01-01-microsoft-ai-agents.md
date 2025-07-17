@@ -4,8 +4,8 @@ published: true
 mathjax: false
 featured: false
 comments: false
-title: Making Sense of Microsoft Copilot Agents: Out-of-the-Box to Full-Code
-headline: Navigating the Microsoft Copilot Agent Landscape: From Out-of-the-Box to Full-Code Solutions
+title: "Making Sense of Microsoft Copilot Agents: Out-of-the-Box to Full-Code"
+headline: "Navigating the Microsoft Copilot Agent Landscape: From Out-of-the-Box to Full-Code Solutions"
 tags:
 - Power BI
 - Data Modeling
