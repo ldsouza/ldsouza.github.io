@@ -16,6 +16,7 @@ categories:
 ---
 
 GitHub Copilot is far more than a fancy autocomplete tool—it's an AI-powered coding partner that can **plan, write, edit, and even execute code** for you. Yet, many developers barely scratch the surface of what it can do.  
+![Image]({{ site.url }}/images/blog/powerbi-add-a-date-table/0.JPG)
 
 If you learn how to leverage its **different modes**, **customization options**, and **prompting best practices**, you can unlock an entirely new level of productivity, code quality, and team consistency.
 
