@@ -4,14 +4,15 @@ published: true
 mathjax: false
 featured: false
 comments: false
-title: "Making Sense of Microsoft Copilot Agents: Out-of-the-Box to Full-Code"
-headline: "Making Sense of Microsoft Copilot Agents: Out-of-the-Box to Full-Code"
+title: "ADF Made Dynamic with Parameters"
+headline: "ADF Made Dynamic with Parameters"
 tags:
-- Power BI
-- Data Modeling
-- Reporting
+- Azure Data Factory
+- Data Engineering
+- ETL
+- Azure
 categories:
-  - Power BI
+  - Azure
 ---
 
 When working with public datasets that publish monthly files, it’s common to see a consistent naming pattern where only the month changes. Instead of creating a different dataset for each file, Azure Data Factory makes it easy to parameterize the path and handle all variations in a single pipeline.
