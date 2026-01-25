@@ -17,7 +17,7 @@ categories:
 
 Artificial intelligence is no longer a distant vision—it's embedded in the tools we use every day. Within the Microsoft ecosystem, **Copilot Agents** are revolutionizing how individuals and organizations interact with data, automate tasks, and unlock insights.
 
-![Image]({{ site.url }}/images/blog/powerbi-add-a-date-table/0.JPG)
+![Image]({{ site.url }}/images/blog/microsoft-copilot-agents.png)
 
 However, with a growing number of tools and experiences available, navigating this landscape can feel overwhelming. This guide breaks down the **four primary types of Copilot Agents**—**Out-of-the-Box**, **No-Code**, **Low-Code**, and **Full-Code**—to help you find the best fit for your needs.
 

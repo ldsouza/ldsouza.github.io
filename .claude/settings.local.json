@@ -1,7 +1,8 @@
 {
   "permissions": {
     "allow": [
-      "mcp__sagan__SaganSetActionItemStatus"
+      "mcp__sagan__SaganSetActionItemStatus",
+      "mcp__sagan__SaganCompleteActionItem"
     ]
   }
 }
