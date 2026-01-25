@@ -31,13 +31,48 @@ In this guide, we’ll cover:
 
 GitHub Copilot offers three main interaction modes. Choosing the right one is the first step toward better results.
 
-| Feature | Ask Mode | Edit Mode | Agent Mode |
-|---------|----------|-----------|------------|
-| **Primary Purpose** | Q&A, explanations, planning | Targeted, multi-file code edits | End-to-end feature creation & prototyping |
-| **User Interaction** | You apply suggestions manually | You select context & apply changes | Agent plans, edits, and executes |
-| **Context Handling** | You provide context | You provide targeted files | Agent discovers relevant files |
-| **Autonomy Level** | Low | Moderate | High |
-| **Terminal Commands** | One-click run | One-click run | Auto-run and validate output |
+<table align="center">
+  <thead>
+    <tr>
+      <th>Feature</th>
+      <th>Ask Mode</th>
+      <th>Edit Mode</th>
+      <th>Agent Mode</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><strong>Primary Purpose</strong></td>
+      <td>Q&A, explanations, planning</td>
+      <td>Targeted, multi-file code edits</td>
+      <td>End-to-end feature creation & prototyping</td>
+    </tr>
+    <tr>
+      <td><strong>User Interaction</strong></td>
+      <td>You apply suggestions manually</td>
+      <td>You select context & apply changes</td>
+      <td>Agent plans, edits, and executes</td>
+    </tr>
+    <tr>
+      <td><strong>Context Handling</strong></td>
+      <td>You provide context</td>
+      <td>You provide targeted files</td>
+      <td>Agent discovers relevant files</td>
+    </tr>
+    <tr>
+      <td><strong>Autonomy Level</strong></td>
+      <td>Low</td>
+      <td>Moderate</td>
+      <td>High</td>
+    </tr>
+    <tr>
+      <td><strong>Terminal Commands</strong></td>
+      <td>One-click run</td>
+      <td>One-click run</td>
+      <td>Auto-run and validate output</td>
+    </tr>
+  </tbody>
+</table>
 
 ### **Ask Mode**  
 **Purpose:** Ideation, Q&A, and brainstorming without touching your code.  
