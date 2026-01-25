@@ -7,12 +7,13 @@ comments: false
 title: "ADF Made Dynamic with Parameters"
 headline: "ADF Made Dynamic with Parameters"
 tags:
-- Azure Data Factory
-- Data Engineering
-- ETL
 - Azure
+- Data Engineering
+- Fabric
 categories:
   - Azure
+  - Data Engineering
+  - Fabric
 ---
 
 When working with public datasets that publish monthly files, it's common to see a consistent naming pattern where only the month changes. Instead of creating a different dataset for each file, Azure Data Factory makes it easy to parameterize the path and handle all variations in a single pipeline.
