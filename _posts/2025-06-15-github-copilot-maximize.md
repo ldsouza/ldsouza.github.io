@@ -107,30 +107,6 @@ Example: Drag in a design screenshot → _"Implement this layout using Tailwind 
 
 ---
 
-### **Copilot Spaces** *(Public Preview)*  
-Ground Copilot's responses in **specific documents or repos**.  
-Perfect for:  
-- Onboarding new team members  
-- Answering from internal docs instead of guessing
-
----
-
-### **Custom Chat Modes**  
-Create a persona for task-specific behavior:  
-- _"Azure Principal Architect"_ → provides architectural guidance  
-- _"Security Auditor"_ → reviews code for vulnerabilities  
-
----
-
-### **MCP Server Integrations**  
-Connect Copilot to external services via **Microsoft Copilot Partner Servers**.  
-**Best Practices:**  
-- Limit permissions to the task  
-- Use secrets for sensitive data  
-- Monitor activity logs
-
----
-
 ## 3. The Pillars of Effective Copilot Prompts
 
 Even with the right mode and customization, the quality of your prompts matters most.
