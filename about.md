@@ -11,10 +11,10 @@ I have a certificate in Data Science and Big Data Analytics from Massachusetts I
 
 I strive to build innovative solutions that merge technology with business and empower my clients to be more productive, efficient and make better decisions.
 
-<figure>
+<!-- <figure>
   <img src="{{ site.url }}/images/laurel-dsouza.jpg" alt="Laurel Dsouza">
   <figcaption>Laurel Dsouza</figcaption>
-</figure>
+</figure> -->
 
 I spend my free time playing the guitar, reading, blogging and designing websites. I love swimming and playing sports like soccer, tennis and basketball. 
 
