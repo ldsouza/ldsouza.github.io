@@ -15,7 +15,9 @@ categories:
   - Azure
 ---
 
-When working with public datasets that publish monthly files, it’s common to see a consistent naming pattern where only the month changes. Instead of creating a different dataset for each file, Azure Data Factory makes it easy to parameterize the path and handle all variations in a single pipeline.
+When working with public datasets that publish monthly files, it's common to see a consistent naming pattern where only the month changes. Instead of creating a different dataset for each file, Azure Data Factory makes it easy to parameterize the path and handle all variations in a single pipeline.
+
+![Image]({{ site.url }}/images/blog/azure-data-factory-parameterize.png)
 
 In this post, I’ll show how I configured an HTTP dataset to download Parquet files dynamically, using a dataset parameter and a `ForEach` loop to iterate through the months. The example uses the NYC TLC Green Taxi dataset, but the same approach works for any HTTP-based file source.
 
