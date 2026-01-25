@@ -16,7 +16,7 @@ categories:
 ---
 
 GitHub Copilot is far more than a fancy autocomplete tool—it's an AI-powered coding partner that can **plan, write, edit, and even execute code** for you. Yet, many developers barely scratch the surface of what it can do.  
-![Image]({{ site.url }}/images/blog/powerbi-add-a-date-table/0.JPG)
+![Image]({{ site.url }}/images/blog/github-copilot-maximize.png)
 
 If you learn how to leverage its **different modes**, **customization options**, and **prompting best practices**, you can unlock an entirely new level of productivity, code quality, and team consistency.
 
@@ -40,7 +40,7 @@ GitHub Copilot offers three main interaction modes. Choosing the right one is th
 | **Autonomy Level** | Low | Moderate | High |
 | **Terminal Commands** | One-click run | One-click run | Auto-run and validate output |
 
-### 🧠 **Ask Mode**  
+### **Ask Mode**  
 **Purpose:** Ideation, Q&A, and brainstorming without touching your code.  
 **When to Use:**  
 - Learning a new codebase: _"What does `UserService` do?"_  
@@ -50,7 +50,7 @@ GitHub Copilot offers three main interaction modes. Choosing the right one is th
 
 ---
 
-### ✏️ **Edit Mode**  
+### **Edit Mode**  
 **Purpose:** Focused edits across specific files.  
 **When to Use:**  
 - Updating a controller, service, and repository for a new API endpoint  
@@ -60,7 +60,7 @@ GitHub Copilot offers three main interaction modes. Choosing the right one is th
 
 ---
 
-### 🤖 **Agent Mode**  
+### **Agent Mode**  
 **Purpose:** Autonomous, cross-file feature implementation.  
 **When to Use:**  
 - Building a new API + front-end page from scratch  
@@ -74,14 +74,14 @@ GitHub Copilot offers three main interaction modes. Choosing the right one is th
 
 You can tailor Copilot to align with **your coding standards**, **team style**, and **personal preferences**.
 
-### 📜 **Repository-Level Standards with `copilot_instructions.mmarkdown`**
+### **Repository-Level Standards with `copilot_instructions.md`**
 - Define how Copilot should respond in your project (naming conventions, formatting, security practices).
 - Keep instructions short, self-contained, and scoped to specific file types (e.g., `apply_to: "*.js"`).
 - Store in your repo to ensure all contributors get the same guidance.
 
 ---
 
-### ♻ **Reusable Prompts Folder**  
+### **Reusable Prompts Folder**  
 Create a `/prompts` folder for common tasks:  
 - _"Create a secure REST API endpoint"_  
 - _"Write unit tests for a service class"_  
@@ -89,26 +89,26 @@ This speeds up onboarding and enforces team consistency.
 
 ---
 
-### 👤 **Personal Instructions**  
+### **Personal Instructions**  
 Set **personal response preferences** (tone, formatting, explanation style) in your GitHub Copilot settings.  
 Example: _"Always explain reasoning, prefer functional programming patterns, and keep responses under 10 lines unless asked otherwise."_
 
 ---
 
-### ⚙ **Coding Agent Setup (`copilot_setup_steps.yml`)**  
+### **Coding Agent Setup (`copilot_setup_steps.yml`)**  
 For the autonomous Coding Agent:  
 - Define environment setup steps (install dependencies, run migrations).
 - Initiate from issues or PRs for hands-free implementation.
 
 ---
 
-### 🖼 **Vision Support**  
+### **Vision Support**  
 Attach images (UI mockups, error screenshots) directly in Copilot Chat.  
 Example: Drag in a design screenshot → _"Implement this layout using Tailwind CSS."_  
 
 ---
 
-### 📚 **Copilot Spaces** *(Public Preview)*  
+### **Copilot Spaces** *(Public Preview)*  
 Ground Copilot's responses in **specific documents or repos**.  
 Perfect for:  
 - Onboarding new team members  
@@ -116,14 +116,14 @@ Perfect for:
 
 ---
 
-### 🎭 **Custom Chat Modes**  
+### **Custom Chat Modes**  
 Create a persona for task-specific behavior:  
 - _"Azure Principal Architect"_ → provides architectural guidance  
 - _"Security Auditor"_ → reviews code for vulnerabilities  
 
 ---
 
-### 🔌 **MCP Server Integrations**  
+### **MCP Server Integrations**  
 Connect Copilot to external services via **Microsoft Copilot Partner Servers**.  
 **Best Practices:**  
 - Limit permissions to the task  
@@ -134,7 +134,7 @@ Connect Copilot to external services via **Microsoft Copilot Partner Servers**.
 
 ## 3. The Pillars of Effective Copilot Prompts
 
-Even with the right mode and customization, **prompt quality is king**.
+Even with the right mode and customization, the quality of your prompts matters most.
 
 1. **Context** → Give enough detail for Copilot to understand the scope.  
 2. **Intent** → Specify the goal (_"write unit tests"_ vs. _"refactor code"_).  
@@ -145,10 +145,7 @@ Even with the right mode and customization, **prompt quality is king**.
 
 ---
 
-## 🚀 Final Thoughts
+## Conclusion
 
-GitHub Copilot isn’t just a coding shortcut—it’s a **development accelerator**.  
-By **choosing the right mode**, **customizing your setup**, and **mastering prompt writing**, you can turn it from a code suggester into a **true AI coding partner** that works to your standards.
-
-Happy coding, and may your Copilot always complete the right line before you finish typing it. 😎
+GitHub Copilot becomes much more useful when you understand its different modes and take time to customize it for your workflow. The key is picking the right mode for the task, setting up your instructions and prompts, and being specific about what you need.
 
