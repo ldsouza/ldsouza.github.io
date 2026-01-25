@@ -11,7 +11,8 @@ tags:
 - AI Agent
 - AI
 categories:
-  - Power BI
+  - AI
+  - Co-Pilot
 ---
 
 
