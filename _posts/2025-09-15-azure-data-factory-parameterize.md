@@ -4,8 +4,8 @@ published: true
 mathjax: false
 featured: false
 comments: false
-title: "ADF Made Dynamic with Parameters"
-headline: "ADF Made Dynamic with Parameters"
+title: "Dynamic Parameters in Azure Data Factory"
+headline: "Dynamic Parameters in Azure Data Factory"
 tags:
 - Azure
 - Data Engineering
