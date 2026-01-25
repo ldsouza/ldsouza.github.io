@@ -7,9 +7,9 @@ comments: false
 title: "Making Sense of Microsoft Copilot Agents: Out-of-the-Box to Full-Code"
 headline: "Making Sense of Microsoft Copilot Agents: Out-of-the-Box to Full-Code"
 tags:
-- Power BI
-- Data Modeling
-- Reporting
+- Co-Pilot
+- AI Agent
+- AI
 categories:
   - Power BI
 ---
@@ -34,8 +34,6 @@ When signed in with a personal Microsoft account, **Copilot Chat** provides:
 - Conversational AI for general web searches and assistance
 - Image generation, summarization, and Q&A
 - A preview of *“actions”* like finding local products (e.g., a specific washer/dryer model in your area)
-
-> ⚠️ **Warning:** Personal Copilot is not protected by enterprise-grade data policies. Avoid using it with any sensitive or business data—inputs may be used to train public models.
 
 ### 🔹 Business Use (Microsoft 365 Account)
 
@@ -106,8 +104,6 @@ Tool calling enables agents to **take actions** across Microsoft services:
 - Access third-party data via **Microsoft Copilot Providers (MCPs)**—prebuilt integrations for knowledge sources like Microsoft Learn
 - **Call other agents** to delegate tasks—build “parent-child” agent systems
 
-> 📈 **Trend Alert:** Copilot Studio is increasingly absorbing advanced features traditionally exclusive to full-code platforms.
-
 ---
 
 ## 4. Full-Code Agents: Ultimate Flexibility in Azure AI
@@ -128,15 +124,13 @@ When you hit the limits of low-code and need total control, **Azure AI Foundry**
 - AI search layers and retrieval systems for internal knowledge
 - APIs for integration into third-party platforms or apps
 
-> Full-code is best when you’re working on **“wild” ideas** or require **deep control**—think enterprise R&D or custom product features.
-
-### ⚠️ Important Note
-
-Copilot Studio is **rapidly catching up**, absorbing many use cases that used to require full-code. So before jumping into Azure AI, reassess whether your needs could be met with low-code.
+> Full-code is best when you're working on **"wild" ideas** or require **deep control**—think enterprise R&D or custom product features.
 
 ---
 
 ## Conclusion: Choose the Right Copilot Path
+
+<div align="center">
 
 | Agent Type        | Ideal For                             | Setup Required | Coding Needed |
 |-------------------|----------------------------------------|----------------|----------------|
@@ -145,10 +139,8 @@ Copilot Studio is **rapidly catching up**, absorbing many use cases that used to
 | Low-Code          | Complex workflows, automation          | ⚠️ Some setup   | ⚠️ Low (Power FX, flows) |
 | Full-Code         | Custom models, deep integrations       | ✅ Full dev stack | ✅ Yes         |
 
+</div>
+
 ---
 
-By understanding these tiers, you can unlock Microsoft Copilot’s full potential—whether you’re automating a business process, surfacing knowledge from SharePoint, or building the next generation of AI-powered applications.
-
-> 🚀 **Pro Tip:** Start simple. As your use case evolves, graduate upward. Microsoft has made it easier than ever to scale your agent journey across the ecosystem.
-
-![Image]({{ site.url }}/images/blog/copilot-agent-landscape/overview.png)
+By understanding these tiers, you can unlock Microsoft Copilot's full potential—whether you're automating a business process, surfacing knowledge from SharePoint, or building the next generation of AI-powered applications.
