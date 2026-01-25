@@ -130,16 +130,42 @@ When you hit the limits of low-code and need total control, **Azure AI Foundry**
 
 ## Conclusion: Choose the Right Copilot Path
 
-<div align="center">
-
-| Agent Type        | Ideal For                             | Setup Required | Coding Needed |
-|-------------------|----------------------------------------|----------------|----------------|
-| Out-of-the-Box    | Everyday tasks, basic productivity     | ✅ None         | ❌ No           |
-| No-Code           | Lightweight, document-based copilots   | ✅ Minimal      | ❌ No           |
-| Low-Code          | Complex workflows, automation          | ⚠️ Some setup   | ⚠️ Low (Power FX, flows) |
-| Full-Code         | Custom models, deep integrations       | ✅ Full dev stack | ✅ Yes         |
-
-</div>
+<table align="center">
+  <thead>
+    <tr>
+      <th>Agent Type</th>
+      <th>Ideal For</th>
+      <th>Setup Required</th>
+      <th>Coding Needed</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Out-of-the-Box</td>
+      <td>Everyday tasks, basic productivity</td>
+      <td>✅ None</td>
+      <td>❌ No</td>
+    </tr>
+    <tr>
+      <td>No-Code</td>
+      <td>Lightweight, document-based copilots</td>
+      <td>✅ Minimal</td>
+      <td>❌ No</td>
+    </tr>
+    <tr>
+      <td>Low-Code</td>
+      <td>Complex workflows, automation</td>
+      <td>⚠️ Some setup</td>
+      <td>⚠️ Low (Power FX, flows)</td>
+    </tr>
+    <tr>
+      <td>Full-Code</td>
+      <td>Custom models, deep integrations</td>
+      <td>✅ Full dev stack</td>
+      <td>✅ Yes</td>
+    </tr>
+  </tbody>
+</table>
 
 ---
 
