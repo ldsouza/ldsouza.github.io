@@ -122,8 +122,6 @@ External shortcuts use a **cloud connection** for credentials rather than the ca
 2. Choose **New table shortcut** (for a single Delta table) or **New schema shortcut** (for a folder of tables)
 3. Follow the same source selection steps
 
-![New Table Shortcut]({{ site.url }}/images/blog/fabric-shortcuts/4.png)
-
 Once created, Delta table shortcuts in the Tables section are automatically registered and visible in the SQL analytics endpoint with no extra steps needed.
 
 ---
