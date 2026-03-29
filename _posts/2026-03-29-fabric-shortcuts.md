@@ -126,8 +126,6 @@ External shortcuts use a **cloud connection** for credentials rather than the ca
 
 Once created, Delta table shortcuts in the Tables section are automatically registered and visible in the SQL analytics endpoint with no extra steps needed.
 
-![Shortcut Registered as Table]({{ site.url }}/images/blog/fabric-shortcuts/5.png)
-
 ---
 
 ## Tips and Things Worth Knowing
@@ -137,8 +135,6 @@ Once created, Delta table shortcuts in the Tables section are automatically regi
 **Deleting a shortcut is safe; deleting files inside one is not.** If you delete the shortcut object itself, only the pointer is removed and the source data is fine. But if you navigate inside a shortcut and delete a file or folder (and you have write permissions on the target), you're deleting from the actual source. Pay attention to which level you're operating at.
 
 **Use caching for external shortcuts with repeated access.** For S3, S3-compatible, GCS, and on-premises data gateway shortcuts, OneLake can cache files locally to reduce egress costs. You configure the retention period (1 to 28 days) in Workspace Settings under the OneLake tab. Files larger than 1 GB aren't cached, and each access resets the retention timer.
-
-![Workspace Cache Settings]({{ site.url }}/images/blog/fabric-shortcuts/6.png)
 
 **Shortcuts in the Tables folder only work at the top level.** A common mistake is trying to create a shortcut inside a subfolder of Tables. It won't work. Shortcuts go directly under Tables, not nested inside other paths.
 
@@ -152,6 +148,8 @@ Once created, Delta table shortcuts in the Tables section are automatically regi
 
 Shortcuts are the right choice in most scenarios where the data already exists somewhere in your tenant:
 
+<div style="display:flex; justify-content:center;">
+
 | Scenario | Recommendation |
 |---|---|
 | Data is in another Fabric lakehouse or warehouse | Shortcut (no duplication, always current) |
@@ -159,6 +157,8 @@ Shortcuts are the right choice in most scenarios where the data already exists s
 | Data needs complex transformations before use | Copy (use a notebook or pipeline) |
 | Compliance requires data in a specific region | Copy (shortcuts keep data at the source region) |
 | You need table maintenance like VACUUM or OPTIMIZE | Copy (Delta maintenance only runs on local tables) |
+
+</div>
 
 ---
 
