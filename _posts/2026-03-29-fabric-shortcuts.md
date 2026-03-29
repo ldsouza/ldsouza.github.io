@@ -148,17 +148,36 @@ Once created, Delta table shortcuts in the Tables section are automatically regi
 
 Shortcuts are the right choice in most scenarios where the data already exists somewhere in your tenant:
 
-<div style="display:flex; justify-content:center;">
-
-| Scenario | Recommendation |
-|---|---|
-| Data is in another Fabric lakehouse or warehouse | Shortcut (no duplication, always current) |
-| External cloud storage, read-heavy access | Shortcut with caching enabled |
-| Data needs complex transformations before use | Copy (use a notebook or pipeline) |
-| Compliance requires data in a specific region | Copy (shortcuts keep data at the source region) |
-| You need table maintenance like VACUUM or OPTIMIZE | Copy (Delta maintenance only runs on local tables) |
-
-</div>
+<table align="center">
+  <thead>
+    <tr>
+      <th>Scenario</th>
+      <th>Recommendation</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Data is in another Fabric lakehouse or warehouse</td>
+      <td>Shortcut (no duplication, always current)</td>
+    </tr>
+    <tr>
+      <td>External cloud storage, read-heavy access</td>
+      <td>Shortcut with caching enabled</td>
+    </tr>
+    <tr>
+      <td>Data needs complex transformations before use</td>
+      <td>Copy (use a notebook or pipeline)</td>
+    </tr>
+    <tr>
+      <td>Compliance requires data in a specific region</td>
+      <td>Copy (shortcuts keep data at the source region)</td>
+    </tr>
+    <tr>
+      <td>You need table maintenance like VACUUM or OPTIMIZE</td>
+      <td>Copy (Delta maintenance only runs on local tables)</td>
+    </tr>
+  </tbody>
+</table>
 
 ---
 
