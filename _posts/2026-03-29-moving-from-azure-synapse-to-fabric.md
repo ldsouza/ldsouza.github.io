@@ -97,8 +97,6 @@ This is the closest one-to-one mapping. Fabric's Data Warehouse uses T-SQL, supp
 A few differences worth knowing:
 
 - Fabric Warehouse is built on Delta Parquet and stores data in OneLake. The underlying files are accessible directly, which wasn't the case with Synapse's dedicated pools.
-- Distribution and partition syntax is different. Synapse dedicated pools use `DISTRIBUTION = HASH` and `CLUSTERED COLUMNSTORE INDEX` in `CREATE TABLE`. Fabric Warehouse doesn't use these. The optimizer handles distribution internally.
-- `CREATE TABLE AS SELECT` (CTAS) works in Fabric. `INSERT INTO ... SELECT` works. Most query patterns carry over.
 - Polybase and external tables work differently. In Fabric, you use shortcuts to reference external data rather than defining external data sources and file formats separately.
 
 If your dedicated pool has heavy use of materialized views, workload management groups, or result-set caching, check those features specifically. Coverage isn't identical.

@@ -152,51 +152,6 @@ One thing to flag: Gen2 does not support DirectQuery through the Dataflow connec
 
 ---
 
-## How to Create a Dataflow Gen2
-
-### 1. Create the Dataflow
-
-Open your Fabric workspace, select **+ New item**, then select **Dataflow Gen2**.
-
-![New Dataflow Gen2]({{ site.url }}/images/blog/dataflows-gen2/1.png)
-
-### 2. Get Data
-
-Select **Get data**, choose your source, configure the connection, and select the tables or files you want to work with.
-
-![Get Data]({{ site.url }}/images/blog/dataflows-gen2/2.png)
-
-### 3. Transform in Power Query
-
-The editor is the same Power Query experience from Excel and Power BI Desktop. A few things worth enabling before you start:
-
-- **Data Profiling**: Go to **Home > Options > Global Options** and enable column profiling to see column quality and distribution.
-- **Diagram View**: Useful for visualising query dependencies, especially when merging or referencing multiple queries.
-
-![Power Query Editor]({{ site.url }}/images/blog/dataflows-gen2/3.png)
-
-### 4. Set a Data Destination
-
-In the **Query settings** pane, scroll to the bottom and select **Choose data destination**. Pick your target (Lakehouse, Warehouse, Azure SQL, etc.), connect, and configure the update method.
-
-Two update methods are available:
-
-- **Replace**: Full refresh on every run. The table is dropped and recreated.
-- **Append**: New rows are added to the existing table on each refresh.
-
-For the Replace method, you can choose between:
-
-- **Dynamic schema**: Handles schema changes automatically but drops and recreates the table each time. Relationships and measures on the table may be removed.
-- **Fixed schema**: Preserves relationships and measures. The schema cannot change. Use this when you have reports or models built on top of the destination table.
-
-![Data Destination]({{ site.url }}/images/blog/dataflows-gen2/4.png)
-
-### 5. Publish
-
-Select **Publish** in the lower right. The first time you publish in a workspace, Fabric creates the `DataflowStaging` Lakehouse and Warehouse in the background. Leave these alone.
-
----
-
 ## Migrating from Gen1 to Gen2
 
 There are three ways to move Gen1 dataflows across.
@@ -223,20 +178,6 @@ There are three ways to move Gen1 dataflows across.
 3. Review and publish
 
 Note: scheduled refresh settings are not carried over by any of these methods. Reconfigure refresh after migrating.
-
----
-
-## Things to Know Before You Start
-
-**The `DataflowStaging` items must not be deleted.** Fabric creates these automatically in your workspace and uses them for compute across all your Gen2 dataflows. Deleting them will break your dataflows.
-
-**Warehouse destinations require staging.** If you want to write to a Fabric Warehouse, staging must be enabled on the queries. Warehouse loading also only supports the same workspace as the dataflow.
-
-**Nullable column errors.** If Power Query detects a column as non-nullable but the source data contains nulls, the refresh will fail when writing to a destination. Fix it by setting the data type explicitly in Power Query using `type nullable text` or `type nullable Int64.Type`.
-
-**Vacuum your Lakehouse tables regularly.** Delta tables accumulate old files over time. Run Maintenance > Vacuum on Lakehouse destination tables to clean up unreferenced files. Keep the retention at 7 days minimum. If you are using incremental refresh on a table, turn off vacuuming for that table as it can interfere with the process.
-
-**Fixed schema for Warehouse and Snowflake.** Both require fixed schema, so you cannot use dynamic schema with these destinations.
 
 ---
 
