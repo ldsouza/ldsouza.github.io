@@ -5,18 +5,22 @@ title: About Me
 tags: [ldsouza]
 chart: true
 ---
-My name is **Laurel Dsouza**, and this is my blog. I am a Business Intelligence & Cloud Solutions Architect (MCITP, MCTS, CCNP, VCP) based in the DC Metro area.
+I'm **Laurel Dsouza**, an AI, Data & Cloud Solutions Architect based in the Washington, DC Metro area.
 
-I have a certificate in Data Science and Big Data Analytics from Massachusetts Institute of Technology and graduated with a Master’s Degree from George Mason University. My journey with SharePoint and SQL began as an administrator and from there I got more involved in design and building solutions as a developer and architect. 
+With over 18 years of experience designing enterprise technology solutions, I help organizations leverage Artificial Intelligence, Data Analytics, Cloud Platforms, and Business Applications to drive digital transformation and operational excellence. My expertise spans Microsoft Azure, Power Platform, Dynamics 365, Microsoft Fabric, Business Intelligence, Data Engineering, Enterprise Architecture, and Process Automation.
 
-I strive to build innovative solutions that merge technology with business and empower my clients to be more productive, efficient and make better decisions.
+I hold a Certificate in Data Science and Big Data Analytics from the Massachusetts Institute of Technology (MIT) and a Master's degree from George Mason University. My career began in database administration and collaboration platforms before evolving into enterprise architecture, cloud engineering, advanced analytics, AI-powered automation, and business application development.
+
+Over the years, I have architected and delivered solutions across industries using Azure, Microsoft Fabric, Power BI, Power Apps, Power Automate, Dynamics 365, Dataverse, APIs, Machine Learning, Robotic Process Automation, and Generative AI technologies. I am passionate about building intelligent solutions that transform data into actionable insights, automate complex business processes, and empower organizations to make smarter decisions.
 
 <!-- <figure>
   <img src="{{ site.url }}/images/laurel-dsouza.jpg" alt="Laurel Dsouza">
   <figcaption>Laurel Dsouza</figcaption>
 </figure> -->
 
-I spend my free time playing the guitar, reading, blogging and designing websites. I love swimming and playing sports like soccer, tennis and basketball. 
+I spend my free time playing the guitar and piano, reading, blogging and designing websites. I love swimming and playing sports like soccer, pickleball, tennis and basketball. 
 
-Keep an eye on my blog to get updated on real world IT solutions, tutorials and tips on BI, SharePoint, Dynamics 365, Office 365, Azure and related technologies. If you would like to connect with me, my social media profile links are at the bottom.
+Through this blog, I share practical insights, architecture patterns, lessons learned, and best practices related to Artificial Intelligence, Data Engineering, Microsoft Fabric, Power Platform, Azure, Business Intelligence, Enterprise Architecture, and Digital Transformation.
+
+My mission is to bridge the gap between business and technology by creating innovative, intelligent, and scalable solutions that deliver measurable business value.
 
